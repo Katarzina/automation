@@ -14,7 +14,7 @@ export default async function TechStack() {
           {techs.map((tech) => (
             <span
               key={tech}
-              className="px-5 py-2 bg-card border border-white/5 rounded-full text-sm text-muted hover:text-white hover:border-brand-500/30 transition-all"
+              className="px-5 py-2 bg-gray-50 border border-gray-200 rounded-full text-sm text-muted hover:text-gray-900 hover:border-brand-500/30 transition-all"
             >
               {tech}
             </span>

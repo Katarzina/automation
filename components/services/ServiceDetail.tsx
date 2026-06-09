@@ -14,9 +14,10 @@ type Props = {
   locale: string;
   index: number;
   getStartedLabel: string;
+  priority?: boolean;
 };
 
-export default function ServiceDetail({ service, locale, index, getStartedLabel }: Props) {
+export default function ServiceDetail({ service, locale, index, getStartedLabel, priority = false }: Props) {
   const tr = service.translations[locale] ?? service.translations['en'];
 
   return (
@@ -27,17 +28,18 @@ export default function ServiceDetail({ service, locale, index, getStartedLabel 
           alt={tr.title}
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
+          priority={priority}
           className="object-cover"
         />
       </div>
       <div>
-        <h2 className="font-heading text-3xl font-bold text-white mb-4">{tr.title}</h2>
+        <h2 className="font-heading text-3xl font-bold text-gray-900 mb-4">{tr.title}</h2>
         <p className="text-muted mb-4 leading-relaxed">{tr.description}</p>
-        <p className="text-gray-300 mb-6 leading-relaxed">{tr.longDescription}</p>
+        <p className="text-gray-600 mb-6 leading-relaxed">{tr.longDescription}</p>
         <ul className="space-y-2 mb-8">
           {service.subServices.map((s) => (
             <li key={s} className="flex items-center gap-2 text-sm text-muted">
-              <span className="text-brand-400">✓</span> {s}
+              <span className="text-brand-600">✓</span> {s}
             </li>
           ))}
         </ul>

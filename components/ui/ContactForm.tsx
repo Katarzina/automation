@@ -11,9 +11,9 @@ export default function ContactForm() {
 
   if (state.success) {
     return (
-      <div className="bg-card border border-white/5 rounded-2xl p-8 text-center">
+      <div className="bg-card border border-gray-200 rounded-2xl p-8 text-center">
         <div className="text-4xl mb-4">✅</div>
-        <p className="text-white font-medium">{state.message}</p>
+        <p className="text-gray-900 font-medium">{state.message}</p>
       </div>
     );
   }
@@ -26,7 +26,7 @@ export default function ContactForm() {
           <input
             name="name"
             required
-            className="w-full bg-card border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-500"
+            className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 text-sm focus:outline-none focus:border-brand-500"
           />
         </div>
         <div>
@@ -35,7 +35,7 @@ export default function ContactForm() {
             name="email"
             type="email"
             required
-            className="w-full bg-card border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-500"
+            className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 text-sm focus:outline-none focus:border-brand-500"
           />
         </div>
       </div>
@@ -43,14 +43,14 @@ export default function ContactForm() {
         <label className="block text-sm text-muted mb-1">{t('company')}</label>
         <input
           name="company"
-          className="w-full bg-card border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-500"
+          className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 text-sm focus:outline-none focus:border-brand-500"
         />
       </div>
       <div>
         <label className="block text-sm text-muted mb-1">{t('service')}</label>
         <select
           name="service"
-          className="w-full bg-card border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-500"
+          className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 text-sm focus:outline-none focus:border-brand-500"
         >
           <option value="automation">{t('serviceOptions.automation')}</option>
           <option value="agents">{t('serviceOptions.agents')}</option>
@@ -65,7 +65,7 @@ export default function ContactForm() {
           name="message"
           rows={5}
           required
-          className="w-full bg-card border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-500 resize-none"
+          className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 text-sm focus:outline-none focus:border-brand-500 resize-none"
         />
       </div>
       {state.message && !state.success && (

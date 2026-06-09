@@ -17,9 +17,9 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 inset-x-0 z-50 bg-dark/80 backdrop-blur border-b border-white/5">
+    <header className="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="font-heading font-bold text-lg text-white">
+        <Link href="/" className="font-heading font-bold text-lg text-gray-900">
           AI Automation Studio
         </Link>
 
@@ -27,7 +27,7 @@ export default function Header() {
         <ul className="hidden md:flex items-center gap-6">
           {links.map((l) => (
             <li key={l.href}>
-              <Link href={l.href} className="text-sm text-muted hover:text-white transition-colors">
+              <Link href={l.href} className="text-sm text-muted hover:text-gray-900 transition-colors">
                 {l.label}
               </Link>
             </li>
@@ -46,7 +46,7 @@ export default function Header() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden text-muted hover:text-white"
+          className="md:hidden text-muted hover:text-gray-900"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -62,12 +62,12 @@ export default function Header() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-card border-t border-white/5 px-4 py-4 flex flex-col gap-3">
+        <div className="md:hidden bg-white border-t border-gray-100 px-4 py-4 flex flex-col gap-3">
           {links.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className="text-sm text-muted hover:text-white transition-colors"
+              className="text-sm text-muted hover:text-gray-900 transition-colors"
               onClick={() => setOpen(false)}
             >
               {l.label}

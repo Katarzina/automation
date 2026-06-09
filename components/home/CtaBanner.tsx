@@ -5,9 +5,9 @@ export default async function CtaBanner() {
   const t = await getTranslations('home.cta');
 
   return (
-    <section className="py-24 px-4 bg-gradient-to-r from-brand-900/50 to-dark border-y border-white/5">
+    <section className="py-24 px-4 bg-gradient-to-r from-brand-50 to-white border-y border-gray-100">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white">{t('title')}</h2>
+        <h2 className="font-heading text-3xl sm:text-4xl font-bold text-gray-900">{t('title')}</h2>
         <p className="mt-4 text-lg text-muted">{t('subtitle')}</p>
         <Link
           href="/contact"

@@ -7,11 +7,11 @@ export default function HeroSection() {
   const t = useTranslations('home.hero');
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
       {/* Background gradient glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(99,102,241,0.15)_0%,transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(99,102,241,0.08)_0%,transparent_70%)]" />
       {/* Dot grid pattern */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[length:32px_32px]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle,rgba(99,102,241,0.05)_1px,transparent_1px)] bg-[length:32px_32px]" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
         <motion.div
@@ -36,7 +36,7 @@ export default function HeroSection() {
             </Link>
             <Link
               href="/contact"
-              className="px-8 py-4 border border-white/10 hover:border-brand-500/50 text-white font-medium rounded-xl transition-all backdrop-blur hover:bg-white/5"
+              className="px-8 py-4 border border-gray-200 hover:border-brand-500/50 text-gray-900 font-medium rounded-xl transition-all backdrop-blur hover:bg-gray-100"
             >
               {t('ctaConsult')}
             </Link>

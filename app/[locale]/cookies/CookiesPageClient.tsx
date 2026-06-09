@@ -10,7 +10,7 @@ function Toggle({ value, onChange }: { value: boolean; onChange: (v: boolean) =>
       type="button"
       onClick={() => onChange(!value)}
       className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors shrink-0 ${
-        value ? 'bg-brand-500' : 'bg-white/10'
+        value ? 'bg-brand-500' : 'bg-gray-200'
       }`}
       aria-pressed={value}
     >
@@ -41,32 +41,32 @@ export default function CookiesPageClient() {
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-20">
-      <h1 className="font-heading text-4xl font-bold text-white mb-4">{t('title')}</h1>
+      <h1 className="font-heading text-4xl font-bold text-gray-900 mb-4">{t('title')}</h1>
       <p className="text-muted mb-10">{t('intro')}</p>
 
       <div className="space-y-4">
         {/* Necessary */}
-        <div className="bg-card border border-white/5 rounded-2xl p-5 flex items-start justify-between gap-4">
+        <div className="bg-card border border-gray-200 rounded-2xl p-5 flex items-start justify-between gap-4">
           <div>
-            <h3 className="font-semibold text-white">{t('necessary.title')}</h3>
+            <h3 className="font-semibold text-gray-900">{t('necessary.title')}</h3>
             <p className="text-sm text-muted mt-1">{t('necessary.desc')}</p>
           </div>
           <Toggle value={true} onChange={() => {}} />
         </div>
 
         {/* Analytics */}
-        <div className="bg-card border border-white/5 rounded-2xl p-5 flex items-start justify-between gap-4">
+        <div className="bg-card border border-gray-200 rounded-2xl p-5 flex items-start justify-between gap-4">
           <div>
-            <h3 className="font-semibold text-white">{t('analytics.title')}</h3>
+            <h3 className="font-semibold text-gray-900">{t('analytics.title')}</h3>
             <p className="text-sm text-muted mt-1">{t('analytics.desc')}</p>
           </div>
           <Toggle value={prefs.analytics} onChange={(v) => save({ ...prefs, analytics: v })} />
         </div>
 
         {/* Marketing */}
-        <div className="bg-card border border-white/5 rounded-2xl p-5 flex items-start justify-between gap-4">
+        <div className="bg-card border border-gray-200 rounded-2xl p-5 flex items-start justify-between gap-4">
           <div>
-            <h3 className="font-semibold text-white">{t('marketing.title')}</h3>
+            <h3 className="font-semibold text-gray-900">{t('marketing.title')}</h3>
             <p className="text-sm text-muted mt-1">{t('marketing.desc')}</p>
           </div>
           <Toggle value={prefs.marketing} onChange={(v) => save({ ...prefs, marketing: v })} />
@@ -82,13 +82,13 @@ export default function CookiesPageClient() {
         </button>
         <button
           onClick={() => save({ necessary: true, analytics: false, marketing: false })}
-          className="px-5 py-3 border border-white/10 hover:border-white/30 text-muted hover:text-white text-sm rounded-xl transition-all"
+          className="px-5 py-3 border border-gray-200 hover:border-gray-300 text-muted hover:text-gray-900 text-sm rounded-xl transition-all"
         >
           {t('rejectAll')}
         </button>
         <button
           onClick={() => save(prefs)}
-          className="px-5 py-3 border border-white/10 hover:border-brand-500/50 text-white text-sm rounded-xl transition-all"
+          className="px-5 py-3 border border-gray-200 hover:border-brand-500/50 text-gray-900 text-sm rounded-xl transition-all"
         >
           {t('saveSettings')}
         </button>

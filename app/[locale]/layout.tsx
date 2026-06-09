@@ -40,7 +40,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${inter.variable} ${spaceGrotesk.variable}`}>
-      <body className="bg-dark text-gray-100 flex flex-col min-h-screen">
+      <body className="bg-white text-gray-900 flex flex-col min-h-screen">
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="flex-1">{children}</main>

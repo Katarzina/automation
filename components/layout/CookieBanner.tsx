@@ -23,11 +23,11 @@ export default function CookieBanner() {
   };
 
   return (
-    <div className="fixed bottom-0 inset-x-0 z-50 bg-card border-t border-white/10 p-4">
+    <div className="fixed bottom-0 inset-x-0 z-50 bg-white border-t border-gray-200 p-4">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm text-muted">
           {t('text')}{' '}
-          <Link href="/cookies" className="text-brand-400 hover:underline">
+          <Link href="/cookies" className="text-brand-600 hover:underline">
             {t('link')}
           </Link>
           .
@@ -35,7 +35,7 @@ export default function CookieBanner() {
         <div className="flex gap-3 shrink-0">
           <Link
             href="/cookies"
-            className="px-4 py-2 text-sm border border-white/10 rounded-lg text-muted hover:text-white transition-colors"
+            className="px-4 py-2 text-sm border border-gray-200 rounded-lg text-muted hover:text-gray-900 transition-colors"
           >
             {t('settings')}
           </Link>
