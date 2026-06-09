@@ -39,13 +39,13 @@ export default function ServiceDetail({ service, locale, index, getStartedLabel,
         <ul className="space-y-2 mb-8">
           {service.subServices.map((s) => (
             <li key={s} className="flex items-center gap-2 text-sm text-gray-600">
-              <span className="text-indigo-600">✓</span> {s}
+              <span className="text-blue-800">✓</span> {s}
             </li>
           ))}
         </ul>
         <Link
           href="/contact"
-          className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors inline-block"
+          className="px-6 py-3 bg-blue-800 hover:bg-blue-900 text-white rounded transition-colors inline-block"
         >
           {getStartedLabel}
         </Link>

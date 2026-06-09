@@ -10,7 +10,7 @@ function Toggle({ value, onChange }: { value: boolean; onChange: (v: boolean) =>
       type="button"
       onClick={() => onChange(!value)}
       className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors shrink-0 ${
-        value ? 'bg-indigo-600' : 'bg-gray-200'
+        value ? 'bg-blue-800' : 'bg-gray-200'
       }`}
       aria-pressed={value}
     >
@@ -76,7 +76,7 @@ export default function CookiesPageClient() {
       <div className="mt-8 flex flex-wrap gap-3">
         <button
           onClick={() => save({ necessary: true, analytics: true, marketing: true })}
-          className="px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white text-sm rounded transition-colors"
+          className="px-5 py-3 bg-blue-800 hover:bg-blue-900 text-white text-sm rounded transition-colors"
         >
           {t('acceptAll')}
         </button>

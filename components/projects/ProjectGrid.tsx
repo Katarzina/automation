@@ -25,7 +25,7 @@ export default function ProjectGrid({ projects, locale, filters, viewCaseLabel }
             onClick={() => setActive(f.value)}
             className={`px-5 py-2 rounded-full text-sm transition-all ${
               active === f.value
-                ? 'bg-indigo-600 text-white'
+                ? 'bg-blue-800 text-white'
                 : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
             }`}
           >

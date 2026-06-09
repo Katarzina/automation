@@ -27,7 +27,7 @@ export default function CookieBanner() {
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <p className="text-sm text-gray-600">
           <span className="text-stone-900 font-medium">{t('text')}{' '}</span>
-          <Link href="/cookies" className="text-indigo-600 hover:underline">
+          <Link href="/cookies" className="text-blue-800 hover:underline">
             {t('link')}
           </Link>
           .
@@ -41,7 +41,7 @@ export default function CookieBanner() {
           </Link>
           <button
             onClick={accept}
-            className="px-4 py-2 text-sm bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors"
+            className="px-4 py-2 text-sm bg-blue-800 hover:bg-blue-900 text-white rounded transition-colors"
           >
             {t('accept')}
           </button>

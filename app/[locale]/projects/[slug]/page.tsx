@@ -46,7 +46,7 @@ export default async function ProjectDetailPage({ params }: Props) {
         <h1 className="font-heading text-4xl md:text-5xl font-bold text-stone-900 mb-4">{tr.title}</h1>
 
         <div className="flex flex-wrap gap-3 mb-10">
-          <span className="px-3 py-1 text-xs rounded-full bg-indigo-100 text-indigo-700 capitalize font-medium">
+          <span className="px-3 py-1 text-xs rounded-full bg-blue-50 text-blue-900 capitalize font-medium">
             {project.category}
           </span>
           <span className="px-3 py-1 text-xs rounded-full bg-gray-100 text-gray-700">
@@ -70,19 +70,19 @@ export default async function ProjectDetailPage({ params }: Props) {
           </div>
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
             <h2 className="font-heading text-xl font-semibold text-stone-900 mb-3">{t('result')}</h2>
-            <p className="text-indigo-600 leading-relaxed">{tr.result}</p>
+            <p className="text-blue-800 leading-relaxed">{tr.result}</p>
           </div>
         </div>
 
         <Lightbox images={project.images} alt={tr.title} />
 
-        <div className="mt-16 text-center bg-indigo-600 rounded-2xl p-8 text-white">
+        <div className="mt-16 text-center bg-blue-800 rounded-2xl p-8 text-white">
           <h3 className="font-heading text-xl font-semibold mb-2">
             {t('similarChallenge')}
           </h3>
           <Link
             href="/contact"
-            className="mt-4 inline-block px-6 py-3 bg-white text-indigo-600 hover:bg-indigo-50 rounded font-medium transition-colors"
+            className="mt-4 inline-block px-6 py-3 bg-white text-blue-800 hover:bg-blue-50 rounded font-medium transition-colors"
           >
             {t('letsTalk')}
           </Link>

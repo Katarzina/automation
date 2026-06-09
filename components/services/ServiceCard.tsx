@@ -25,7 +25,7 @@ export default function ServiceCard({ service, locale, learnMoreLabel }: Props) 
       <div className="text-3xl mb-4">{icons[service.icon] ?? '✨'}</div>
       <h3 className="font-heading text-lg font-semibold text-stone-900 mb-2">{tr.title}</h3>
       <p className="text-sm text-gray-500 leading-relaxed flex-1">{tr.description}</p>
-      <span className="mt-4 inline-block text-sm text-indigo-600 group-hover:text-indigo-700 font-medium transition-colors">
+      <span className="mt-4 inline-block text-sm text-blue-800 group-hover:text-blue-900 font-medium transition-colors">
         {learnMoreLabel} →
       </span>
     </Link>

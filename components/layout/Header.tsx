@@ -38,7 +38,7 @@ export default function Header() {
           <LanguageSwitcher />
           <Link
             href="/contact"
-            className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium px-4 py-2 rounded transition-colors"
+            className="bg-blue-800 hover:bg-blue-900 text-white text-sm font-medium px-4 py-2 rounded transition-colors"
           >
             {t('getStarted')}
           </Link>

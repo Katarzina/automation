@@ -26,7 +26,7 @@ export default function ContactForm() {
           <input
             name="name"
             required
-            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white"
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
           />
         </div>
         <div>
@@ -35,7 +35,7 @@ export default function ContactForm() {
             name="email"
             type="email"
             required
-            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white"
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
           />
         </div>
       </div>
@@ -43,14 +43,14 @@ export default function ContactForm() {
         <label className="block text-sm text-gray-700 mb-1">{t('company')}</label>
         <input
           name="company"
-          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
         />
       </div>
       <div>
         <label className="block text-sm text-gray-700 mb-1">{t('service')}</label>
         <select
           name="service"
-          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
         >
           <option value="automation">{t('serviceOptions.automation')}</option>
           <option value="agents">{t('serviceOptions.agents')}</option>
@@ -65,7 +65,7 @@ export default function ContactForm() {
           name="message"
           rows={5}
           required
-          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white resize-none"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white resize-none"
         />
       </div>
       {state.message && !state.success && (
@@ -74,7 +74,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={pending}
-        className="w-full py-3.5 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white font-medium rounded-lg transition-colors"
+        className="w-full py-3.5 bg-blue-800 hover:bg-blue-900 disabled:opacity-50 text-white font-medium rounded-lg transition-colors"
       >
         {pending ? t('sending') : t('send')}
       </button>

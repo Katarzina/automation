@@ -39,8 +39,8 @@ export default function ProjectCard({ project, locale, viewCaseLabel }: Props) {
       <div className="p-5 flex flex-col flex-1">
         <h3 className="font-heading text-base font-semibold text-stone-900 mb-1">{tr.title}</h3>
         <p className="text-xs text-gray-400 mb-3">{project.industry}</p>
-        <p className="text-sm text-indigo-600 flex-1">{project.result}</p>
-        <span className="mt-3 inline-block text-sm text-indigo-600 group-hover:text-indigo-700 transition-colors">
+        <p className="text-sm text-blue-800 flex-1">{project.result}</p>
+        <span className="mt-3 inline-block text-sm text-blue-800 group-hover:text-blue-900 transition-colors">
           {viewCaseLabel} →
         </span>
       </div>
