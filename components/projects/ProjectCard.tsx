@@ -22,7 +22,6 @@ export default function ProjectCard({ project, locale, viewCaseLabel }: Props) {
           alt={tr.title}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-500"
-          onError={() => {}}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-card/80 to-transparent" />
         <span className="absolute top-3 left-3 px-2 py-1 text-xs rounded-full bg-brand-500/20 text-brand-400 border border-brand-500/20 capitalize">
