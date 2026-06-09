@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "ai-automation",
+    "icon": "automation",
+    "color": "#6366f1",
+    "subServices": [
+      "Business process automation",
+      "Workflow automation using n8n",
+      "CRM integrations",
+      "Email automation",
+      "Lead qualification systems"
+    ],
+    "translations": {
+      "en": {
+        "title": "AI Automation",
+        "description": "We automate repetitive business processes using AI and workflow tools, freeing your team to focus on what matters.",
+        "longDescription": "From CRM integrations to complex multi-step workflows, we design and implement automation systems tailored to your operations."
+      },
+      "cs": {
+        "title": "AI Automatizace",
+        "description": "Automatizujeme opakující se firemní procesy pomocí AI a workflow nástrojů.",
+        "longDescription": "Od CRM integrací po komplexní vícekrokové workflow — navrhujeme a implementujeme automatizační systémy šité na míru."
+      },
+      "uk": {
+        "title": "AI Автоматизація",
+        "description": "Автоматизуємо повторювані бізнес-процеси за допомогою AI та інструментів автоматизації.",
+        "longDescription": "Від CRM інтеграцій до складних багатоетапних workflows — проектуємо системи автоматизації під ваші процеси."
+      },
+      "ru": {
+        "title": "AI Автоматизация",
+        "description": "Автоматизируем повторяющиеся бизнес-процессы с помощью AI и инструментов автоматизации.",
+        "longDescription": "От CRM интеграций до сложных многошаговых workflow — проектируем системы автоматизации под ваши процессы."
+      }
+    }
+  },
+  {
+    "slug": "ai-agents",
+    "icon": "agents",
+    "color": "#06b6d4",
+    "subServices": [
+      "Customer support agents",
+      "Internal company assistants",
+      "Sales agents",
+      "Research agents",
+      "Multi-agent workflows"
+    ],
+    "translations": {
+      "en": {
+        "title": "AI Agents",
+        "description": "Custom AI agents that handle customer support, sales, research and internal operations — 24/7, without extra staff.",
+        "longDescription": "We build intelligent agents powered by OpenAI and Anthropic APIs that integrate with your existing tools and workflows."
+      },
+      "cs": {
+        "title": "AI Agenti",
+        "description": "Vlastní AI agenti pro zákaznickou podporu, prodej, výzkum a interní operace — nonstop, bez extra personálu.",
+        "longDescription": "Vytváříme inteligentní agenty na bázi OpenAI a Anthropic API, kteří se integrují do vašich stávajících nástrojů."
+      },
+      "uk": {
+        "title": "AI Агенти",
+        "description": "Власні AI агенти для підтримки клієнтів, продажів, досліджень та внутрішніх операцій — цілодобово.",
+        "longDescription": "Розробляємо інтелектуальних агентів на базі OpenAI та Anthropic API, що інтегруються з вашими інструментами."
+      },
+      "ru": {
+        "title": "AI Агенты",
+        "description": "Собственные AI агенты для поддержки клиентов, продаж, исследований и внутренних операций — круглосуточно.",
+        "longDescription": "Разрабатываем интеллектуальных агентов на базе OpenAI и Anthropic API, интегрированных с вашими инструментами."
+      }
+    }
+  },
+  {
+    "slug": "custom-software",
+    "icon": "software",
+    "color": "#10b981",
+    "subServices": [
+      "SaaS platforms",
+      "Internal dashboards",
+      "Business applications",
+      "MVP development",
+      "API integrations"
+    ],
+    "translations": {
+      "en": {
+        "title": "Custom Software Development",
+        "description": "We build SaaS platforms, internal tools and business applications using modern full-stack technologies.",
+        "longDescription": "Next.js frontends, NestJS backends, PostgreSQL/MongoDB databases — scalable, production-ready software built to last."
+      },
+      "cs": {
+        "title": "Vývoj na míru",
+        "description": "Vyvíjíme SaaS platformy, interní nástroje a firemní aplikace pomocí moderních full-stack technologií.",
+        "longDescription": "Next.js frontend, NestJS backend, PostgreSQL/MongoDB databáze — škálovatelný software připravený pro produkci."
+      },
+      "uk": {
+        "title": "Розробка ПЗ на замовлення",
+        "description": "Розробляємо SaaS платформи, внутрішні інструменти та бізнес-додатки на сучасному full-stack стеку.",
+        "longDescription": "Next.js frontend, NestJS backend, PostgreSQL/MongoDB — масштабоване ПЗ, готове до продакшену."
+      },
+      "ru": {
+        "title": "Разработка ПО на заказ",
+        "description": "Разрабатываем SaaS платформы, внутренние инструменты и бизнес-приложения на современном full-stack стеке.",
+        "longDescription": "Next.js frontend, NestJS backend, PostgreSQL/MongoDB — масштабируемое ПО, готовое к продакшену."
+      }
+    }
+  },
+  {
+    "slug": "landing-pages",
+    "icon": "landing",
+    "color": "#f59e0b",
+    "subServices": [
+      "High-converting landing pages",
+      "SEO optimization",
+      "Analytics integration",
+      "Marketing websites"
+    ],
+    "translations": {
+      "en": {
+        "title": "Landing Pages",
+        "description": "High-converting landing pages and marketing websites built with Next.js, optimized for SEO and performance.",
+        "longDescription": "We design and build fast, beautiful landing pages that convert visitors into leads — with analytics and A/B testing ready."
+      },
+      "cs": {
+        "title": "Landing Pages",
+        "description": "Vysoce konverzní landing pages a marketingové weby v Next.js, optimalizované pro SEO a výkon.",
+        "longDescription": "Navrhujeme a stavíme rychlé, krásné landing pages, které mění návštěvníky v leady — s analytics a A/B testováním."
+      },
+      "uk": {
+        "title": "Landing Pages",
+        "description": "Ефективні landing pages та маркетингові сайти на Next.js, оптимізовані для SEO та швидкодії.",
+        "longDescription": "Проектуємо та розробляємо швидкі, красиві landing pages, що конвертують відвідувачів у ліди."
+      },
+      "ru": {
+        "title": "Landing Pages",
+        "description": "Высококонверсионные landing pages и маркетинговые сайты на Next.js, оптимизированные для SEO и производительности.",
+        "longDescription": "Проектируем и разрабатываем быстрые, красивые landing pages, конвертирующие посетителей в лиды."
+      }
+    }
+  }
+]

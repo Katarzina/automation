@@ -1,0 +1,338 @@
+[
+  {
+    "id": "logistics-automation-crm",
+    "slug": "logistics-crm-automation",
+    "category": "automation",
+    "industry": "Logistics",
+    "techStack": ["n8n", "OpenAI API", "CRM", "Gmail API"],
+    "result": "Saved 45 hours/month on manual data entry",
+    "cover": "/images/projects/project-1/cover.jpg",
+    "images": [
+      "/images/projects/project-1/01.jpg",
+      "/images/projects/project-1/02.jpg",
+      "/images/projects/project-1/03.jpg",
+      "/images/projects/project-1/04.jpg",
+      "/images/projects/project-1/05.jpg"
+    ],
+    "translations": {
+      "en": {
+        "title": "CRM Automation for Logistics Company",
+        "challenge": "The client's team manually entered shipment data into CRM from emails, taking 3+ hours daily.",
+        "solution": "Built an n8n workflow that reads incoming emails, extracts shipment data using OpenAI, and automatically creates/updates CRM records.",
+        "result": "Eliminated 45 hours of manual work per month. Zero data entry errors. Team refocused on client relationships."
+      },
+      "cs": {
+        "title": "CRM automatizace pro logistickou firmu",
+        "challenge": "Tým klienta ručně zadával data zásilek do CRM z e-mailů — 3+ hodiny denně.",
+        "solution": "Vytvořili jsme n8n workflow, který čte příchozí e-maily, extrahuje data zásilek pomocí OpenAI a automaticky vytváří/aktualizuje záznamy v CRM.",
+        "result": "Eliminováno 45 hodin manuální práce měsíčně. Nulové chyby při zadávání. Tým se znovu zaměřil na vztahy s klienty."
+      },
+      "uk": {
+        "title": "Автоматизація CRM для логістичної компанії",
+        "challenge": "Команда клієнта вручну вносила дані відправлень у CRM з електронних листів — 3+ години на день.",
+        "solution": "Побудували n8n workflow, який читає вхідні листи, витягує дані за допомогою OpenAI та автоматично створює/оновлює записи в CRM.",
+        "result": "Усунено 45 годин ручної роботи на місяць. Нуль помилок введення. Команда зосередилась на клієнтах."
+      },
+      "ru": {
+        "title": "Автоматизация CRM для логистической компании",
+        "challenge": "Команда клиента вручную вносила данные отправлений в CRM из писем — 3+ часа в день.",
+        "solution": "Построили n8n workflow, который читает входящие письма, извлекает данные с OpenAI и автоматически создаёт/обновляет записи в CRM.",
+        "result": "Устранено 45 часов ручной работы в месяц. Ноль ошибок ввода. Команда сосредоточилась на клиентах."
+      }
+    }
+  },
+  {
+    "id": "insurance-support-agent",
+    "slug": "insurance-support-agent",
+    "category": "agents",
+    "industry": "Insurance",
+    "techStack": ["Anthropic API", "Next.js", "PostgreSQL", "Slack"],
+    "result": "Handled 70% of support queries automatically",
+    "cover": "/images/projects/project-2/cover.jpg",
+    "images": [
+      "/images/projects/project-2/01.jpg",
+      "/images/projects/project-2/02.jpg",
+      "/images/projects/project-2/03.jpg",
+      "/images/projects/project-2/04.jpg",
+      "/images/projects/project-2/05.jpg"
+    ],
+    "translations": {
+      "en": {
+        "title": "AI Support Agent for Insurance Company",
+        "challenge": "Support team overwhelmed with repetitive policy questions. Average response time: 4 hours.",
+        "solution": "Deployed Claude-powered support agent trained on policy documents. Routes complex cases to human agents via Slack.",
+        "result": "70% of queries resolved automatically. Response time dropped from 4 hours to under 2 minutes. Support team handles only complex cases."
+      },
+      "cs": {
+        "title": "AI agent podpory pro pojišťovnu",
+        "challenge": "Tým podpory zahlcen opakujícími se dotazy k pojistkám. Průměrná doba odpovědi: 4 hodiny.",
+        "solution": "Nasadili jsme agenta na bázi Claude natrénovaného na dokumentech pojistek. Složité případy routuje na lidské agenty přes Slack.",
+        "result": "70 % dotazů vyřešeno automaticky. Doba odpovědi klesla ze 4 hodin na méně než 2 minuty."
+      },
+      "uk": {
+        "title": "AI агент підтримки для страхової компанії",
+        "challenge": "Команда підтримки перевантажена повторюваними питаннями щодо полісів. Середній час відповіді: 4 години.",
+        "solution": "Розгорнули агента на базі Claude, навченого на документах полісів. Складні випадки маршрутизує до людей через Slack.",
+        "result": "70% запитів вирішено автоматично. Час відповіді впав з 4 годин до 2 хвилин."
+      },
+      "ru": {
+        "title": "AI агент поддержки для страховой компании",
+        "challenge": "Команда поддержки перегружена повторяющимися вопросами по полисам. Среднее время ответа: 4 часа.",
+        "solution": "Развернули агента на базе Claude, обученного на документах полисов. Сложные случаи маршрутизирует к людям через Slack.",
+        "result": "70% запросов решается автоматически. Время ответа упало с 4 часов до 2 минут."
+      }
+    }
+  },
+  {
+    "id": "accounting-invoice-automation",
+    "slug": "accounting-invoice-automation",
+    "category": "automation",
+    "industry": "Accounting",
+    "techStack": ["n8n", "OpenAI API", "Google Sheets", "Email"],
+    "result": "Invoice processing time reduced by 80%",
+    "cover": "/images/projects/project-3/cover.jpg",
+    "images": [
+      "/images/projects/project-3/01.jpg",
+      "/images/projects/project-3/02.jpg",
+      "/images/projects/project-3/03.jpg",
+      "/images/projects/project-3/04.jpg",
+      "/images/projects/project-3/05.jpg"
+    ],
+    "translations": {
+      "en": {
+        "title": "Invoice Processing Automation",
+        "challenge": "Accounting firm processed 200+ invoices monthly by hand. Error-prone, time-consuming.",
+        "solution": "AI extracts invoice data from PDFs, validates against client database, exports to Google Sheets and triggers payment reminders.",
+        "result": "Processing time reduced 80%. Errors eliminated. Staff handles exceptions only."
+      },
+      "cs": {
+        "title": "Automatizace zpracování faktur",
+        "challenge": "Účetní firma zpracovávala 200+ faktur měsíčně ručně.",
+        "solution": "AI extrahuje data faktur z PDF, ověřuje vůči databázi klientů, exportuje do Google Sheets a spouští upomínky plateb.",
+        "result": "Čas zpracování snížen o 80 %. Chyby eliminovány."
+      },
+      "uk": {
+        "title": "Автоматизація обробки рахунків",
+        "challenge": "Бухгалтерська фірма вручну обробляла 200+ рахунків на місяць.",
+        "solution": "AI витягує дані рахунків з PDF, перевіряє базу клієнтів, експортує в Google Sheets та запускає нагадування про оплату.",
+        "result": "Час обробки скорочено на 80%. Помилки усунено."
+      },
+      "ru": {
+        "title": "Автоматизация обработки счетов",
+        "challenge": "Бухгалтерская фирма вручную обрабатывала 200+ счетов в месяц.",
+        "solution": "AI извлекает данные счетов из PDF, проверяет базу клиентов, экспортирует в Google Sheets и запускает напоминания об оплате.",
+        "result": "Время обработки сокращено на 80%. Ошибки устранены."
+      }
+    }
+  },
+  {
+    "id": "manufacturing-dashboard",
+    "slug": "manufacturing-dashboard",
+    "category": "software",
+    "industry": "Manufacturing",
+    "techStack": ["Next.js", "NestJS", "PostgreSQL", "Docker"],
+    "result": "Real-time production visibility across 3 plants",
+    "cover": "/images/projects/project-4/cover.jpg",
+    "images": [
+      "/images/projects/project-4/01.jpg",
+      "/images/projects/project-4/02.jpg",
+      "/images/projects/project-4/03.jpg",
+      "/images/projects/project-4/04.jpg",
+      "/images/projects/project-4/05.jpg"
+    ],
+    "translations": {
+      "en": {
+        "title": "Production Dashboard for Manufacturer",
+        "challenge": "Operations team had no real-time visibility into production KPIs across 3 factories.",
+        "solution": "Built a custom internal dashboard pulling data from machines, ERP and manual inputs. Real-time charts, alerts, shift reports.",
+        "result": "Management now has live visibility into all 3 plants. Downtime detection improved by 60%."
+      },
+      "cs": {
+        "title": "Výrobní dashboard pro výrobce",
+        "challenge": "Operační tým neměl přehled o výrobních KPI v reálném čase napříč 3 závody.",
+        "solution": "Vytvořili jsme interní dashboard čerpající data ze strojů, ERP a manuálních vstupů.",
+        "result": "Management má přehled o všech 3 závodech v reálném čase. Detekce prostojů zlepšena o 60 %."
+      },
+      "uk": {
+        "title": "Виробничий дашборд для виробника",
+        "challenge": "Операційна команда не мала даних про виробничі KPI в реальному часі по 3 заводах.",
+        "solution": "Побудували внутрішній дашборд, що агрегує дані зі станків, ERP та ручних введень.",
+        "result": "Керівництво бачить всі 3 заводи в реальному часі. Виявлення простоїв покращено на 60%."
+      },
+      "ru": {
+        "title": "Производственный дашборд",
+        "challenge": "Операционная команда не имела данных о KPI производства в реальном времени по 3 заводам.",
+        "solution": "Построили внутренний дашборд, агрегирующий данные со станков, ERP и ручных вводов.",
+        "result": "Руководство видит все 3 завода в реальном времени. Обнаружение простоев улучшено на 60%."
+      }
+    }
+  },
+  {
+    "id": "saas-mvp-development",
+    "slug": "saas-mvp-development",
+    "category": "software",
+    "industry": "SaaS",
+    "techStack": ["Next.js", "NestJS", "PostgreSQL", "Stripe", "OpenAI API"],
+    "result": "MVP launched in 6 weeks, first paying customers in week 8",
+    "cover": "/images/projects/project-5/cover.jpg",
+    "images": [
+      "/images/projects/project-5/01.jpg",
+      "/images/projects/project-5/02.jpg",
+      "/images/projects/project-5/03.jpg",
+      "/images/projects/project-5/04.jpg",
+      "/images/projects/project-5/05.jpg"
+    ],
+    "translations": {
+      "en": {
+        "title": "SaaS MVP for Content Startup",
+        "challenge": "Startup needed an AI-powered content tool MVP fast, with limited budget.",
+        "solution": "Built full-stack SaaS in 6 weeks: auth, subscription billing via Stripe, AI content generation, user dashboard.",
+        "result": "Launched on time and budget. First paying customers in week 8. Raised pre-seed funding."
+      },
+      "cs": {
+        "title": "SaaS MVP pro content startup",
+        "challenge": "Startup potřeboval rychle MVP AI content nástroje s omezeným rozpočtem.",
+        "solution": "Vybudovali jsme full-stack SaaS za 6 týdnů: auth, předplatné přes Stripe, AI generování obsahu, dashboard.",
+        "result": "Spuštěno včas a v rozpočtu. První platící zákazníci v 8. týdnu."
+      },
+      "uk": {
+        "title": "SaaS MVP для контент-стартапу",
+        "challenge": "Стартапу потрібен був швидкий MVP AI контент-інструменту з обмеженим бюджетом.",
+        "solution": "Побудували full-stack SaaS за 6 тижнів: авторизація, підписка через Stripe, AI генерація контенту, дашборд.",
+        "result": "Запущено вчасно і в бюджеті. Перші платні клієнти на 8-му тижні."
+      },
+      "ru": {
+        "title": "SaaS MVP для контент-стартапа",
+        "challenge": "Стартапу нужен был быстрый MVP AI контент-инструмента с ограниченным бюджетом.",
+        "solution": "Построили full-stack SaaS за 6 недель: авторизация, подписка через Stripe, AI генерация контента, дашборд.",
+        "result": "Запущено вовремя и в бюджете. Первые платящие клиенты на 8-й неделе."
+      }
+    }
+  },
+  {
+    "id": "ecommerce-lead-agent",
+    "slug": "ecommerce-lead-agent",
+    "category": "agents",
+    "industry": "E-commerce",
+    "techStack": ["OpenAI API", "n8n", "Shopify API", "WhatsApp API"],
+    "result": "35% increase in recovered abandoned carts",
+    "cover": "/images/projects/project-6/cover.jpg",
+    "images": [
+      "/images/projects/project-6/01.jpg",
+      "/images/projects/project-6/02.jpg",
+      "/images/projects/project-6/03.jpg",
+      "/images/projects/project-6/04.jpg",
+      "/images/projects/project-6/05.jpg"
+    ],
+    "translations": {
+      "en": {
+        "title": "Sales Agent for E-commerce Store",
+        "challenge": "High cart abandonment rate (78%). Manual follow-up not scalable.",
+        "solution": "AI agent monitors abandoned carts, sends personalized WhatsApp follow-ups with dynamic offers, handles objections.",
+        "result": "35% cart recovery rate increase. Fully automated. Runs 24/7 without staff."
+      },
+      "cs": {
+        "title": "Prodejní agent pro e-shop",
+        "challenge": "Vysoká míra opuštění košíku (78 %). Manuální follow-up neškálovatelný.",
+        "solution": "AI agent sleduje opuštěné košíky, posílá personalizované WhatsApp follow-upy s dynamickými nabídkami.",
+        "result": "Nárůst míry obnovy košíku o 35 %. Plně automatizováno. Běží 24/7."
+      },
+      "uk": {
+        "title": "Торговий агент для інтернет-магазину",
+        "challenge": "Висока частота покинутих кошиків (78%). Ручний follow-up не масштабується.",
+        "solution": "AI агент відстежує покинуті кошики, надсилає персоналізовані WhatsApp повідомлення з динамічними пропозиціями.",
+        "result": "Зростання відновлення кошиків на 35%. Повна автоматизація."
+      },
+      "ru": {
+        "title": "Торговый агент для интернет-магазина",
+        "challenge": "Высокий процент брошенных корзин (78%). Ручной follow-up не масштабируется.",
+        "solution": "AI агент отслеживает брошенные корзины, отправляет персонализированные WhatsApp сообщения с динамическими предложениями.",
+        "result": "Рост восстановления корзин на 35%. Полная автоматизация."
+      }
+    }
+  },
+  {
+    "id": "marketing-agency-landing",
+    "slug": "marketing-agency-landing",
+    "category": "landing",
+    "industry": "Marketing",
+    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "result": "Landing page conversion rate: 8.4%",
+    "cover": "/images/projects/project-7/cover.jpg",
+    "images": [
+      "/images/projects/project-7/01.jpg",
+      "/images/projects/project-7/02.jpg",
+      "/images/projects/project-7/03.jpg",
+      "/images/projects/project-7/04.jpg",
+      "/images/projects/project-7/05.jpg"
+    ],
+    "translations": {
+      "en": {
+        "title": "High-Converting Landing for Marketing Agency",
+        "challenge": "Agency's old landing page had 1.2% conversion rate. Slow, no mobile optimization.",
+        "solution": "Redesigned and rebuilt from scratch: hero optimization, social proof, speed-first development (99 Lighthouse score).",
+        "result": "Conversion rate jumped from 1.2% to 8.4%. Page speed 99/100. Lead cost reduced 60%."
+      },
+      "cs": {
+        "title": "Vysoce konverzní landing pro marketingovou agenturu",
+        "challenge": "Stará landing page agentury měla konverzní poměr 1,2 %. Pomalá, bez mobilní optimalizace.",
+        "solution": "Přepracovali a přestavěli od základu: optimalizace hero sekce, sociální důkazy, vývoj zaměřený na rychlost.",
+        "result": "Konverzní poměr vzrostl z 1,2 % na 8,4 %. Rychlost stránky 99/100."
+      },
+      "uk": {
+        "title": "Ефективний лендінг для маркетингового агентства",
+        "challenge": "Старий лендінг агентства мав конверсію 1.2%. Повільний, без мобільної оптимізації.",
+        "solution": "Повністю переробили: оптимізація hero, соціальні докази, розробка з фокусом на швидкість.",
+        "result": "Конверсія зросла з 1.2% до 8.4%. Швидкість сторінки 99/100."
+      },
+      "ru": {
+        "title": "Высококонверсионный лендинг для маркетингового агентства",
+        "challenge": "Старый лендинг агентства имел конверсию 1.2%. Медленный, без мобильной оптимизации.",
+        "solution": "Полностью переработали: оптимизация hero, социальные доказательства, разработка с фокусом на скорость.",
+        "result": "Конверсия выросла с 1.2% до 8.4%. Скорость страницы 99/100."
+      }
+    }
+  },
+  {
+    "id": "research-agent-realestate",
+    "slug": "research-agent-realestate",
+    "category": "agents",
+    "industry": "Real Estate",
+    "techStack": ["Anthropic API", "n8n", "Airtable", "Gmail"],
+    "result": "Research time per property reduced from 3h to 8min",
+    "cover": "/images/projects/project-8/cover.jpg",
+    "images": [
+      "/images/projects/project-8/01.jpg",
+      "/images/projects/project-8/02.jpg",
+      "/images/projects/project-8/03.jpg",
+      "/images/projects/project-8/04.jpg",
+      "/images/projects/project-8/05.jpg"
+    ],
+    "translations": {
+      "en": {
+        "title": "Property Research Agent for Real Estate Firm",
+        "challenge": "Analysts spent 3 hours per property gathering market data, comparables and risk factors.",
+        "solution": "AI research agent autonomously gathers data from multiple sources, generates structured property reports and stores in Airtable.",
+        "result": "Research time reduced from 3 hours to 8 minutes. Analysts focus on deals, not data gathering."
+      },
+      "cs": {
+        "title": "Výzkumný agent pro realitní firmu",
+        "challenge": "Analytici trávili 3 hodiny na nemovitost shromažďováním tržních dat.",
+        "solution": "AI výzkumný agent autonomně shromažďuje data z více zdrojů, generuje strukturované zprávy a ukládá do Airtable.",
+        "result": "Čas výzkumu snížen ze 3 hodin na 8 minut."
+      },
+      "uk": {
+        "title": "Агент дослідження нерухомості",
+        "challenge": "Аналітики витрачали 3 години на нерухомість для збору ринкових даних.",
+        "solution": "AI агент автономно збирає дані з кількох джерел, генерує структуровані звіти та зберігає в Airtable.",
+        "result": "Час дослідження скорочено з 3 годин до 8 хвилин."
+      },
+      "ru": {
+        "title": "Агент исследования недвижимости",
+        "challenge": "Аналитики тратили 3 часа на объект для сбора рыночных данных.",
+        "solution": "AI агент автономно собирает данные из нескольких источников, генерирует структурированные отчёты и сохраняет в Airtable.",
+        "result": "Время исследования сокращено с 3 часов до 8 минут."
+      }
+    }
+  }
+]
