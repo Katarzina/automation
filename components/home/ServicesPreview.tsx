@@ -10,7 +10,7 @@ export default async function ServicesPreview() {
   const services = getAllServices();
 
   return (
-    <section className="py-20 px-4">
+    <section className="bg-white py-16 md:py-24 px-4">
       <div className="max-w-7xl mx-auto">
         <SectionTitle title={t('title')} subtitle={t('subtitle')} />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

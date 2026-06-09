@@ -11,7 +11,7 @@ export default async function ProjectsPreview() {
   const projects = getAllProjects().slice(0, 3);
 
   return (
-    <section className="py-20 px-4 bg-gray-50/50">
+    <section className="bg-gray-50 py-16 md:py-24 px-4">
       <div className="max-w-7xl mx-auto">
         <SectionTitle title={t('title')} subtitle={t('subtitle')} />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -22,7 +22,7 @@ export default async function ProjectsPreview() {
         <div className="mt-10 text-center">
           <Link
             href="/projects"
-            className="px-6 py-3 border border-gray-200 hover:border-brand-500/50 text-gray-900 rounded-xl transition-all"
+            className="px-6 py-3 border border-stone-300 text-stone-700 hover:bg-stone-900 hover:text-white rounded transition-colors inline-block"
           >
             {t('seeAll')}
           </Link>

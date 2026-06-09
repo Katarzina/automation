@@ -8,15 +8,23 @@ type Props = {
   viewCaseLabel: string;
 };
 
+const categoryBadge: Record<string, string> = {
+  automation: 'bg-blue-100 text-blue-800',
+  agents: 'bg-purple-100 text-purple-800',
+  software: 'bg-emerald-100 text-emerald-800',
+  landing: 'bg-orange-100 text-orange-800',
+};
+
 export default function ProjectCard({ project, locale, viewCaseLabel }: Props) {
   const tr = project.translations[locale] ?? project.translations['en'];
+  const badge = categoryBadge[project.category] ?? 'bg-gray-100 text-gray-700';
 
   return (
     <Link
       href={`/projects/${project.slug}`}
-      className="group relative bg-card border border-gray-200 rounded-2xl overflow-hidden hover:border-brand-500/30 transition-all flex flex-col"
+      className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col"
     >
-      <div className="relative h-48 overflow-hidden bg-card">
+      <div className="relative h-48 overflow-hidden">
         <Image
           src={project.cover}
           alt={tr.title}
@@ -24,16 +32,15 @@ export default function ProjectCard({ project, locale, viewCaseLabel }: Props) {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-white/80 to-transparent" />
-        <span className="absolute top-3 left-3 px-2 py-1 text-xs rounded-full bg-brand-500/20 text-brand-400 border border-brand-500/20 capitalize">
+        <span className={`absolute top-3 left-3 px-2 py-1 text-xs rounded-full capitalize font-medium ${badge}`}>
           {project.category}
         </span>
       </div>
       <div className="p-5 flex flex-col flex-1">
-        <h3 className="font-heading text-base font-semibold text-gray-900 mb-1">{tr.title}</h3>
-        <p className="text-xs text-muted mb-3">{project.industry}</p>
-        <p className="text-sm text-accent flex-1">{project.result}</p>
-        <span className="mt-3 inline-block text-sm text-brand-600 group-hover:text-accent transition-colors">
+        <h3 className="font-heading text-base font-semibold text-stone-900 mb-1">{tr.title}</h3>
+        <p className="text-xs text-gray-400 mb-3">{project.industry}</p>
+        <p className="text-sm text-indigo-600 flex-1">{project.result}</p>
+        <span className="mt-3 inline-block text-sm text-indigo-600 group-hover:text-indigo-700 transition-colors">
           {viewCaseLabel} →
         </span>
       </div>

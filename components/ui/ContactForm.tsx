@@ -11,9 +11,9 @@ export default function ContactForm() {
 
   if (state.success) {
     return (
-      <div className="bg-card border border-gray-200 rounded-2xl p-8 text-center">
+      <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
         <div className="text-4xl mb-4">✅</div>
-        <p className="text-gray-900 font-medium">{state.message}</p>
+        <p className="text-stone-900 font-medium">{state.message}</p>
       </div>
     );
   }
@@ -22,35 +22,35 @@ export default function ContactForm() {
     <form action={action} className="space-y-5">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
-          <label className="block text-sm text-muted mb-1">{t('name')} *</label>
+          <label className="block text-sm text-gray-700 mb-1">{t('name')} *</label>
           <input
             name="name"
             required
-            className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 text-sm focus:outline-none focus:border-brand-500"
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white"
           />
         </div>
         <div>
-          <label className="block text-sm text-muted mb-1">{t('email')} *</label>
+          <label className="block text-sm text-gray-700 mb-1">{t('email')} *</label>
           <input
             name="email"
             type="email"
             required
-            className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 text-sm focus:outline-none focus:border-brand-500"
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white"
           />
         </div>
       </div>
       <div>
-        <label className="block text-sm text-muted mb-1">{t('company')}</label>
+        <label className="block text-sm text-gray-700 mb-1">{t('company')}</label>
         <input
           name="company"
-          className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 text-sm focus:outline-none focus:border-brand-500"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white"
         />
       </div>
       <div>
-        <label className="block text-sm text-muted mb-1">{t('service')}</label>
+        <label className="block text-sm text-gray-700 mb-1">{t('service')}</label>
         <select
           name="service"
-          className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 text-sm focus:outline-none focus:border-brand-500"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white"
         >
           <option value="automation">{t('serviceOptions.automation')}</option>
           <option value="agents">{t('serviceOptions.agents')}</option>
@@ -60,21 +60,21 @@ export default function ContactForm() {
         </select>
       </div>
       <div>
-        <label className="block text-sm text-muted mb-1">{t('message')} *</label>
+        <label className="block text-sm text-gray-700 mb-1">{t('message')} *</label>
         <textarea
           name="message"
           rows={5}
           required
-          className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 text-sm focus:outline-none focus:border-brand-500 resize-none"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-stone-900 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white resize-none"
         />
       </div>
       {state.message && !state.success && (
-        <p className="text-red-400 text-sm">{state.message}</p>
+        <p className="text-red-600 text-sm">{state.message}</p>
       )}
       <button
         type="submit"
         disabled={pending}
-        className="w-full py-4 bg-brand-500 hover:bg-brand-600 disabled:opacity-50 text-white font-medium rounded-xl transition-all"
+        className="w-full py-3.5 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white font-medium rounded-lg transition-colors"
       >
         {pending ? t('sending') : t('send')}
       </button>

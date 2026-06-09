@@ -17,9 +17,9 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
+    <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="font-heading font-bold text-lg text-gray-900">
+        <Link href="/" className="font-heading font-bold text-lg text-stone-900">
           AI Automation Studio
         </Link>
 
@@ -27,7 +27,7 @@ export default function Header() {
         <ul className="hidden md:flex items-center gap-6">
           {links.map((l) => (
             <li key={l.href}>
-              <Link href={l.href} className="text-sm text-muted hover:text-gray-900 transition-colors">
+              <Link href={l.href} className="text-sm text-gray-500 hover:text-stone-800 transition-colors">
                 {l.label}
               </Link>
             </li>
@@ -38,7 +38,7 @@ export default function Header() {
           <LanguageSwitcher />
           <Link
             href="/contact"
-            className="px-4 py-2 bg-brand-500 hover:bg-brand-600 text-white text-sm font-medium rounded-lg transition-colors"
+            className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium px-4 py-2 rounded transition-colors"
           >
             {t('getStarted')}
           </Link>
@@ -46,7 +46,7 @@ export default function Header() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden text-muted hover:text-gray-900"
+          className="md:hidden text-stone-800 hover:text-stone-900"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -62,12 +62,12 @@ export default function Header() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-white border-t border-gray-100 px-4 py-4 flex flex-col gap-3">
+        <div className="md:hidden bg-white border-b border-gray-100 px-4 py-4 flex flex-col gap-3">
           {links.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className="text-sm text-muted hover:text-gray-900 transition-colors"
+              className="text-sm text-gray-600 hover:bg-stone-50 px-2 py-1 rounded transition-colors"
               onClick={() => setOpen(false)}
             >
               {l.label}

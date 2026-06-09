@@ -7,14 +7,14 @@ export default async function TechStack() {
   const t = await getTranslations('home.tech');
 
   return (
-    <section className="py-20 px-4">
+    <section className="bg-white py-16 px-4">
       <div className="max-w-5xl mx-auto">
         <SectionTitle title={t('title')} />
         <div className="flex flex-wrap justify-center gap-4">
           {techs.map((tech) => (
             <span
               key={tech}
-              className="px-5 py-2 bg-gray-50 border border-gray-200 rounded-full text-sm text-muted hover:text-gray-900 hover:border-brand-500/30 transition-all"
+              className="px-5 py-2 bg-gray-100 rounded-full text-sm text-gray-600 hover:bg-indigo-50 hover:text-indigo-700 transition-colors"
             >
               {tech}
             </span>

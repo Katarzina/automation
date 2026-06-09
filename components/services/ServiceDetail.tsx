@@ -33,19 +33,19 @@ export default function ServiceDetail({ service, locale, index, getStartedLabel,
         />
       </div>
       <div>
-        <h2 className="font-heading text-3xl font-bold text-gray-900 mb-4">{tr.title}</h2>
-        <p className="text-muted mb-4 leading-relaxed">{tr.description}</p>
+        <h2 className="font-heading text-3xl font-bold text-stone-900 mb-4">{tr.title}</h2>
+        <p className="text-gray-500 mb-4 leading-relaxed">{tr.description}</p>
         <p className="text-gray-600 mb-6 leading-relaxed">{tr.longDescription}</p>
         <ul className="space-y-2 mb-8">
           {service.subServices.map((s) => (
-            <li key={s} className="flex items-center gap-2 text-sm text-muted">
-              <span className="text-brand-600">✓</span> {s}
+            <li key={s} className="flex items-center gap-2 text-sm text-gray-600">
+              <span className="text-indigo-600">✓</span> {s}
             </li>
           ))}
         </ul>
         <Link
           href="/contact"
-          className="px-6 py-3 bg-brand-500 hover:bg-brand-600 text-white rounded-xl transition-all inline-block"
+          className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors inline-block"
         >
           {getStartedLabel}
         </Link>

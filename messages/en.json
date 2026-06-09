@@ -9,8 +9,11 @@
   },
   "home": {
     "hero": {
-      "tagline": "Automate. Scale. Grow.",
+      "tagline": "AI Automation Studio",
+      "title": "Automate. Scale. Grow.",
       "subtitle": "We build AI-powered automation systems that eliminate repetitive work and unlock growth for your business.",
+      "cta": "Get Free Consultation",
+      "ctaSecondary": "See Our Work",
       "ctaWork": "See Our Work",
       "ctaConsult": "Get Free Consultation"
     },

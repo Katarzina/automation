@@ -16,21 +16,21 @@ export default async function ContactPage({ params }: Props) {
   const t = await getTranslations('contact');
 
   return (
-    <div className="pt-16">
-      <div className="py-20 text-center px-4 bg-gradient-to-b from-brand-50 to-transparent">
-        <h1 className="font-heading text-5xl font-bold text-gray-900">{t('title')}</h1>
-        <p className="mt-4 text-lg text-muted">{t('subtitle')}</p>
+    <div>
+      <div className="bg-gray-50 border-b border-gray-100 py-16 text-center px-4">
+        <h1 className="font-heading text-4xl md:text-5xl font-bold text-stone-900">{t('title')}</h1>
+        <p className="mt-4 text-lg text-gray-500">{t('subtitle')}</p>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 pb-20">
+      <div className="max-w-6xl mx-auto px-4 py-16 pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
           {/* Contact info */}
           <div className="lg:col-span-2">
-            <div className="bg-card border border-gray-200 rounded-2xl p-6">
-              <h3 className="font-heading text-lg font-semibold text-gray-900 mb-4">
+            <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+              <h3 className="font-heading text-lg font-semibold text-stone-900 mb-4">
                 AI Automation Studio
               </h3>
-              <div className="space-y-3 text-sm text-muted">
+              <div className="space-y-3 text-sm text-gray-500">
                 <p>📍 {t('info.location')}</p>
                 <p>✉️ {t('info.email')}</p>
                 <p>🕐 {t('info.hours')}</p>

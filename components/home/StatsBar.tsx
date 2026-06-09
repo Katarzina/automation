@@ -14,8 +14,8 @@ export default async function StatsBar() {
       <div className="max-w-5xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8">
         {stats.map((s) => (
           <div key={s.label} className="text-center">
-            <div className="font-heading text-4xl font-bold text-brand-600">{s.value}</div>
-            <div className="mt-2 text-sm text-muted">{s.label}</div>
+            <div className="font-heading text-4xl font-bold text-stone-900">{s.value}</div>
+            <div className="mt-2 text-sm text-gray-500">{s.label}</div>
           </div>
         ))}
       </div>

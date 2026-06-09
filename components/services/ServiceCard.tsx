@@ -20,12 +20,12 @@ export default function ServiceCard({ service, locale, learnMoreLabel }: Props) 
   return (
     <Link
       href={`/services/${service.slug}`}
-      className="group relative bg-card border border-gray-200 rounded-2xl p-6 hover:border-brand-500/30 transition-all hover:shadow-lg hover:shadow-brand-500/5 flex flex-col"
+      className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow p-6 flex flex-col"
     >
       <div className="text-3xl mb-4">{icons[service.icon] ?? '✨'}</div>
-      <h3 className="font-heading text-lg font-semibold text-gray-900 mb-2">{tr.title}</h3>
-      <p className="text-sm text-muted leading-relaxed flex-1">{tr.description}</p>
-      <span className="mt-4 inline-block text-sm text-brand-600 group-hover:text-accent transition-colors">
+      <h3 className="font-heading text-lg font-semibold text-stone-900 mb-2">{tr.title}</h3>
+      <p className="text-sm text-gray-500 leading-relaxed flex-1">{tr.description}</p>
+      <span className="mt-4 inline-block text-sm text-indigo-600 group-hover:text-indigo-700 font-medium transition-colors">
         {learnMoreLabel} →
       </span>
     </Link>

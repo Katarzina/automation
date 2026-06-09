@@ -32,28 +32,28 @@ export default async function ProjectDetailPage({ params }: Props) {
   const t = await getTranslations('projects');
 
   return (
-    <div className="pt-16">
+    <div>
       <div className="max-w-4xl mx-auto px-4 py-16">
         {/* Breadcrumbs */}
-        <nav className="flex gap-2 text-sm text-muted mb-8">
-          <Link href="/projects" className="hover:text-gray-900 transition-colors">
+        <nav className="flex gap-2 text-sm text-gray-500 mb-8">
+          <Link href="/projects" className="hover:text-stone-900 transition-colors">
             {t('title')}
           </Link>
           <span>/</span>
-          <span className="text-gray-900">{tr.title}</span>
+          <span className="text-stone-900">{tr.title}</span>
         </nav>
 
-        <h1 className="font-heading text-4xl font-bold text-gray-900 mb-4">{tr.title}</h1>
+        <h1 className="font-heading text-4xl md:text-5xl font-bold text-stone-900 mb-4">{tr.title}</h1>
 
         <div className="flex flex-wrap gap-3 mb-10">
-          <span className="px-3 py-1 text-xs rounded-full bg-brand-500/20 text-brand-600 capitalize">
+          <span className="px-3 py-1 text-xs rounded-full bg-indigo-100 text-indigo-700 capitalize font-medium">
             {project.category}
           </span>
-          <span className="px-3 py-1 text-xs rounded-full bg-gray-100 text-muted">
+          <span className="px-3 py-1 text-xs rounded-full bg-gray-100 text-gray-700">
             {project.industry}
           </span>
           {project.techStack.map((tech) => (
-            <span key={tech} className="px-3 py-1 text-xs rounded-full bg-gray-100 text-muted">
+            <span key={tech} className="px-3 py-1 text-xs rounded-full bg-gray-100 text-gray-700">
               {tech}
             </span>
           ))}
@@ -61,28 +61,28 @@ export default async function ProjectDetailPage({ params }: Props) {
 
         <div className="space-y-8 mb-12">
           <div>
-            <h2 className="font-heading text-xl font-semibold text-gray-900 mb-3">{t('challenge')}</h2>
-            <p className="text-muted leading-relaxed">{tr.challenge}</p>
+            <h2 className="font-heading text-xl font-semibold text-stone-900 mb-3">{t('challenge')}</h2>
+            <p className="text-gray-600 leading-relaxed">{tr.challenge}</p>
           </div>
           <div>
-            <h2 className="font-heading text-xl font-semibold text-gray-900 mb-3">{t('solution')}</h2>
-            <p className="text-muted leading-relaxed">{tr.solution}</p>
+            <h2 className="font-heading text-xl font-semibold text-stone-900 mb-3">{t('solution')}</h2>
+            <p className="text-gray-600 leading-relaxed">{tr.solution}</p>
           </div>
-          <div className="bg-card border border-gray-200 rounded-2xl p-6">
-            <h2 className="font-heading text-xl font-semibold text-gray-900 mb-3">{t('result')}</h2>
-            <p className="text-accent leading-relaxed">{tr.result}</p>
+          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+            <h2 className="font-heading text-xl font-semibold text-stone-900 mb-3">{t('result')}</h2>
+            <p className="text-indigo-600 leading-relaxed">{tr.result}</p>
           </div>
         </div>
 
         <Lightbox images={project.images} alt={tr.title} />
 
-        <div className="mt-16 text-center bg-card border border-gray-200 rounded-2xl p-8">
-          <h3 className="font-heading text-xl font-semibold text-gray-900 mb-2">
+        <div className="mt-16 text-center bg-indigo-600 rounded-2xl p-8 text-white">
+          <h3 className="font-heading text-xl font-semibold mb-2">
             {t('similarChallenge')}
           </h3>
           <Link
             href="/contact"
-            className="mt-4 inline-block px-6 py-3 bg-brand-500 hover:bg-brand-600 text-white rounded-xl transition-all"
+            className="mt-4 inline-block px-6 py-3 bg-white text-indigo-600 hover:bg-indigo-50 rounded font-medium transition-colors"
           >
             {t('letsTalk')}
           </Link>

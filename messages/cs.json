@@ -9,8 +9,11 @@
   },
   "home": {
     "hero": {
-      "tagline": "Automatizujte. Škálujte. Růst.",
+      "tagline": "AI Automation Studio",
+      "title": "Automatizujte. Škálujte. Růst.",
       "subtitle": "Stavíme AI automatizační systémy, které eliminují opakující se práci a odemykají růst vašeho podnikání.",
+      "cta": "Bezplatná konzultace",
+      "ctaSecondary": "Naše projekty",
       "ctaWork": "Naše práce",
       "ctaConsult": "Bezplatná konzultace"
     },
