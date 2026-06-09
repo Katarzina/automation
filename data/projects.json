@@ -6,13 +6,13 @@
     "industry": "Logistics",
     "techStack": ["n8n", "OpenAI API", "CRM", "Gmail API"],
     "result": "Saved 45 hours/month on manual data entry",
-    "cover": "/images/projects/project-1/cover.jpg",
+    "cover": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80",
     "images": [
-      "/images/projects/project-1/01.jpg",
-      "/images/projects/project-1/02.jpg",
-      "/images/projects/project-1/03.jpg",
-      "/images/projects/project-1/04.jpg",
-      "/images/projects/project-1/05.jpg"
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1600&q=80",
+      "https://images.unsplash.com/photo-1553413077-190dd305871c?w=1600&q=80",
+      "https://images.unsplash.com/photo-1601628828688-632f38a5a7d0?w=1600&q=80",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1600&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=80"
     ],
     "translations": {
       "en": {
@@ -48,13 +48,13 @@
     "industry": "Insurance",
     "techStack": ["Anthropic API", "Next.js", "PostgreSQL", "Slack"],
     "result": "Handled 70% of support queries automatically",
-    "cover": "/images/projects/project-2/cover.jpg",
+    "cover": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
     "images": [
-      "/images/projects/project-2/01.jpg",
-      "/images/projects/project-2/02.jpg",
-      "/images/projects/project-2/03.jpg",
-      "/images/projects/project-2/04.jpg",
-      "/images/projects/project-2/05.jpg"
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&q=80",
+      "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1600&q=80",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600&q=80",
+      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1600&q=80",
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&q=80"
     ],
     "translations": {
       "en": {
@@ -90,13 +90,13 @@
     "industry": "Accounting",
     "techStack": ["n8n", "OpenAI API", "Google Sheets", "Email"],
     "result": "Invoice processing time reduced by 80%",
-    "cover": "/images/projects/project-3/cover.jpg",
+    "cover": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
     "images": [
-      "/images/projects/project-3/01.jpg",
-      "/images/projects/project-3/02.jpg",
-      "/images/projects/project-3/03.jpg",
-      "/images/projects/project-3/04.jpg",
-      "/images/projects/project-3/05.jpg"
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1600&q=80",
+      "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=1600&q=80",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=80",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1600&q=80"
     ],
     "translations": {
       "en": {
@@ -132,13 +132,13 @@
     "industry": "Manufacturing",
     "techStack": ["Next.js", "NestJS", "PostgreSQL", "Docker"],
     "result": "Real-time production visibility across 3 plants",
-    "cover": "/images/projects/project-4/cover.jpg",
+    "cover": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1200&q=80",
     "images": [
-      "/images/projects/project-4/01.jpg",
-      "/images/projects/project-4/02.jpg",
-      "/images/projects/project-4/03.jpg",
-      "/images/projects/project-4/04.jpg",
-      "/images/projects/project-4/05.jpg"
+      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1600&q=80",
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1600&q=80",
+      "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1600&q=80",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80"
     ],
     "translations": {
       "en": {
@@ -174,13 +174,13 @@
     "industry": "SaaS",
     "techStack": ["Next.js", "NestJS", "PostgreSQL", "Stripe", "OpenAI API"],
     "result": "MVP launched in 6 weeks, first paying customers in week 8",
-    "cover": "/images/projects/project-5/cover.jpg",
+    "cover": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
     "images": [
-      "/images/projects/project-5/01.jpg",
-      "/images/projects/project-5/02.jpg",
-      "/images/projects/project-5/03.jpg",
-      "/images/projects/project-5/04.jpg",
-      "/images/projects/project-5/05.jpg"
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=80",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1600&q=80",
+      "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1600&q=80",
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1600&q=80",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80"
     ],
     "translations": {
       "en": {
@@ -216,13 +216,13 @@
     "industry": "E-commerce",
     "techStack": ["OpenAI API", "n8n", "Shopify API", "WhatsApp API"],
     "result": "35% increase in recovered abandoned carts",
-    "cover": "/images/projects/project-6/cover.jpg",
+    "cover": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80",
     "images": [
-      "/images/projects/project-6/01.jpg",
-      "/images/projects/project-6/02.jpg",
-      "/images/projects/project-6/03.jpg",
-      "/images/projects/project-6/04.jpg",
-      "/images/projects/project-6/05.jpg"
+      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1600&q=80",
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1600&q=80",
+      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1600&q=80",
+      "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1600&q=80",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600&q=80"
     ],
     "translations": {
       "en": {
@@ -258,13 +258,13 @@
     "industry": "Marketing",
     "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     "result": "Landing page conversion rate: 8.4%",
-    "cover": "/images/projects/project-7/cover.jpg",
+    "cover": "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=1200&q=80",
     "images": [
-      "/images/projects/project-7/01.jpg",
-      "/images/projects/project-7/02.jpg",
-      "/images/projects/project-7/03.jpg",
-      "/images/projects/project-7/04.jpg",
-      "/images/projects/project-7/05.jpg"
+      "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=1600&q=80",
+      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1600&q=80",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80",
+      "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1600&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=80"
     ],
     "translations": {
       "en": {
@@ -300,13 +300,13 @@
     "industry": "Real Estate",
     "techStack": ["Anthropic API", "n8n", "Airtable", "Gmail"],
     "result": "Research time per property reduced from 3h to 8min",
-    "cover": "/images/projects/project-8/cover.jpg",
+    "cover": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
     "images": [
-      "/images/projects/project-8/01.jpg",
-      "/images/projects/project-8/02.jpg",
-      "/images/projects/project-8/03.jpg",
-      "/images/projects/project-8/04.jpg",
-      "/images/projects/project-8/05.jpg"
+      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600&q=80",
+      "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1600&q=80",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1600&q=80",
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1600&q=80"
     ],
     "translations": {
       "en": {

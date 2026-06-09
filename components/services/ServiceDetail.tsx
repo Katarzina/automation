@@ -26,6 +26,7 @@ export default function ServiceDetail({ service, locale, index, getStartedLabel 
           src={serviceImages[service.slug] ?? 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80'}
           alt={tr.title}
           fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-cover"
         />
       </div>
