@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Automate. Scale. Grow.",
+      "subtitle": "We build AI-powered automation systems that eliminate repetitive work and unlock growth for your business.",
+      "ctaWork": "See Our Work",
+      "ctaConsult": "Get Free Consultation"
+    },
+    "stats": {
+      "processes": "Processes Automated",
+      "hours": "Hours Saved / Month",
+      "countries": "Countries Served"
+    },
+    "services": {
+      "title": "What We Do",
+      "subtitle": "End-to-end AI automation and software solutions"
+    },
+    "projects": {
+      "title": "Recent Work",
+      "subtitle": "Real results for real businesses",
+      "seeAll": "See All Projects"
+    },
+    "tech": {
+      "title": "Our Technology Stack"
+    },
+    "cta": {
+      "title": "Ready to automate your business?",
+      "subtitle": "Book a free 30-minute consultation. No commitment.",
+      "button": "Book a Free Call"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "From automation to full software products",
+    "getStarted": "Get Started"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Case studies with real, measurable results",
+    "filters": {
+      "all": "All",
+      "automation": "Automation",
+      "agents": "AI Agents",
+      "software": "Software",
+      "landing": "Landing Pages"
+    },
+    "industry": "Industry",
+    "result": "Result",
+    "techStack": "Tech Stack",
+    "challenge": "The Challenge",
+    "solution": "Our Solution",
+    "viewCase": "View Case Study",
+    "backToProjects": "Back to Projects",
+    "similarChallenge": "Have a similar challenge?",
+    "letsTalk": "Let's Talk"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "A small studio with big automation capabilities",
+    "mission": {
+      "title": "Our Mission",
+      "text": "Help businesses automate repetitive processes, reduce operational costs and improve productivity through AI-powered solutions."
+    },
+    "industries": {
+      "title": "Industries We Serve"
+    },
+    "tech": {
+      "title": "Our Stack"
+    },
+    "cta": "Work With Us"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Tell us about your project. We'll get back within 24 hours.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company (optional)",
+      "service": "Service Interested In",
+      "serviceOptions": {
+        "automation": "AI Automation",
+        "agents": "AI Agents",
+        "software": "Custom Software",
+        "landing": "Landing Page",
+        "other": "Other / Not Sure"
+      },
+      "message": "Tell us about your project",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll be in touch within 24 hours.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "email": "hello@automation-studio.com",
+      "location": "Czech Republic",
+      "hours": "Mon–Fri: 9:00–18:00 CET"
+    }
+  },
+  "cookies": {
+    "title": "Cookie Settings",
+    "intro": "We use cookies to improve your experience on our website.",
+    "necessary": {
+      "title": "Necessary Cookies",
+      "desc": "Required for the website to function. Cannot be disabled."
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "desc": "Help us understand how visitors use the site (Google Analytics)."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "desc": "Used to show relevant advertisements."
+    },
+    "saveSettings": "Save Settings",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All"
+  },
+  "cookieBanner": {
+    "text": "We use cookies to improve your experience. See our",
+    "link": "cookie settings",
+    "accept": "Accept All",
+    "settings": "Customize"
+  },
+  "footer": {
+    "tagline": "Automating businesses with AI.",
+    "rights": "All rights reserved",
+    "cookieSettings": "Cookie Settings"
+  },
+  "meta": {
+    "home": {
+      "title": "AI Automation Studio | Automate. Scale. Grow.",
+      "description": "We build AI-powered automation systems, AI agents and custom software for SMBs. Eliminate repetitive work and grow faster."
+    },
+    "services": {
+      "title": "Services | AI Automation Studio",
+      "description": "AI Automation, AI Agents, Custom Software Development and Landing Pages for businesses ready to scale."
+    },
+    "projects": {
+      "title": "Projects | AI Automation Studio",
+      "description": "Real case studies: logistics CRM automation, AI support agents, manufacturing dashboards and more."
+    },
+    "about": {
+      "title": "About | AI Automation Studio",
+      "description": "A small but powerful AI automation studio helping businesses across logistics, manufacturing, insurance and more."
+    },
+    "contact": {
+      "title": "Contact | AI Automation Studio",
+      "description": "Book a free consultation or send us a message. We respond within 24 hours."
+    }
+  }
+}

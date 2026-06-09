@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "home": "Domů",
+    "services": "Služby",
+    "projects": "Projekty",
+    "about": "O nás",
+    "contact": "Kontakt",
+    "getStarted": "Začít"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Automatizujte. Škálujte. Růst.",
+      "subtitle": "Stavíme AI automatizační systémy, které eliminují opakující se práci a odemykají růst vašeho podnikání.",
+      "ctaWork": "Naše práce",
+      "ctaConsult": "Bezplatná konzultace"
+    },
+    "stats": {
+      "processes": "Automatizovaných procesů",
+      "hours": "Ušetřených hodin / měsíc",
+      "countries": "Obsluhovaných zemí"
+    },
+    "services": {
+      "title": "Co děláme",
+      "subtitle": "Komplexní AI automatizace a softwarová řešení"
+    },
+    "projects": {
+      "title": "Nedávné práce",
+      "subtitle": "Skutečné výsledky pro skutečné firmy",
+      "seeAll": "Zobrazit všechny projekty"
+    },
+    "tech": {
+      "title": "Náš technologický stack"
+    },
+    "cta": {
+      "title": "Připraveni automatizovat své podnikání?",
+      "subtitle": "Rezervujte bezplatnou 30minutovou konzultaci. Bez závazků.",
+      "button": "Rezervovat bezplatný hovor"
+    }
+  },
+  "services": {
+    "title": "Naše služby",
+    "subtitle": "Od automatizace po kompletní softwarové produkty",
+    "getStarted": "Začít"
+  },
+  "projects": {
+    "title": "Naše projekty",
+    "subtitle": "Případové studie se skutečnými, měřitelnými výsledky",
+    "filters": {
+      "all": "Vše",
+      "automation": "Automatizace",
+      "agents": "AI agenti",
+      "software": "Software",
+      "landing": "Vstupní stránky"
+    },
+    "industry": "Odvětví",
+    "result": "Výsledek",
+    "techStack": "Technologický stack",
+    "challenge": "Výzva",
+    "solution": "Naše řešení",
+    "viewCase": "Zobrazit případovou studii",
+    "backToProjects": "Zpět na projekty",
+    "similarChallenge": "Máte podobnou výzvu?",
+    "letsTalk": "Promluvme si"
+  },
+  "about": {
+    "title": "O nás",
+    "subtitle": "Malé studio s velkými automatizačními schopnostmi",
+    "mission": {
+      "title": "Naše mise",
+      "text": "Pomáhat firmám automatizovat opakující se procesy, snižovat provozní náklady a zvyšovat produktivitu prostřednictvím AI řešení."
+    },
+    "industries": {
+      "title": "Odvětví, která obsluhujeme"
+    },
+    "tech": {
+      "title": "Náš stack"
+    },
+    "cta": "Spolupracujte s námi"
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Řekněte nám o svém projektu. Ozveme se do 24 hodin.",
+    "form": {
+      "name": "Celé jméno",
+      "email": "E-mailová adresa",
+      "company": "Společnost (nepovinné)",
+      "service": "Služba, o kterou máte zájem",
+      "serviceOptions": {
+        "automation": "AI automatizace",
+        "agents": "AI agenti",
+        "software": "Software na míru",
+        "landing": "Vstupní stránka",
+        "other": "Jiné / Nejsem si jistý/á"
+      },
+      "message": "Řekněte nám o svém projektu",
+      "send": "Odeslat zprávu",
+      "sending": "Odesílání...",
+      "success": "Zpráva odeslána! Ozveme se do 24 hodin.",
+      "error": "Něco se pokazilo. Zkuste to prosím znovu."
+    },
+    "info": {
+      "email": "hello@automation-studio.com",
+      "location": "Česká republika",
+      "hours": "Po–Pá: 9:00–18:00 SEČ"
+    }
+  },
+  "cookies": {
+    "title": "Nastavení cookies",
+    "intro": "Používáme cookies ke zlepšení vašeho zážitku na našem webu.",
+    "necessary": {
+      "title": "Nezbytné cookies",
+      "desc": "Vyžadováno pro fungování webu. Nelze zakázat."
+    },
+    "analytics": {
+      "title": "Analytické cookies",
+      "desc": "Pomáhají nám pochopit, jak návštěvníci web používají (Google Analytics)."
+    },
+    "marketing": {
+      "title": "Marketingové cookies",
+      "desc": "Používají se k zobrazování relevantních reklam."
+    },
+    "saveSettings": "Uložit nastavení",
+    "acceptAll": "Přijmout vše",
+    "rejectAll": "Odmítnout vše"
+  },
+  "cookieBanner": {
+    "text": "Používáme cookies ke zlepšení vašeho zážitku. Viz naše",
+    "link": "nastavení cookies",
+    "accept": "Přijmout vše",
+    "settings": "Přizpůsobit"
+  },
+  "footer": {
+    "tagline": "Automatizujeme firmy pomocí AI.",
+    "rights": "Všechna práva vyhrazena",
+    "cookieSettings": "Nastavení cookies"
+  },
+  "meta": {
+    "home": {
+      "title": "AI Automation Studio | Automatizujte. Škálujte. Růst.",
+      "description": "Stavíme AI automatizační systémy, AI agenty a software na míru pro malé a střední firmy. Eliminujte opakující se práci a rostejte rychleji."
+    },
+    "services": {
+      "title": "Služby | AI Automation Studio",
+      "description": "AI automatizace, AI agenti, vývoj softwaru na míru a vstupní stránky pro firmy připravené na škálování."
+    },
+    "projects": {
+      "title": "Projekty | AI Automation Studio",
+      "description": "Skutečné případové studie: automatizace CRM v logistice, AI podpůrní agenti, výrobní dashboardy a další."
+    },
+    "about": {
+      "title": "O nás | AI Automation Studio",
+      "description": "Malé, ale výkonné AI automatizační studio pomáhající firmám v logistice, výrobě, pojišťovnictví a dalších odvětvích."
+    },
+    "contact": {
+      "title": "Kontakt | AI Automation Studio",
+      "description": "Rezervujte bezplatnou konzultaci nebo nám pošlete zprávu. Odpovídáme do 24 hodin."
+    }
+  }
+}
