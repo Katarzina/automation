@@ -143,6 +143,16 @@
     },
     "name": "Ваше имя",
     "email": "Email адрес",
+    "company": "Компания (необязательно)",
+    "service": "Нужная услуга",
+    "servicePlaceholder": "Выберите услугу",
+    "serviceOptions": {
+      "automation": "AI автоматизация",
+      "agents": "AI агенты",
+      "software": "Программное обеспечение на заказ",
+      "landing": "Лендинг",
+      "other": "Другое / Не уверен(а)"
+    },
     "budget": "Бюджет",
     "budgetPlaceholder": "Выберите диапазон бюджета",
     "message": "Описание проекта",

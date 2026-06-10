@@ -59,6 +59,28 @@ export default function LeadCaptureForm() {
         </div>
       </div>
       <div>
+        <label className="block text-sm font-medium text-stone-700 mb-1">{t('company')}</label>
+        <input
+          name="company"
+          placeholder="Acme Inc."
+          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-800 transition-colors"
+        />
+      </div>
+      <div>
+        <label className="block text-sm font-medium text-stone-700 mb-1">{t('service')}</label>
+        <select
+          name="service"
+          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm text-gray-600 focus:outline-none focus:border-blue-800 transition-colors bg-white"
+        >
+          <option value="">{t('servicePlaceholder')}</option>
+          <option value="automation">{t('serviceOptions.automation')}</option>
+          <option value="agents">{t('serviceOptions.agents')}</option>
+          <option value="software">{t('serviceOptions.software')}</option>
+          <option value="landing">{t('serviceOptions.landing')}</option>
+          <option value="other">{t('serviceOptions.other')}</option>
+        </select>
+      </div>
+      <div>
         <label className="block text-sm font-medium text-stone-700 mb-1">{t('budget')}</label>
         <select
           name="budget"

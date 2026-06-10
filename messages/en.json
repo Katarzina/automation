@@ -143,6 +143,16 @@
     },
     "name": "Your Name",
     "email": "Email Address",
+    "company": "Company (optional)",
+    "service": "Service Needed",
+    "servicePlaceholder": "Select a service",
+    "serviceOptions": {
+      "automation": "AI Automation",
+      "agents": "AI Agents",
+      "software": "Custom Software",
+      "landing": "Landing Page",
+      "other": "Other / Not sure"
+    },
     "budget": "Budget Range",
     "budgetPlaceholder": "Select budget range",
     "message": "Describe Your Project",

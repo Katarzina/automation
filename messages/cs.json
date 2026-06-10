@@ -143,6 +143,16 @@
     },
     "name": "Vaše jméno",
     "email": "E-mailová adresa",
+    "company": "Firma (nepovinné)",
+    "service": "Požadovaná služba",
+    "servicePlaceholder": "Vyberte službu",
+    "serviceOptions": {
+      "automation": "AI automatizace",
+      "agents": "AI agenti",
+      "software": "Software na míru",
+      "landing": "Vstupní stránka",
+      "other": "Jiné / Nejsem si jistý/á"
+    },
     "budget": "Rozpočet",
     "budgetPlaceholder": "Vyberte rozsah rozpočtu",
     "message": "Popis projektu",

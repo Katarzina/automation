@@ -16,6 +16,8 @@ export async function initDb() {
       created_at TIMESTAMPTZ DEFAULT NOW()
     )
   `;
+  await sql`ALTER TABLE leads ADD COLUMN IF NOT EXISTS company TEXT DEFAULT ''`;
+  await sql`ALTER TABLE leads ADD COLUMN IF NOT EXISTS service TEXT DEFAULT ''`;
 }
 
 export async function saveLead(data: {
@@ -23,12 +25,14 @@ export async function saveLead(data: {
   email: string;
   message: string;
   budget: string;
+  company: string;
+  service: string;
   score: string;
   reasoning: string;
 }) {
   const [lead] = await sql`
-    INSERT INTO leads (name, email, message, budget, score, reasoning)
-    VALUES (${data.name}, ${data.email}, ${data.message}, ${data.budget}, ${data.score}, ${data.reasoning})
+    INSERT INTO leads (name, email, message, budget, company, service, score, reasoning)
+    VALUES (${data.name}, ${data.email}, ${data.message}, ${data.budget}, ${data.company}, ${data.service}, ${data.score}, ${data.reasoning})
     RETURNING *
   `;
   return lead;

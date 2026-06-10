@@ -1,6 +1,6 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
-import ContactForm from '@/components/ui/ContactForm';
+import LeadCaptureForm from '@/components/leads/LeadCaptureForm';
 import { SITE } from '@/lib/config';
 
 type Props = { params: Promise<{ locale: string }> };
@@ -41,7 +41,7 @@ export default async function ContactPage({ params }: Props) {
 
           {/* Form */}
           <div className="lg:col-span-3">
-            <ContactForm />
+            <LeadCaptureForm />
           </div>
         </div>
       </div>
