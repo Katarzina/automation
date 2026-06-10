@@ -100,11 +100,6 @@
       "sending": "Odesílání...",
       "success": "Zpráva odeslána! Ozveme se do 24 hodin.",
       "error": "Něco se pokazilo. Zkuste to prosím znovu."
-    },
-    "info": {
-      "email": "hello@automation-studio.com",
-      "location": "Česká republika",
-      "hours": "Po–Pá: 9:00–18:00 SEČ"
     }
   },
   "cookies": {

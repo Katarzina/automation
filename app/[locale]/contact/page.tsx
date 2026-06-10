@@ -1,6 +1,7 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import ContactForm from '@/components/ui/ContactForm';
+import { SITE } from '@/lib/config';
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -28,12 +29,12 @@ export default async function ContactPage({ params }: Props) {
           <div className="lg:col-span-2">
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
               <h3 className="font-heading text-lg font-semibold text-stone-900 mb-4">
-                AI Automation Studio
+                {SITE.name}
               </h3>
               <div className="space-y-3 text-sm text-gray-500">
-                <p>📍 {t('info.location')}</p>
-                <p>✉️ {t('info.email')}</p>
-                <p>🕐 {t('info.hours')}</p>
+                <p>📍 {SITE.location}</p>
+                <p>✉️ {SITE.email}</p>
+                <p>🕐 {SITE.hours}</p>
               </div>
             </div>
           </div>
