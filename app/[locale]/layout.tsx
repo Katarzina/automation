@@ -7,6 +7,7 @@ import '@/app/globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import CookieBanner from '@/components/layout/CookieBanner';
+import ChatWidget from '@/components/chat/ChatWidget';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -45,6 +46,7 @@ export default async function LocaleLayout({
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
+          <ChatWidget />
           <CookieBanner />
         </NextIntlClientProvider>
       </body>
