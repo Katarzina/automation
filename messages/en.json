@@ -132,6 +132,27 @@
     "rights": "All rights reserved",
     "cookieSettings": "Cookie Settings"
   },
+  "lead": {
+    "badge": "Free Consultation",
+    "title": "Tell Us About Your Project",
+    "subtitle": "Describe your automation challenge. We'll get back to you within 24 hours with a tailored proposal.",
+    "items": {
+      "item1": "Free project assessment",
+      "item2": "Response within 24 hours",
+      "item3": "No commitment required"
+    },
+    "name": "Your Name",
+    "email": "Email Address",
+    "budget": "Budget Range",
+    "budgetPlaceholder": "Select budget range",
+    "message": "Describe Your Project",
+    "messagePlaceholder": "What process would you like to automate? What's the challenge?",
+    "submit": "Request Free Consultation",
+    "sending": "Sending...",
+    "success": "Request received!",
+    "successSub": "We'll be in touch within 24 hours.",
+    "error": "Something went wrong. Please try again."
+  },
   "meta": {
     "home": {
       "title": "AI Automation Studio | Automate. Scale. Grow.",

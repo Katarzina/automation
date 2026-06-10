@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import HeroSection from '@/components/home/HeroSection';
 import StatsBar from '@/components/home/StatsBar';
 import ServicesPreview from '@/components/home/ServicesPreview';
+import LeadCaptureSection from '@/components/home/LeadCaptureSection';
 import ProjectsPreview from '@/components/home/ProjectsPreview';
 import TechStack from '@/components/home/TechStack';
 import CtaBanner from '@/components/home/CtaBanner';
@@ -24,6 +25,7 @@ export default async function HomePage({ params }: Props) {
       <HeroSection />
       <StatsBar />
       <ServicesPreview />
+      <LeadCaptureSection locale={locale} />
       <ProjectsPreview />
       <TechStack />
       <CtaBanner />

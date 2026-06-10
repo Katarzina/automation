@@ -132,6 +132,27 @@
     "rights": "Všechna práva vyhrazena",
     "cookieSettings": "Nastavení cookies"
   },
+  "lead": {
+    "badge": "Bezplatná konzultace",
+    "title": "Řekněte nám o svém projektu",
+    "subtitle": "Popište svou potřebu automatizace. Ozveme se do 24 hodin s návrhem řešení.",
+    "items": {
+      "item1": "Bezplatné posouzení projektu",
+      "item2": "Odpověď do 24 hodin",
+      "item3": "Bez závazků"
+    },
+    "name": "Vaše jméno",
+    "email": "E-mailová adresa",
+    "budget": "Rozpočet",
+    "budgetPlaceholder": "Vyberte rozsah rozpočtu",
+    "message": "Popis projektu",
+    "messagePlaceholder": "Jaký proces chcete automatizovat?",
+    "submit": "Požádat o konzultaci",
+    "sending": "Odesílání...",
+    "success": "Žádost přijata!",
+    "successSub": "Ozveme se do 24 hodin.",
+    "error": "Něco se pokazilo. Zkuste to prosím znovu."
+  },
   "meta": {
     "home": {
       "title": "AI Automation Studio | Automatizujte. Škálujte. Růst.",
