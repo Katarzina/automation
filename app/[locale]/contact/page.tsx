@@ -32,8 +32,11 @@ export default async function ContactPage({ params }: Props) {
                 {SITE.name}
               </h3>
               <div className="space-y-3 text-sm text-gray-500">
+                <p>👤 {SITE.owner}</p>
+                <p>🏢 IČO: {SITE.ico}</p>
                 <p>📍 {SITE.location}</p>
                 <p>✉️ {SITE.email}</p>
+                <p>📞 <a href={`tel:${SITE.phone.replace(/\s/g, '')}`} className="hover:text-stone-700 transition-colors">{SITE.phone}</a></p>
                 <p>🕐 {SITE.hours}</p>
               </div>
             </div>

@@ -1,10 +1,10 @@
 import { NextResponse } from 'next/server';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import Groq from 'groq-sdk';
 import { initDb, saveLead } from '@/lib/db';
 import { sendTelegramMessage } from '@/lib/telegram';
 import { Resend } from 'resend';
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 const SYSTEM_PROMPT = `You are an AI assistant for AI Automation Studio — a company that builds AI automation workflows, AI agents, custom software, and high-converting landing pages for businesses in Europe and globally.
@@ -40,20 +40,32 @@ Never invent prices. Be honest if something is outside our expertise.`;
 type Message = { role: 'user' | 'model'; content: string };
 
 export async function POST(request: Request) {
-  const { messages } = await request.json() as { messages: Message[] };
+  const { messages, locale } = await request.json() as { messages: Message[]; locale?: string };
+
+  const LANG_MAP: Record<string, string> = {
+    en: 'English',
+    cs: 'Czech',
+    uk: 'Ukrainian',
+    ru: 'Russian',
+  };
+  const language = LANG_MAP[locale ?? 'en'] ?? 'English';
+  const systemPrompt = `${SYSTEM_PROMPT}\n\nIMPORTANT: Always respond in ${language}, regardless of what language the user writes in.`;
 
   try {
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const groqMessages = [
+      { role: 'system' as const, content: systemPrompt },
+      ...messages.map(m => ({
+        role: (m.role === 'model' ? 'assistant' : 'user') as 'user' | 'assistant',
+        content: m.content,
+      })),
+    ];
 
-    const history = messages.slice(0, -1).map(m => ({
-      role: m.role,
-      parts: [{ text: m.content }],
-    }));
+    const completion = await groq.chat.completions.create({
+      model: 'llama-3.3-70b-versatile',
+      messages: groqMessages,
+    });
 
-    const chat = model.startChat({ systemInstruction: SYSTEM_PROMPT, history });
-    const lastMessage = messages[messages.length - 1];
-    const result = await chat.sendMessage(lastMessage.content);
-    const responseText = result.response.text();
+    const responseText = completion.choices[0].message.content ?? '';
 
     const leadMatch = responseText.match(/LEAD_CAPTURED:(\{[^}]+\})/);
     if (leadMatch) {

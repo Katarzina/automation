@@ -1,6 +1,6 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import Groq from 'groq-sdk';
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 export type LeadScore = 'hot' | 'warm' | 'cold';
 
@@ -11,8 +11,6 @@ export async function classifyLead(data: {
   budget: string;
 }): Promise<{ score: LeadScore; reasoning: string }> {
   try {
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-
     const prompt = `You are a lead qualification expert for an AI automation agency.
 
 Analyze this lead and classify it as "hot", "warm", or "cold".
@@ -31,12 +29,16 @@ Scoring criteria:
 Respond ONLY with valid JSON:
 {"score": "hot"|"warm"|"cold", "reasoning": "one sentence explanation"}`;
 
-    const result = await model.generateContent(prompt);
-    const text = result.response.text().trim();
+    const completion = await groq.chat.completions.create({
+      model: 'llama-3.3-70b-versatile',
+      messages: [{ role: 'user', content: prompt }],
+    });
+
+    const text = (completion.choices[0].message.content ?? '').trim();
     const json = JSON.parse(text.replace(/```json|```/g, '').trim());
     return { score: json.score as LeadScore, reasoning: json.reasoning };
   } catch (err) {
-    console.error('[gemini] Classification failed:', err);
+    console.error('[groq] Classification failed:', err);
     return { score: 'warm', reasoning: 'Classification unavailable' };
   }
 }

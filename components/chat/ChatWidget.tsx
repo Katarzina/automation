@@ -4,14 +4,20 @@ import { useState, useRef, useEffect } from 'react';
 
 type Message = { role: 'user' | 'model'; content: string };
 
-const INITIAL_MESSAGE: Message = {
-  role: 'model',
-  content: "Hi! 👋 I'm the AI assistant at Automation Studio. What process would you like to automate, or what challenge can I help you solve?",
+const INITIAL_MESSAGES: Record<string, string> = {
+  en: "Hi! 👋 I'm the AI assistant at Automation Studio. What process would you like to automate, or what challenge can I help you solve?",
+  cs: "Ahoj! 👋 Jsem AI asistent Automation Studia. Jaký proces byste chtěli automatizovat nebo s čím vám mohu pomoci?",
+  uk: "Привіт! 👋 Я AI-асистент Automation Studio. Який процес ви хочете автоматизувати або яка у вас задача?",
+  ru: "Привет! 👋 Я AI-ассистент Automation Studio. Какой процесс вы хотите автоматизировать или какая у вас задача?",
 };
 
-export default function ChatWidget() {
+export default function ChatWidget({ locale = 'en' }: { locale?: string }) {
+  const initialMessage: Message = {
+    role: 'model',
+    content: INITIAL_MESSAGES[locale] ?? INITIAL_MESSAGES.en,
+  };
   const [open, setOpen] = useState(false);
-  const [messages, setMessages] = useState<Message[]>([INITIAL_MESSAGE]);
+  const [messages, setMessages] = useState<Message[]>([initialMessage]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [leadCaptured, setLeadCaptured] = useState(false);
@@ -39,7 +45,7 @@ export default function ChatWidget() {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: updatedMessages }),
+        body: JSON.stringify({ messages: updatedMessages, locale }),
       });
       const data = await res.json();
       setMessages(prev => [...prev, { role: 'model', content: data.message }]);

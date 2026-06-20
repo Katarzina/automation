@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "services": "Services",
-    "projects": "Projects",
+    "projects": "What We Build",
     "about": "About",
     "contact": "Contact",
     "getStarted": "Get Started"
@@ -44,6 +44,21 @@
     "title": "Our Services",
     "subtitle": "From automation to full software products",
     "getStarted": "Get Started"
+  },
+  "solutions": {
+    "metaTitle": "What We Build | AI Automation Studio",
+    "metaDescription": "Landing pages, Telegram bots, email automation, dashboards and more. Real examples of what we build.",
+    "title": "What We Build",
+    "subtitle": "Real examples of automation and software we deliver",
+    "liveDemo": "Live Demo",
+    "comingSoon": "Coming Soon",
+    "comingSoonLabel": "Demo coming soon",
+    "categories": {
+      "landing": "Landing Page",
+      "chatbot": "Chatbot",
+      "automation": "Automation",
+      "software": "Software"
+    }
   },
   "projects": {
     "title": "Our Projects",
@@ -130,7 +145,8 @@
   "footer": {
     "tagline": "Automating businesses with AI.",
     "rights": "All rights reserved",
-    "cookieSettings": "Cookie Settings"
+    "cookieSettings": "Cookie Settings",
+    "privacyPolicy": "Privacy Policy"
   },
   "lead": {
     "badge": "Free Consultation",
@@ -183,6 +199,40 @@
     "contact": {
       "title": "Contact | AI Automation Studio",
       "description": "Book a free consultation or send us a message. We respond within 24 hours."
+    }
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy | AI Automation Studio",
+    "metaDescription": "Learn how AI Automation Studio collects, uses, and protects your personal data.",
+    "title": "Privacy Policy",
+    "updated": "Last updated: June 2025",
+    "intro": {
+      "title": "Introduction",
+      "text": "AI Automation Studio ('we', 'us', 'our') is committed to protecting your personal data. This Privacy Policy explains what information we collect, how we use it, and what rights you have under applicable law, including the GDPR."
+    },
+    "dataCollection": {
+      "title": "What Data We Collect",
+      "text": "We collect information you provide directly — such as your name, email address, company name, and message content when you fill out our contact form. We may also collect technical data such as your IP address, browser type, and pages visited through cookies and analytics tools."
+    },
+    "dataUse": {
+      "title": "How We Use Your Data",
+      "text": "We use your data to respond to your enquiries, provide our services, and improve our website. We do not sell your personal data to third parties. We may send you service-related emails based on your consent or legitimate interest."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "text": "We use necessary, analytics, and marketing cookies. Necessary cookies are required for the site to function. Analytics cookies help us understand visitor behaviour. Marketing cookies may be used to show relevant content. You can manage your cookie preferences at any time via our Cookie Settings page."
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "text": "We use trusted third-party services including Google Analytics for website analytics and Resend for email delivery. These providers may process your data in accordance with their own privacy policies. We ensure all third parties offer appropriate data protection guarantees."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "text": "Under the GDPR you have the right to access, correct, or delete your personal data; to object to or restrict processing; and to data portability. To exercise any of these rights, please contact us using the details below. You also have the right to lodge a complaint with your local data protection authority."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "text": "If you have any questions about this Privacy Policy or how we handle your data, please contact us by email. We will respond within 30 days."
     }
   }
 }

@@ -2,7 +2,9 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 import LanguageSwitcher from '@/components/ui/LanguageSwitcher';
+import { SITE } from '@/lib/config';
 
 export default function Header() {
   const t = useTranslations('nav');
@@ -11,7 +13,7 @@ export default function Header() {
   const links = [
     { href: '/' as const, label: t('home') },
     { href: '/services' as const, label: t('services') },
-    { href: '/projects' as const, label: t('projects') },
+    { href: '/solutions' as const, label: t('projects') },
     { href: '/about' as const, label: t('about') },
     { href: '/contact' as const, label: t('contact') },
   ];
@@ -19,8 +21,12 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="font-heading font-bold text-lg text-stone-900">
-          AI Automation Studio
+        <Link href="/" className="flex items-center gap-3">
+          <Image src="/logo.png" alt="AI Automation Studio" width={140} height={48} className="h-12 w-auto rounded-lg" priority />
+          <span className="hidden sm:flex flex-col leading-tight">
+            <span className="font-heading font-bold text-base tracking-wide text-stone-900">AI Automation</span>
+            <span className="text-xs font-medium tracking-[0.2em] text-gray-400 uppercase">Studio</span>
+          </span>
         </Link>
 
         {/* Desktop nav */}
@@ -35,6 +41,17 @@ export default function Header() {
         </ul>
 
         <div className="hidden md:flex items-center gap-4">
+          <a
+            href={`tel:${SITE.phone.replace(/\s/g, '')}`}
+            className="flex items-center gap-2 text-sm text-gray-600 hover:text-blue-800 transition-colors group"
+          >
+            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-50 group-hover:bg-blue-100 transition-colors">
+              <svg className="w-3.5 h-3.5 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+            </span>
+            <span className="font-heading font-semibold text-base tracking-wide">{SITE.phone}</span>
+          </a>
           <LanguageSwitcher />
           <Link
             href="/contact"

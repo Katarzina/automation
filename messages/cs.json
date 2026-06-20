@@ -2,7 +2,7 @@
   "nav": {
     "home": "Domů",
     "services": "Služby",
-    "projects": "Projekty",
+    "projects": "Co stavíme",
     "about": "O nás",
     "contact": "Kontakt",
     "getStarted": "Začít"
@@ -36,7 +36,7 @@
     },
     "cta": {
       "title": "Připraveni automatizovat své podnikání?",
-      "subtitle": "Rezervujte bezplatnou 30minutovou konzultaci. Bez závazků.",
+      "subtitle": "Rezervujte bezplatnou 30 minutovou konzultaci. Bez závazků.",
       "button": "Rezervovat bezplatný hovor"
     }
   },
@@ -44,6 +44,21 @@
     "title": "Naše služby",
     "subtitle": "Od automatizace po kompletní softwarové produkty",
     "getStarted": "Začít"
+  },
+  "solutions": {
+    "metaTitle": "Co stavíme | AI Automation Studio",
+    "metaDescription": "Landing pages, Telegram boty, e-mailová automatizace, dashboardy a další. Reálné příklady toho, co stavíme.",
+    "title": "Co stavíme",
+    "subtitle": "Reálné příklady automatizace a softwaru, který dodáváme",
+    "liveDemo": "Živé demo",
+    "comingSoon": "Připravujeme",
+    "comingSoonLabel": "Demo připravujeme",
+    "categories": {
+      "landing": "Landing Page",
+      "chatbot": "Chatbot",
+      "automation": "Automatizace",
+      "software": "Software"
+    }
   },
   "projects": {
     "title": "Naše projekty",
@@ -130,7 +145,8 @@
   "footer": {
     "tagline": "Automatizujeme firmy pomocí AI.",
     "rights": "Všechna práva vyhrazena",
-    "cookieSettings": "Nastavení cookies"
+    "cookieSettings": "Nastavení cookies",
+    "privacyPolicy": "Zásady ochrany osobních údajů"
   },
   "lead": {
     "badge": "Bezplatná konzultace",
@@ -183,6 +199,40 @@
     "contact": {
       "title": "Kontakt | AI Automation Studio",
       "description": "Rezervujte bezplatnou konzultaci nebo nám pošlete zprávu. Odpovídáme do 24 hodin."
+    }
+  },
+  "privacy": {
+    "metaTitle": "Zásady ochrany osobních údajů | AI Automation Studio",
+    "metaDescription": "Zjistěte, jak AI Automation Studio shromažďuje, používá a chrání vaše osobní údaje.",
+    "title": "Zásady ochrany osobních údajů",
+    "updated": "Poslední aktualizace: červen 2025",
+    "intro": {
+      "title": "Úvod",
+      "text": "AI Automation Studio ('my', 'nás', 'náš') se zavazuje chránit vaše osobní údaje. Tyto zásady ochrany osobních údajů vysvětlují, jaké informace shromažďujeme, jak je používáme a jaká práva máte podle platných právních předpisů, včetně GDPR."
+    },
+    "dataCollection": {
+      "title": "Jaké údaje shromažďujeme",
+      "text": "Shromažďujeme informace, které nám přímo poskytnete — například vaše jméno, e-mailovou adresu, název společnosti a obsah zprávy při vyplnění kontaktního formuláře. Prostřednictvím cookies a analytických nástrojů můžeme také shromažďovat technické údaje, jako je vaše IP adresa, typ prohlížeče a navštívené stránky."
+    },
+    "dataUse": {
+      "title": "Jak vaše údaje používáme",
+      "text": "Vaše údaje používáme k zodpovězení dotazů, poskytování služeb a zlepšování našich webových stránek. Vaše osobní údaje neprodáváme třetím stranám. Na základě vašeho souhlasu nebo oprávněného zájmu vám můžeme zasílat e-maily související s našimi službami."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "text": "Používáme nezbytné, analytické a marketingové cookies. Nezbytné cookies jsou nutné pro fungování webu. Analytické cookies nám pomáhají pochopit chování návštěvníků. Marketingové cookies mohou být použity k zobrazení relevantního obsahu. Nastavení cookies můžete kdykoli spravovat prostřednictvím stránky Nastavení cookies."
+    },
+    "thirdParty": {
+      "title": "Služby třetích stran",
+      "text": "Používáme důvěryhodné služby třetích stran, včetně Google Analytics pro analýzu webu a Resend pro doručování e-mailů. Tito poskytovatelé mohou zpracovávat vaše údaje v souladu se svými vlastními zásadami ochrany osobních údajů. Zajišťujeme, aby všechny třetí strany poskytovaly odpovídající záruky ochrany údajů."
+    },
+    "rights": {
+      "title": "Vaše práva",
+      "text": "Podle GDPR máte právo na přístup, opravu nebo výmaz svých osobních údajů; na námitku nebo omezení zpracování; a na přenositelnost údajů. Chcete-li tato práva uplatnit, kontaktujte nás prostřednictvím níže uvedených údajů. Máte také právo podat stížnost u místního úřadu pro ochranu osobních údajů."
+    },
+    "contact": {
+      "title": "Kontaktujte nás",
+      "text": "Máte-li jakékoli dotazy ohledně těchto zásad ochrany osobních údajů nebo způsobu zpracování vašich údajů, kontaktujte nás e-mailem. Odpovíme do 30 dnů."
     }
   }
 }

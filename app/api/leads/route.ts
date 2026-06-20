@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { initDb, saveLead } from '@/lib/db';
-import { classifyLead } from '@/lib/gemini';
+import { classifyLead } from '@/lib/groq';
 import { sendTelegramMessage } from '@/lib/telegram';
 import { Resend } from 'resend';
 
@@ -52,6 +52,16 @@ export async function POST(request: Request) {
 </table>
 <p><em>AI reasoning: ${reasoning}</em></p>`,
   });
+
+  // n8n agent — персональный авто-ответ лиду
+  const n8nWebhook = process.env.N8N_LEAD_WEBHOOK;
+  if (n8nWebhook) {
+    fetch(n8nWebhook, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, message, service: service ?? '', budget: budget ?? '', score }),
+    }).catch(err => console.error('[n8n] webhook failed:', err));
+  }
 
   return NextResponse.json({ ok: true, score });
 }

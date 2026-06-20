@@ -1,0 +1,110 @@
+[
+  {
+    "id": "landing-page-etek",
+    "slug": "landing-page",
+    "category": "landing",
+    "techStack": ["Next.js", "Tailwind CSS", "next-intl", "Vercel"],
+    "demoUrl": "https://etek.cz/en",
+    "status": "live",
+    "cover": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1200&q=80",
+    "translations": {
+      "en": {
+        "title": "Landing Page",
+        "description": "Modern multilingual landing page with lead capture, SEO optimisation, and fast performance. Built for a Czech electrical engineering company."
+      },
+      "cs": {
+        "title": "Landing Page",
+        "description": "Moderní vícejazyčná landing page se sběrem kontaktů, SEO optimalizací a rychlým výkonem. Vytvořeno pro českou elektrotechnickou firmu."
+      },
+      "uk": {
+        "title": "Landing Page",
+        "description": "Сучасний багатомовний лендінг зі збором лідів, SEO-оптимізацією та швидкою продуктивністю. Створено для чеської електротехнічної компанії."
+      },
+      "ru": {
+        "title": "Landing Page",
+        "description": "Современный многоязычный лендинг со сбором лидов, SEO-оптимизацией и быстрой производительностью. Создан для чешской электротехнической компании."
+      }
+    }
+  },
+  {
+    "id": "telegram-bot",
+    "slug": "telegram-bot",
+    "category": "chatbot",
+    "techStack": ["Python", "Telegram API", "OpenAI", "PostgreSQL"],
+    "demoUrl": null,
+    "status": "coming-soon",
+    "cover": "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=1200&q=80",
+    "translations": {
+      "en": {
+        "title": "Telegram Bot",
+        "description": "AI-powered Telegram bot for customer support, lead qualification, and automated notifications. Integrates with your CRM or database."
+      },
+      "cs": {
+        "title": "Telegram Bot",
+        "description": "Telegram bot s AI pro zákaznickou podporu, kvalifikaci leadů a automatická oznámení. Integruje se s vaším CRM nebo databází."
+      },
+      "uk": {
+        "title": "Telegram Bot",
+        "description": "Telegram-бот на базі AI для підтримки клієнтів, кваліфікації лідів та автоматичних сповіщень. Інтегрується з вашою CRM або базою даних."
+      },
+      "ru": {
+        "title": "Telegram Bot",
+        "description": "Telegram-бот на базе AI для поддержки клиентов, квалификации лидов и автоматических уведомлений. Интегрируется с вашей CRM или базой данных."
+      }
+    }
+  },
+  {
+    "id": "email-automation",
+    "slug": "email-automation",
+    "category": "automation",
+    "techStack": ["n8n", "OpenAI", "Resend", "CRM"],
+    "demoUrl": null,
+    "status": "coming-soon",
+    "cover": "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=1200&q=80",
+    "translations": {
+      "en": {
+        "title": "Email Automation",
+        "description": "Automated email workflows: welcome sequences, lead nurturing, CRM sync, and AI-powered reply drafting. Saves hours of manual work every week."
+      },
+      "cs": {
+        "title": "E-mailová automatizace",
+        "description": "Automatizované e-mailové workflow: uvítací sekvence, péče o leady, synchronizace CRM a AI návrhy odpovědí. Ušetří hodiny manuální práce každý týden."
+      },
+      "uk": {
+        "title": "Email-автоматизація",
+        "description": "Автоматизовані email-ланцюжки: привітальні серії, прогрів лідів, синхронізація CRM та AI-складання відповідей. Економить години ручної роботи щотижня."
+      },
+      "ru": {
+        "title": "Email-автоматизация",
+        "description": "Автоматизированные email-цепочки: приветственные серии, прогрев лидов, синхронизация CRM и AI-составление ответов. Экономит часы ручной работы каждую неделю."
+      }
+    }
+  },
+  {
+    "id": "dashboard",
+    "slug": "dashboard",
+    "category": "software",
+    "techStack": ["Next.js", "shadcn/ui", "Prisma", "PostgreSQL", "NextAuth", "Google OAuth", "Groq AI", "Recharts"],
+    "demoUrl": "https://next-v0-cursor.vercel.app/",
+    "status": "live",
+    "cover": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "translations": {
+      "en": {
+        "title": "Analytics Dashboard & AI Web Chat",
+        "description": "Real estate platform with AI-powered web chat, lead capture, analytics dashboard, role-based access (User / Agent / Admin), and property management. Built with Next.js, Prisma, PostgreSQL, and NextAuth."
+      },
+      "cs": {
+        "title": "Analytický Dashboard & AI Web Chat",
+        "description": "Platforma pro nemovitosti s AI webovým chatem, sběrem leadů, analytickým dashboardem, přístupem dle rolí a správou nemovitostí. Postaveno na Next.js, Prisma, PostgreSQL a NextAuth."
+      },
+      "uk": {
+        "title": "Аналітичний Дашборд & AI Web Chat",
+        "description": "Платформа нерухомості з AI веб-чатом, захопленням лідів, аналітичним дашбордом, рольовим доступом (User / Agent / Admin) та управлінням об'єктами. Next.js, Prisma, PostgreSQL, NextAuth."
+      },
+      "ru": {
+        "title": "Аналитический Дашборд & AI Web Chat",
+        "description": "Платформа недвижимости с AI веб-чатом, захватом лидов, аналитическим дашбордом, ролевым доступом (User / Agent / Admin) и управлением объектами. Next.js, Prisma, PostgreSQL, NextAuth."
+      }
+    }
+  }
+]
