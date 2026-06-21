@@ -54,6 +54,87 @@
     }
   },
   {
+    "id": "calendar-booking",
+    "slug": "calendar-booking",
+    "category": "automation",
+    "techStack": ["Cal.com", "Google Calendar", "Google Meet"],
+    "demoUrl": "https://cal.com/ai-automation-studio-brno/30min",
+    "status": "live",
+    "cover": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80",
+    "translations": {
+      "en": {
+        "title": "Calendar Booking",
+        "description": "Automated consultation booking with Google Calendar sync, instant confirmations, and video call links. Clients book a slot — you get notified automatically."
+      },
+      "cs": {
+        "title": "Rezervace konzultací",
+        "description": "Automatická rezervace konzultací se synchronizací Google Kalendáře, okamžitými potvrzeními a odkazy na videohovor. Klient si vybere čas — vám přijde notifikace."
+      },
+      "uk": {
+        "title": "Запис на консультацію",
+        "description": "Автоматичний запис на консультації з синхронізацією Google Calendar, миттєвими підтвердженнями та посиланням на відеодзвінок. Клієнт обирає час — ви отримуєте сповіщення."
+      },
+      "ru": {
+        "title": "Запись на консультацию",
+        "description": "Автоматическая запись на консультации с синхронизацией Google Календаря, мгновенными подтверждениями и ссылкой на видеозвонок. Клиент выбирает время — вы получаете уведомление."
+      }
+    }
+  },
+  {
+    "id": "lead-qualification",
+    "slug": "lead-qualification",
+    "category": "automation",
+    "techStack": ["Next.js", "Groq AI", "PostgreSQL", "Telegram", "Resend"],
+    "demoUrl": "https://automation-nine-sage.vercel.app/en/contact",
+    "status": "live",
+    "cover": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80",
+    "translations": {
+      "en": {
+        "title": "Lead Qualification System",
+        "description": "AI automatically scores every inbound lead as hot, warm, or cold. Instant Telegram notification, email alert, and admin dashboard — all without touching a single spreadsheet."
+      },
+      "cs": {
+        "title": "Systém kvalifikace leadů",
+        "description": "AI automaticky ohodnotí každý příchozí lead jako hot, warm nebo cold. Okamžité upozornění přes Telegram, e-mail a admin dashboard — bez jediné tabulky."
+      },
+      "uk": {
+        "title": "Система кваліфікації лідів",
+        "description": "AI автоматично оцінює кожен вхідний лід як hot, warm або cold. Миттєве сповіщення в Telegram, email та адмін-панель — без жодної таблиці."
+      },
+      "ru": {
+        "title": "Система квалификации лидов",
+        "description": "AI автоматически оценивает каждый входящий лид как hot, warm или cold. Мгновенное уведомление в Telegram, email и admin панель — без единой таблицы."
+      }
+    }
+  },
+  {
+    "id": "ecommerce-storefront",
+    "slug": "ecommerce-storefront",
+    "category": "software",
+    "techStack": ["Angular", "TypeScript", "Netlify"],
+    "demoUrl": "https://angular-products-app.netlify.app/",
+    "status": "live",
+    "cover": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=1200&q=80",
+    "translations": {
+      "en": {
+        "title": "E-commerce Storefront",
+        "description": "Product catalogue with filtering, cart, and checkout flow. Built with Angular and TypeScript — demonstrates modern frontend architecture for online retail."
+      },
+      "cs": {
+        "title": "E-commerce obchod",
+        "description": "Katalog produktů s filtrováním, košíkem a procesem objednávky. Postaveno na Angular a TypeScript — ukázka moderní frontendové architektury pro online prodej."
+      },
+      "uk": {
+        "title": "E-commerce магазин",
+        "description": "Каталог продуктів з фільтрацією, кошиком та оформленням замовлення. Побудовано на Angular і TypeScript — приклад сучасної фронтенд-архітектури для онлайн-торгівлі."
+      },
+      "ru": {
+        "title": "E-commerce магазин",
+        "description": "Каталог товаров с фильтрацией, корзиной и оформлением заказа. Построено на Angular и TypeScript — пример современной фронтенд-архитектуры для онлайн-торговли."
+      }
+    }
+  },
+  {
     "id": "email-automation",
     "slug": "email-automation",
     "category": "automation",
