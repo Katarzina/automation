@@ -9,12 +9,14 @@ export default async function CtaBanner() {
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white">{t('title')}</h2>
         <p className="mt-4 text-lg text-blue-100">{t('subtitle')}</p>
-        <Link
-          href="/contact"
+        <a
+          href="https://cal.com/ai-automation-studio-brno/30min"
+          target="_blank"
+          rel="noopener noreferrer"
           className="mt-8 inline-block px-8 py-3.5 bg-white text-blue-800 hover:bg-blue-50 font-medium rounded transition-colors"
         >
           {t('button')}
-        </Link>
+        </a>
       </div>
     </section>
   );

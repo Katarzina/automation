@@ -54,12 +54,14 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Link
-            href="/contact"
+          <a
+            href="https://cal.com/ai-automation-studio-brno/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-8 py-3.5 bg-white text-stone-900 text-sm font-medium rounded hover:bg-stone-100 transition-colors"
           >
             {t('cta')}
-          </Link>
+          </a>
           <Link
             href="/projects"
             className="px-8 py-3.5 border border-white text-white text-sm font-medium rounded hover:bg-white/10 transition-colors"
