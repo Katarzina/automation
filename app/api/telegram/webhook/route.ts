@@ -1,17 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { classifyLead } from '@/lib/groq';
 import { sendTelegramMessage } from '@/lib/telegram';
-import { initDb, saveLead } from '@/lib/db';
+import { initDb, saveLead, getSession, setSession, deleteSession } from '@/lib/db';
 
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN!;
-
-const sessions = new Map<number, {
-  step: number;
-  name?: string;
-  email?: string;
-  message?: string;
-  budget?: string;
-}>();
 
 async function sendMessage(chatId: number, text: string) {
   await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
@@ -29,30 +21,32 @@ export async function POST(req: NextRequest) {
   const chatId: number = message.chat.id;
   const text: string = message.text ?? '';
 
+  await initDb();
+
   if (text === '/start') {
-    sessions.set(chatId, { step: 0 });
+    await setSession(chatId, { step: 0 });
     await sendMessage(chatId, `👋 Hi! I'm the AI assistant at AI Automation Studio.\n\nWe help businesses automate processes using AI.\n\nWhat's your name?`);
     return NextResponse.json({ ok: true });
   }
 
-  const session = sessions.get(chatId) ?? { step: 0 };
+  const session = await getSession(chatId) ?? { step: 0 };
 
   if (session.step === 0) {
-    sessions.set(chatId, { ...session, step: 1, name: text });
+    await setSession(chatId, { ...session, step: 1, name: text });
     await sendMessage(chatId, `Nice to meet you, ${text}! 👋\n\nWhat's your business and what would you like to automate?`);
 
   } else if (session.step === 1) {
-    sessions.set(chatId, { ...session, step: 2, message: text });
+    await setSession(chatId, { ...session, step: 2, message: text });
     await sendMessage(chatId, `Got it. What's your approximate budget for the project? (you can write "not sure")`);
 
   } else if (session.step === 2) {
-    sessions.set(chatId, { ...session, step: 3, budget: text });
+    await setSession(chatId, { ...session, step: 3, budget: text });
     await sendMessage(chatId, `Great! What email should we send the details to?`);
 
   } else if (session.step === 3) {
     const email = text;
     const s = { ...session, email };
-    sessions.delete(chatId);
+    await deleteSession(chatId);
 
     await sendMessage(chatId, `Thank you! We'll get back to you within 24 hours. 🙌`);
 
@@ -63,7 +57,6 @@ export async function POST(req: NextRequest) {
       budget: s.budget ?? '',
     });
 
-    await initDb();
     await saveLead({
       name: s.name ?? 'Unknown',
       email,

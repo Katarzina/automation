@@ -18,6 +18,48 @@ export async function initDb() {
   `;
   await sql`ALTER TABLE leads ADD COLUMN IF NOT EXISTS company TEXT DEFAULT ''`;
   await sql`ALTER TABLE leads ADD COLUMN IF NOT EXISTS service TEXT DEFAULT ''`;
+  await sql`
+    CREATE TABLE IF NOT EXISTS bot_sessions (
+      chat_id BIGINT PRIMARY KEY,
+      step INTEGER NOT NULL DEFAULT 0,
+      name TEXT,
+      email TEXT,
+      message TEXT,
+      budget TEXT,
+      updated_at TIMESTAMPTZ DEFAULT NOW()
+    )
+  `;
+}
+
+export type BotSession = {
+  step: number;
+  name?: string;
+  email?: string;
+  message?: string;
+  budget?: string;
+};
+
+export async function getSession(chatId: number): Promise<BotSession | null> {
+  const rows = await sql<BotSession[]>`SELECT step, name, email, message, budget FROM bot_sessions WHERE chat_id = ${chatId}`;
+  return rows[0] ?? null;
+}
+
+export async function setSession(chatId: number, data: BotSession) {
+  await sql`
+    INSERT INTO bot_sessions (chat_id, step, name, email, message, budget, updated_at)
+    VALUES (${chatId}, ${data.step}, ${data.name ?? null}, ${data.email ?? null}, ${data.message ?? null}, ${data.budget ?? null}, NOW())
+    ON CONFLICT (chat_id) DO UPDATE SET
+      step = EXCLUDED.step,
+      name = EXCLUDED.name,
+      email = EXCLUDED.email,
+      message = EXCLUDED.message,
+      budget = EXCLUDED.budget,
+      updated_at = NOW()
+  `;
+}
+
+export async function deleteSession(chatId: number) {
+  await sql`DELETE FROM bot_sessions WHERE chat_id = ${chatId}`;
 }
 
 export async function saveLead(data: {
