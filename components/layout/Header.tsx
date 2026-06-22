@@ -62,9 +62,11 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* Mobile hamburger */}
-        <button
-          className="md:hidden text-stone-800 hover:text-stone-900"
+        {/* Mobile: language switcher + hamburger */}
+        <div className="md:hidden flex items-center gap-2">
+          <LanguageSwitcher />
+          <button
+            className="text-stone-800 hover:text-stone-900"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -75,7 +77,8 @@ export default function Header() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             )}
           </svg>
-        </button>
+          </button>
+        </div>
       </nav>
 
       {/* Mobile menu */}
@@ -91,7 +94,6 @@ export default function Header() {
               {l.label}
             </Link>
           ))}
-          <LanguageSwitcher />
         </div>
       )}
     </header>

@@ -23,14 +23,14 @@ export default function ServiceDetail({ service, locale, index, getStartedLabel,
 
   return (
     <div className="py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      <div className={`relative h-80 rounded-2xl overflow-hidden ${index % 2 !== 0 ? 'lg:order-last' : ''}`}>
+      <div className={`relative h-80 rounded-2xl overflow-hidden bg-gray-50 ${index % 2 !== 0 ? 'lg:order-last' : ''}`}>
         <Image
           src={serviceImages[service.slug] ?? 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80'}
           alt={tr.title}
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
           priority={priority}
-          className="object-cover"
+          className="object-contain"
         />
       </div>
       <div>
