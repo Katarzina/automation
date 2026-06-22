@@ -295,6 +295,13 @@
     "website": { "title": "Marketing Website", "desc": "Multi-page multilingual website with SEO, lead capture, and fast performance." },
     "telegram": { "title": "Telegram Bot with AI", "desc": "AI-powered bot for lead qualification, customer support, and automated notifications." },
     "lead": { "title": "Lead Qualification System", "desc": "AI scores every inbound lead, sends instant Telegram notifications, saves to your admin dashboard." },
-    "full": { "title": "Full Automation System", "desc": "CRM, bots, dashboard, AI integrations — a complete system built from idea to production." }
+    "full": { "title": "Full Automation System", "desc": "CRM, bots, dashboard, AI integrations — a complete system built from idea to production." },
+    "maintenance": {
+      "title": "Maintenance & Support",
+      "subtitle": "Keep your project running smoothly. No surprises.",
+      "basic": { "name": "Basic", "czk": "500 Kč/mo", "eur": "€20/mo", "items": ["Hosting & SSL", "Uptime monitoring", "Bug fixes"] },
+      "standard": { "name": "Standard", "czk": "1 000 Kč/mo", "eur": "€40/mo", "items": ["Everything in Basic", "2 hrs of changes/mo", "Priority response"] },
+      "pro": { "name": "Pro", "czk": "2 500 Kč/mo", "eur": "€100/mo", "items": ["Everything in Standard", "Up to 5 hrs/mo", "New features & integrations"] }
+    }
   }
 }

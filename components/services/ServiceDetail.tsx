@@ -3,10 +3,11 @@ import { Link } from '@/i18n/navigation';
 import type { Service } from '@/lib/getServices';
 
 const serviceImages: Record<string, string> = {
-  'ai-automation': 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80',
-  'ai-agents': 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80',
-  'custom-software': 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80',
-  'landing-pages': 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80',
+  'ai-automation': '/images/services/ai-automation.png',
+  'ai-agents': '/images/services/ai-agents.png',
+  'custom-software': '/images/services/custom-software.png',
+  'chatbots': '/images/services/chatbots.png',
+  'landing-pages': '/images/services/landing-pages.png',
 };
 
 type Props = {

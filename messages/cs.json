@@ -295,6 +295,13 @@
     "website": { "title": "Marketingový web", "desc": "Vícejazyčný web s SEO, sběrem leadů a rychlým výkonem." },
     "telegram": { "title": "Telegram bot s AI", "desc": "AI bot pro kvalifikaci leadů, zákaznickou podporu a automatická oznámení." },
     "lead": { "title": "Systém kvalifikace leadů", "desc": "AI ohodnotí každý příchozí lead, odešle upozornění přes Telegram a uloží do admin dashboardu." },
-    "full": { "title": "Kompletní automatizace", "desc": "CRM, boty, dashboard, AI integrace — kompletní systém od nápadu po produkci." }
+    "full": { "title": "Kompletní automatizace", "desc": "CRM, boty, dashboard, AI integrace — kompletní systém od nápadu po produkci." },
+    "maintenance": {
+      "title": "Údržba & Podpora",
+      "subtitle": "Váš projekt běží bez problémů. Žádná překvapení.",
+      "basic": { "name": "Basic", "czk": "500 Kč/měs", "eur": "€20/měs", "items": ["Hosting & SSL", "Monitoring dostupnosti", "Opravy chyb"] },
+      "standard": { "name": "Standard", "czk": "1 000 Kč/měs", "eur": "€40/měs", "items": ["Vše z Basic", "2 hod. úprav/měs", "Prioritní odpověď"] },
+      "pro": { "name": "Pro", "czk": "2 500 Kč/měs", "eur": "€100/měs", "items": ["Vše ze Standard", "Až 5 hod./měs", "Nové funkce a integrace"] }
+    }
   }
 }

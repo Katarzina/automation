@@ -8,6 +8,7 @@
       "Workflow automation using n8n",
       "CRM integrations",
       "Email automation",
+      "Calendar integration",
       "Lead qualification systems"
     ],
     "translations": {
@@ -102,35 +103,71 @@
     }
   },
   {
+    "slug": "chatbots",
+    "icon": "chatbot",
+    "color": "#3b82f6",
+    "subServices": [
+      "Telegram Bot",
+      "WhatsApp Bot",
+      "Web Chat (AI)",
+      "Instagram DM Bot",
+      "Facebook Messenger Bot",
+      "Viber Bot"
+    ],
+    "translations": {
+      "en": {
+        "title": "Chatbots & Messaging Bots",
+        "description": "AI-powered bots for Telegram, WhatsApp, Web chat and other messengers — qualify leads, support customers, send notifications 24/7.",
+        "longDescription": "We build custom chatbots for any platform: Telegram, WhatsApp, Instagram, Facebook Messenger, Viber, or embedded web chat. Each bot is powered by AI, connected to your database, and sends instant notifications."
+      },
+      "cs": {
+        "title": "Chatboty & Messaging Boty",
+        "description": "AI chatboty pro Telegram, WhatsApp, web chat a další messengery — kvalifikace leadů, podpora zákazníků a notifikace nonstop.",
+        "longDescription": "Vytváříme chatboty pro libovolnou platformu: Telegram, WhatsApp, Instagram, Facebook Messenger, Viber nebo webový chat. Každý bot je poháněn AI, propojený s databází a odesílá okamžitá upozornění."
+      },
+      "uk": {
+        "title": "Чатботи & Месенджер-боти",
+        "description": "AI боти для Telegram, WhatsApp, Web chat та інших месенджерів — кваліфікація лідів, підтримка клієнтів, сповіщення 24/7.",
+        "longDescription": "Розробляємо боти для будь-якої платформи: Telegram, WhatsApp, Instagram, Facebook Messenger, Viber або вбудований веб-чат. Кожен бот на базі AI, підключений до бази даних та надсилає миттєві сповіщення."
+      },
+      "ru": {
+        "title": "Чатботы & Мессенджер-боты",
+        "description": "AI боты для Telegram, WhatsApp, Web chat и других мессенджеров — квалификация лидов, поддержка клиентов, уведомления 24/7.",
+        "longDescription": "Разрабатываем боты для любой платформы: Telegram, WhatsApp, Instagram, Facebook Messenger, Viber или встроенный веб-чат. Каждый бот на базе AI, подключён к базе данных и отправляет мгновенные уведомления."
+      }
+    }
+  },
+  {
     "slug": "landing-pages",
     "icon": "landing",
     "color": "#f59e0b",
     "subServices": [
-      "High-converting landing pages",
-      "SEO optimization",
-      "Analytics integration",
-      "Marketing websites"
+      "Landing pages",
+      "Multi-page marketing websites",
+      "Corporate & business websites",
+      "Multilingual websites",
+      "SEO optimization"
     ],
     "translations": {
       "en": {
-        "title": "Landing Pages",
-        "description": "High-converting landing pages and marketing websites built with Next.js, optimized for SEO and performance.",
-        "longDescription": "We design and build fast, beautiful landing pages that convert visitors into leads — with analytics and A/B testing ready."
+        "title": "Websites & Landing Pages",
+        "description": "From single-page landing pages to full multi-page websites — fast, modern, and optimized for SEO and conversions.",
+        "longDescription": "We build landing pages, corporate websites and multilingual marketing sites using Next.js. Every project is optimized for performance, SEO and lead capture."
       },
       "cs": {
-        "title": "Landing Pages",
-        "description": "Vysoce konverzní landing pages a marketingové weby v Next.js, optimalizované pro SEO a výkon.",
-        "longDescription": "Navrhujeme a stavíme rychlé, krásné landing pages, které mění návštěvníky v leady — s analytics a A/B testováním."
+        "title": "Weby & Landing Pages",
+        "description": "Od jednostránkových landing pages po vícejazyčné marketingové weby — rychlé, moderní, optimalizované pro SEO.",
+        "longDescription": "Tvoříme landing pages, firemní weby a vícejazyčné marketingové stránky v Next.js. Každý projekt je optimalizovaný pro výkon, SEO a sběr leadů."
       },
       "uk": {
-        "title": "Landing Pages",
-        "description": "Ефективні landing pages та маркетингові сайти на Next.js, оптимізовані для SEO та швидкодії.",
-        "longDescription": "Проектуємо та розробляємо швидкі, красиві landing pages, що конвертують відвідувачів у ліди."
+        "title": "Сайти & Landing Pages",
+        "description": "Від односторінкових лендінгів до повноцінних багатосторінкових сайтів — швидкі, сучасні, з SEO.",
+        "longDescription": "Розробляємо лендінги, корпоративні сайти та багатомовні маркетингові сайти на Next.js. Кожен проєкт оптимізований для швидкодії, SEO та збору лідів."
       },
       "ru": {
-        "title": "Landing Pages",
-        "description": "Высококонверсионные landing pages и маркетинговые сайты на Next.js, оптимизированные для SEO и производительности.",
-        "longDescription": "Проектируем и разрабатываем быстрые, красивые landing pages, конвертирующие посетителей в лиды."
+        "title": "Сайты & Landing Pages",
+        "description": "От одностраничных лендингов до полноценных многостраничных сайтов — быстрые, современные, с SEO.",
+        "longDescription": "Разрабатываем лендинги, корпоративные сайты и многоязычные маркетинговые сайты на Next.js. Каждый проект оптимизирован для производительности, SEO и сбора лидов."
       }
     }
   }

@@ -100,8 +100,49 @@ export default async function PricingPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Maintenance & Support */}
+      <section className="py-16 px-4 bg-gray-50 border-t border-gray-100">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="font-heading text-3xl font-bold text-stone-900 mb-3">
+              {t('maintenance.title')}
+            </h2>
+            <p className="text-gray-500">{t('maintenance.subtitle')}</p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {(['basic', 'standard', 'pro'] as const).map((tier, i) => (
+              <div
+                key={tier}
+                className={`rounded-2xl p-7 flex flex-col gap-4 ${i === 1 ? 'bg-blue-800 text-white shadow-lg' : 'bg-white border border-gray-100 shadow-sm'}`}
+              >
+                <div>
+                  <div className={`text-xs font-semibold uppercase tracking-widest mb-2 ${i === 1 ? 'text-blue-200' : 'text-gray-400'}`}>
+                    {t(`maintenance.${tier}.name`)}
+                  </div>
+                  <div className={`font-heading text-2xl font-bold ${i === 1 ? 'text-white' : 'text-stone-900'}`}>
+                    {t(`maintenance.${tier}.czk`)}
+                  </div>
+                  <div className={`text-sm mt-0.5 ${i === 1 ? 'text-blue-200' : 'text-gray-400'}`}>
+                    {t(`maintenance.${tier}.eur`)}
+                  </div>
+                </div>
+                <ul className="flex flex-col gap-2 mt-2">
+                  {[0, 1, 2].map((j) => (
+                    <li key={j} className={`flex items-center gap-2 text-sm ${i === 1 ? 'text-blue-100' : 'text-gray-600'}`}>
+                      <span className={`w-4 h-4 rounded-full flex items-center justify-center text-xs ${i === 1 ? 'bg-blue-600' : 'bg-blue-50 text-blue-700'}`}>✓</span>
+                      {t(`maintenance.${tier}.items.${j}`)}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Note + CTA */}
-      <section className="pb-20 px-4">
+      <section className="py-16 px-4">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-sm text-gray-400 mb-8">{t('note')}</p>
           <Link
