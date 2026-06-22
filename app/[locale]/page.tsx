@@ -1,7 +1,6 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import HeroSection from '@/components/home/HeroSection';
-import StatsBar from '@/components/home/StatsBar';
 import ServicesPreview from '@/components/home/ServicesPreview';
 import LeadCaptureSection from '@/components/home/LeadCaptureSection';
 import ProjectsPreview from '@/components/home/ProjectsPreview';
@@ -23,7 +22,6 @@ export default async function HomePage({ params }: Props) {
   return (
     <>
       <HeroSection />
-      <StatsBar />
       <ServicesPreview />
       <LeadCaptureSection locale={locale} />
       <ProjectsPreview />

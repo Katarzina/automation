@@ -5,7 +5,8 @@
     "projects": "What We Build",
     "about": "About",
     "contact": "Contact",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "pricing": "Pricing"
   },
   "home": {
     "hero": {
@@ -81,19 +82,37 @@
     "letsTalk": "Let's Talk"
   },
   "about": {
-    "title": "About Us",
-    "subtitle": "A small studio with big automation capabilities",
+    "title": "About",
+    "subtitle": "Full-stack developer. 15+ years in software. Now building AI automation.",
+    "bio": {
+      "greeting": "Hi, I'm Kateryna",
+      "text": "Full-stack developer with 15+ years of experience across banking systems, enterprise software, and modern web applications. I've built production systems for Skoda Auto's manufacturing line, accounting platforms for gaming terminals, insurance apps, and mobile food delivery apps — before fully moving into AI and automation. Today I help businesses cut manual work and scale faster using Next.js, Node.js, and AI tools like OpenAI, Anthropic, and n8n. You work directly with me — a senior developer, not a project manager or junior."
+    },
+    "qa": {
+      "q1": "How did you end up in AI automation?",
+      "a1": "Started in banking systems back in 1999 — Delphi, PHP, payment terminals. Then web, then mobile, then full-stack. AI automation came naturally — after 15 years of building software you start seeing exactly which parts can be eliminated entirely.",
+      "q2": "What's the most interesting project you've implemented?",
+      "a2": "The Škoda Auto manufacturing line system was something — real-time data from the production floor, WebSockets, MQTT. But watching a Telegram bot qualify leads and save someone 3 hours a day is equally satisfying.",
+      "q3": "What do clients usually come to you with?",
+      "a3": "Everything from 'build me an app from scratch' to 'automate this one annoying thing we do manually every day.' CRM systems, mobile apps, backends, landing pages, AI bots — the full stack, from idea to production.",
+      "q4": "Why AI — is it just a trend?",
+      "a4": "Companies that automate now will operate with half the overhead of those that don't. We can add AI to what you already have — as a standalone feature. Or build a complete system from scratch: CRM, mobile app, backend, dashboard — and integrate AI where it delivers the most impact."
+    },
     "mission": {
-      "title": "Our Mission",
-      "text": "Help businesses automate repetitive processes, reduce operational costs and improve productivity through AI-powered solutions."
+      "title": "What I Do",
+      "text": "I build automation systems that connect your tools, qualify your leads, and eliminate the repetitive tasks that slow your team down. From Telegram bots to full CRM platforms — practical, working software, built fast."
+    },
+    "experience": {
+      "title": "Background",
+      "items": ["Skoda Auto — manufacturing line software", "Banking & payment card systems", "Insurance & e-commerce applications", "AI agents & automation workflows", "Two degrees: System Engineering · Finance"]
     },
     "industries": {
-      "title": "Industries We Serve"
+      "title": "Industries I've Worked In"
     },
     "tech": {
-      "title": "Our Stack"
+      "title": "My Stack"
     },
-    "cta": "Work With Us"
+    "cta": "Work With Me"
   },
   "contact": {
     "title": "Get In Touch",
@@ -146,7 +165,8 @@
     "tagline": "Automating businesses with AI.",
     "rights": "All rights reserved",
     "cookieSettings": "Cookie Settings",
-    "privacyPolicy": "Privacy Policy"
+    "privacyPolicy": "Privacy Policy",
+    "hours": "Mon–Fri: 9:00–18:00 CET"
   },
   "lead": {
     "badge": "Free Consultation",
@@ -234,5 +254,47 @@
       "title": "Contact Us",
       "text": "If you have any questions about this Privacy Policy or how we handle your data, please contact us by email. We will respond within 30 days."
     }
+  },
+  "landing": {
+    "telegramBot": {
+      "badge": "AI Automation Studio",
+      "title": "Qualify leads 24/7 while you sleep",
+      "subtitle": "An AI-powered Telegram bot that asks the right questions, scores your leads, and sends you instant notifications — fully automated.",
+      "cta": "Try the live demo →",
+      "ctaHint": "No registration. Just open Telegram and write /start",
+      "howItWorks": "How it works",
+      "steps": [
+        { "n": "01", "title": "Client writes to your bot", "desc": "Share your bot link anywhere — website, Instagram, business card. Client starts the conversation anytime." },
+        { "n": "02", "title": "AI asks the right questions", "desc": "The bot collects name, business need, budget, and email — naturally, in a conversation." },
+        { "n": "03", "title": "You get an instant notification", "desc": "Groq AI scores the lead as 🔥 hot, 🌡️ warm, or ❄️ cold and sends you a summary in Telegram — immediately." }
+      ],
+      "whatYouGet": "What you get",
+      "benefits": [
+        "Works 24/7 — no missed leads at night or on weekends",
+        "AI scoring — focus on hot leads first",
+        "Instant Telegram notification with full context",
+        "Every lead saved to your database + admin dashboard",
+        "Connects to your CRM, email, or any webhook",
+        "Works in any language your clients speak"
+      ],
+      "ctaTitle": "Want this for your business?",
+      "ctaSubtitle": "Book a free 30-minute call — we'll set it up together.",
+      "bookCall": "Book a Free Call",
+      "tryDemo": "Try the Demo"
+    }
+  },
+  "pricing": {
+    "metaTitle": "Pricing | AI Automation Studio",
+    "metaDescription": "Simple, transparent pricing for web development and AI automation services.",
+    "title": "Pricing",
+    "subtitle": "Simple, transparent pricing. No hidden fees.",
+    "from": "from",
+    "note": "Final price depends on project scope. All projects start with a free 30-minute consultation.",
+    "cta": "Get Free Quote",
+    "landing": { "title": "Landing Page", "desc": "Single-page website with hero, sections, and contact form. Ready in days." },
+    "website": { "title": "Marketing Website", "desc": "Multi-page multilingual website with SEO, lead capture, and fast performance." },
+    "telegram": { "title": "Telegram Bot with AI", "desc": "AI-powered bot for lead qualification, customer support, and automated notifications." },
+    "lead": { "title": "Lead Qualification System", "desc": "AI scores every inbound lead, sends instant Telegram notifications, saves to your admin dashboard." },
+    "full": { "title": "Full Automation System", "desc": "CRM, bots, dashboard, AI integrations — a complete system built from idea to production." }
   }
 }

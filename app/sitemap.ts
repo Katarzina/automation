@@ -7,7 +7,7 @@ const base = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://automation-studio.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = routing.locales;
-  const staticPaths = ['', '/services', '/projects', '/about', '/contact', '/cookies'];
+  const staticPaths = ['', '/services', '/solutions', '/pricing', '/about', '/contact', '/cookies'];
   const projectSlugs = getAllProjects().map((p) => `/projects/${p.slug}`);
   const serviceSlugs = getAllServices().map((s) => `/services/${s.slug}`);
   const allPaths = [...staticPaths, ...projectSlugs, ...serviceSlugs];

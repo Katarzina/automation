@@ -23,9 +23,28 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://automation-studio.com';
+
 export const metadata: Metadata = {
-  title: 'AI Automation Studio',
-  description: 'AI-powered automation and software development studio',
+  title: {
+    default: 'AI Automation Studio',
+    template: '%s | AI Automation Studio',
+  },
+  description: 'AI-powered automation and software development studio. We build Telegram bots, lead qualification systems, landing pages, and full automation solutions.',
+  metadataBase: new URL(siteUrl),
+  openGraph: {
+    type: 'website',
+    siteName: 'AI Automation Studio',
+    title: 'AI Automation Studio',
+    description: 'AI-powered automation and software development studio.',
+    images: [{ url: '/og.jpg', width: 1200, height: 632, alt: 'AI Automation Studio' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AI Automation Studio',
+    description: 'AI-powered automation and software development studio.',
+    images: ['/og.jpg'],
+  },
 };
 
 export default async function LocaleLayout({

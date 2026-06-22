@@ -1,28 +1,55 @@
 [
   {
+    "id": "landing-page-telegram",
+    "slug": "landing-telegram-bot",
+    "category": "landing",
+    "techStack": ["Next.js", "Tailwind CSS", "Vercel"],
+    "demoUrl": "/landing/telegram-bot",
+    "status": "live",
+    "cover": "/images/solutions/landing-page-telegram.png",
+    "translations": {
+      "en": {
+        "title": "Landing Page",
+        "description": "Single-page product landing with hero, how-it-works steps, benefits, and a single CTA. Focused on one goal — converting visitors into leads."
+      },
+      "cs": {
+        "title": "Landing Page",
+        "description": "Jednostránkový produktový landing s hero sekcí, kroky jak to funguje, výhodami a jednou CTA. Zaměřeno na jediný cíl — přeměnit návštěvníky v leady."
+      },
+      "uk": {
+        "title": "Landing Page",
+        "description": "Односторінковий продуктовий лендінг з hero, кроками як це працює, перевагами та одним CTA. Фокус на одній меті — конвертувати відвідувачів у ліди."
+      },
+      "ru": {
+        "title": "Landing Page",
+        "description": "Одностраничный продуктовый лендинг с hero, шагами как это работает, преимуществами и одним CTA. Фокус на одной цели — конвертировать посетителей в лиды."
+      }
+    }
+  },
+  {
     "id": "landing-page-etek",
     "slug": "landing-page",
     "category": "landing",
     "techStack": ["Next.js", "Tailwind CSS", "next-intl", "Vercel"],
     "demoUrl": "https://etek.cz/en",
     "status": "live",
-    "cover": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1200&q=80",
+    "cover": "/images/solutions/landing-page.png",
     "translations": {
       "en": {
-        "title": "Landing Page",
-        "description": "Modern multilingual landing page with lead capture, SEO optimisation, and fast performance. Built for a Czech electrical engineering company."
+        "title": "Marketing Website",
+        "description": "Multilingual marketing website with lead capture, SEO optimisation, and fast performance. Built for a Czech construction and renovation company."
       },
       "cs": {
-        "title": "Landing Page",
-        "description": "Moderní vícejazyčná landing page se sběrem kontaktů, SEO optimalizací a rychlým výkonem. Vytvořeno pro českou elektrotechnickou firmu."
+        "title": "Marketingový web",
+        "description": "Vícejazyčný marketingový web se sběrem kontaktů, SEO optimalizací a rychlým výkonem. Vytvořeno pro českou stavební a renovační firmu."
       },
       "uk": {
-        "title": "Landing Page",
-        "description": "Сучасний багатомовний лендінг зі збором лідів, SEO-оптимізацією та швидкою продуктивністю. Створено для чеської електротехнічної компанії."
+        "title": "Маркетинговий сайт",
+        "description": "Багатомовний маркетинговий сайт зі збором лідів, SEO-оптимізацією та швидкою продуктивністю. Створено для чеської будівельної та ремонтної компанії."
       },
       "ru": {
-        "title": "Landing Page",
-        "description": "Современный многоязычный лендинг со сбором лидов, SEO-оптимизацией и быстрой производительностью. Создан для чешской электротехнической компании."
+        "title": "Маркетинговый сайт",
+        "description": "Многоязычный маркетинговый сайт со сбором лидов, SEO-оптимизацией и быстрой производительностью. Создан для чешской строительной и ремонтной компании."
       }
     }
   },
@@ -33,7 +60,7 @@
     "techStack": ["Next.js", "Telegram API", "Groq AI", "PostgreSQL"],
     "demoUrl": "https://t.me/Automat_studio_bot",
     "status": "live",
-    "cover": "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=1200&q=80",
+    "cover": "/images/solutions/telegram-bot.png",
     "translations": {
       "en": {
         "title": "Telegram Bot",
@@ -60,7 +87,7 @@
     "techStack": ["Cal.com", "Google Calendar", "Google Meet"],
     "demoUrl": "https://cal.com/ai-automation-studio-brno/30min",
     "status": "live",
-    "cover": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80",
+    "cover": "/images/solutions/calendar-booking.png",
     "translations": {
       "en": {
         "title": "Calendar Booking",
@@ -87,7 +114,7 @@
     "techStack": ["Next.js", "Groq AI", "PostgreSQL", "Telegram", "Resend"],
     "demoUrl": "https://next-v0-cursor.vercel.app/demo",
     "status": "live",
-    "cover": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80",
+    "cover": "/images/solutions/lead-qualification.png",
     "translations": {
       "en": {
         "title": "Lead Qualification System",
@@ -114,7 +141,7 @@
     "techStack": ["Angular", "TypeScript", "Netlify"],
     "demoUrl": "https://angular-products-app.netlify.app/",
     "status": "live",
-    "cover": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=1200&q=80",
+    "cover": "/images/solutions/ecommerce-storefront.png",
     "translations": {
       "en": {
         "title": "E-commerce Storefront",
@@ -168,7 +195,7 @@
     "techStack": ["Next.js", "shadcn/ui", "Prisma", "PostgreSQL", "NextAuth", "Google OAuth", "Groq AI", "Recharts"],
     "demoUrl": "https://next-v0-cursor.vercel.app/",
     "status": "live",
-    "cover": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "cover": "/images/solutions/dashboard.png",
     "translations": {
       "en": {
         "title": "Analytics Dashboard & AI Web Chat",

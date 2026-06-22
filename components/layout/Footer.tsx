@@ -45,12 +45,12 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li>{SITE.location}</li>
             <li>
-              <a href={`tel:${SITE.phone.replace(/\s/g, '')}`} className="hover:text-white transition-colors">{SITE.phone}</a>
+              <a href={`tel:${SITE.phone.replace(/\s/g, '')}`} className="hover:text-stone-900 transition-colors">{SITE.phone}</a>
             </li>
             <li>
-              <a href={`mailto:${SITE.email}`} className="hover:text-white transition-colors">{SITE.email}</a>
+              <a href={`mailto:${SITE.email}`} className="hover:text-stone-900 transition-colors">{SITE.email}</a>
             </li>
-            <li className="text-gray-600 pt-1">{SITE.hours}</li>
+            <li className="text-gray-600 pt-1">{t('footer.hours')}</li>
           </ul>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import SectionTitle from '@/components/ui/SectionTitle';
 
-const techs = ['Next.js', 'React', 'Node.js', 'NestJS', 'OpenAI', 'Anthropic', 'n8n', 'PostgreSQL', 'Docker'];
+const techs = ['Next.js', 'React', 'Node.js', 'NestJS', 'OpenAI', 'Claude', 'n8n', 'PostgreSQL', 'Docker'];
 
 export default async function TechStack() {
   const t = await getTranslations('home.tech');

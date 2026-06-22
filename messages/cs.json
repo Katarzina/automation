@@ -5,7 +5,8 @@
     "projects": "Co stavíme",
     "about": "O nás",
     "contact": "Kontakt",
-    "getStarted": "Začít"
+    "getStarted": "Začít",
+    "pricing": "Ceník"
   },
   "home": {
     "hero": {
@@ -81,19 +82,37 @@
     "letsTalk": "Promluvme si"
   },
   "about": {
-    "title": "O nás",
-    "subtitle": "Malé studio s velkými automatizačními schopnostmi",
+    "title": "O mně",
+    "subtitle": "Full-stack developer. 15+ let v softwaru. Nyní stavím AI automatizace.",
+    "bio": {
+      "greeting": "Ahoj, jsem Kateryna",
+      "text": "Full-stack developer s 15+ lety zkušeností v bankovních systémech, podnikovém softwaru a moderních webových aplikacích. Vyvíjela jsem výrobní systémy pro Škodu Auto, účetní platformy pro herní terminály, pojišťovací aplikace a mobilní aplikace pro rozvoz jídla — než jsem přešla plně na AI a automatizaci. Dnes pomáhám firmám snižovat manuální práci a rychleji škálovat pomocí Next.js, Node.js a AI nástrojů jako OpenAI, Anthropic a n8n. Pracujete přímo se mnou — senior developerem, ne project managerem."
+    },
+    "qa": {
+      "q1": "Jak jste se dostala k AI automatizaci?",
+      "a1": "Začínala jsem s bankovními systémy v roce 1999 — Delphi, PHP, platební terminály. Pak web, mobil, full-stack. AI automatizace přišla přirozeně — po 15 letech vývoje software začnete vidět, které části lze eliminovat úplně.",
+      "q2": "Jaký byl váš nejzajímavější realizovaný projekt?",
+      "a2": "Systém pro výrobní linku Škoda Auto — data v reálném čase z výroby, WebSockets, MQTT. Ale sledovat jak Telegram bot kvalifikuje leady a šetří někomu 3 hodiny denně je stejně uspokojivé.",
+      "q3": "S čím klienti obvykle přicházejí?",
+      "a3": "Od 'postav mi aplikaci od nuly' po 'automatizuj tuto jednu otravnou věc, kterou děláme ručně každý den.' CRM systémy, mobilní aplikace, backendy, landing pages, AI boty — celé spektrum vývoje, od nápadu po produkci.",
+      "q4": "AI — je to jen trend?",
+      "a4": "Firmy, které automatizují teď, budou fungovat s polovičními náklady oproti těm, které neautomatizují. Můžeme přidat AI k tomu, co už máte — jako samostatnou funkci. Nebo postavit kompletní systém od nuly: CRM, mobilní aplikaci, backend, dashboard — a integrovat AI tam, kde přináší největší efekt."
+    },
     "mission": {
-      "title": "Naše mise",
-      "text": "Pomáhat firmám automatizovat opakující se procesy, snižovat provozní náklady a zvyšovat produktivitu prostřednictvím AI řešení."
+      "title": "Co dělám",
+      "text": "Stavím automatizační systémy, které propojují vaše nástroje, kvalifikují leady a eliminují opakující se úkoly. Od Telegram botů po CRM platformy — praktický, fungující software, postavený rychle."
+    },
+    "experience": {
+      "title": "Zkušenosti",
+      "items": ["Škoda Auto — software pro výrobní linku", "Bankovní a platební systémy", "Pojišťovací a e-commerce aplikace", "AI agenti a automatizační workflows", "Dvě vysokoškolská vzdělání: systémový inženýr · bakalář financí"]
     },
     "industries": {
-      "title": "Odvětví, která obsluhujeme"
+      "title": "Odvětví, ve kterých mám zkušenosti"
     },
     "tech": {
-      "title": "Náš stack"
+      "title": "Můj stack"
     },
-    "cta": "Spolupracujte s námi"
+    "cta": "Spolupracujte se mnou"
   },
   "contact": {
     "title": "Kontaktujte nás",
@@ -146,7 +165,8 @@
     "tagline": "Automatizujeme firmy pomocí AI.",
     "rights": "Všechna práva vyhrazena",
     "cookieSettings": "Nastavení cookies",
-    "privacyPolicy": "Zásady ochrany osobních údajů"
+    "privacyPolicy": "Zásady ochrany osobních údajů",
+    "hours": "Po–Pá: 9:00–18:00 SEČ"
   },
   "lead": {
     "badge": "Bezplatná konzultace",
@@ -234,5 +254,47 @@
       "title": "Kontaktujte nás",
       "text": "Máte-li jakékoli dotazy ohledně těchto zásad ochrany osobních údajů nebo způsobu zpracování vašich údajů, kontaktujte nás e-mailem. Odpovíme do 30 dnů."
     }
+  },
+  "landing": {
+    "telegramBot": {
+      "badge": "AI Automation Studio",
+      "title": "Kvalifikujte leady 24/7 zatímco spíte",
+      "subtitle": "AI-powered Telegram bot, který klade správné otázky, hodnotí vaše leady a posílá okamžitá oznámení — plně automaticky.",
+      "cta": "Vyzkoušet živé demo →",
+      "ctaHint": "Bez registrace. Stačí otevřít Telegram a napsat /start",
+      "howItWorks": "Jak to funguje",
+      "steps": [
+        { "n": "01", "title": "Klient napíše botovi", "desc": "Sdílejte odkaz na bota kdekoliv — web, Instagram, vizitka. Klient začne konverzaci kdykoliv." },
+        { "n": "02", "title": "AI klade správné otázky", "desc": "Bot sbírá jméno, potřebu, rozpočet a email — přirozeně, ve formátu rozhovoru." },
+        { "n": "03", "title": "Dostanete okamžité oznámení", "desc": "Groq AI ohodnotí lead jako 🔥 hot, 🌡️ warm nebo ❄️ cold a pošle shrnutí na Telegram — ihned." }
+      ],
+      "whatYouGet": "Co získáte",
+      "benefits": [
+        "Funguje 24/7 — žádné zmeškané leady v noci nebo o víkendu",
+        "AI hodnocení — zaměřte se nejprve na horké leady",
+        "Okamžité oznámení na Telegram s plným kontextem",
+        "Každý lead uložen v databázi + admin panel",
+        "Připojí se k vašemu CRM, emailu nebo libovolnému webhooku",
+        "Funguje v jakémkoliv jazyce vašich klientů"
+      ],
+      "ctaTitle": "Chcete to pro svůj byznys?",
+      "ctaSubtitle": "Rezervujte si bezplatný 30minutový hovor — nastavíme vše společně.",
+      "bookCall": "Rezervovat hovor",
+      "tryDemo": "Vyzkoušet demo"
+    }
+  },
+  "pricing": {
+    "metaTitle": "Ceník | AI Automation Studio",
+    "metaDescription": "Jednoduchý a transparentní ceník pro tvorbu webů a AI automatizaci.",
+    "title": "Ceník",
+    "subtitle": "Jednoduché, transparentní ceny. Bez skrytých poplatků.",
+    "from": "od",
+    "note": "Konečná cena závisí na rozsahu projektu. Všechny projekty začínají bezplatnou 30minutovou konzultací.",
+    "cta": "Získat kalkulaci",
+    "landing": { "title": "Landing Page", "desc": "Jednostránkový web s hero sekcí, bloky a kontaktním formulářem. Hotový za pár dní." },
+    "website": { "title": "Marketingový web", "desc": "Vícejazyčný web s SEO, sběrem leadů a rychlým výkonem." },
+    "telegram": { "title": "Telegram bot s AI", "desc": "AI bot pro kvalifikaci leadů, zákaznickou podporu a automatická oznámení." },
+    "lead": { "title": "Systém kvalifikace leadů", "desc": "AI ohodnotí každý příchozí lead, odešle upozornění přes Telegram a uloží do admin dashboardu." },
+    "full": { "title": "Kompletní automatizace", "desc": "CRM, boty, dashboard, AI integrace — kompletní systém od nápadu po produkci." }
   }
 }
