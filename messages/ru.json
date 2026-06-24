@@ -2,7 +2,7 @@
   "nav": {
     "home": "Главная",
     "services": "Услуги",
-    "projects": "Что мы делаем",
+    "projects": "Портфолио",
     "about": "О нас",
     "contact": "Контакт",
     "getStarted": "Начать",
@@ -47,10 +47,10 @@
     "getStarted": "Начать"
   },
   "solutions": {
-    "metaTitle": "Что мы делаем | AI Automation Studio",
-    "metaDescription": "Лендинги, Telegram-боты, email-автоматизация, дашборды и другое. Реальные примеры того, что мы создаём.",
-    "title": "Что мы делаем",
-    "subtitle": "Реальные примеры автоматизации и программных решений",
+    "metaTitle": "Портфолио | AI Automation Studio",
+    "metaDescription": "Портфолио клиентских проектов — лендинги, Telegram-боты, системы автоматизации и дашборды. Реальные проекты для реальных клиентов.",
+    "title": "Портфолио",
+    "subtitle": "Проекты, реализованные для наших клиентов",
     "liveDemo": "Live Demo",
     "comingSoon": "Скоро",
     "comingSoonLabel": "Демо скоро появится",

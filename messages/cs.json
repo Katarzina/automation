@@ -2,7 +2,7 @@
   "nav": {
     "home": "Domů",
     "services": "Služby",
-    "projects": "Co stavíme",
+    "projects": "Reference",
     "about": "O nás",
     "contact": "Kontakt",
     "getStarted": "Začít",
@@ -47,10 +47,10 @@
     "getStarted": "Začít"
   },
   "solutions": {
-    "metaTitle": "Co stavíme | AI Automation Studio",
-    "metaDescription": "Landing pages, Telegram boty, e-mailová automatizace, dashboardy a další. Reálné příklady toho, co stavíme.",
-    "title": "Co stavíme",
-    "subtitle": "Reálné příklady automatizace a softwaru, který dodáváme",
+    "metaTitle": "Reference | AI Automation Studio",
+    "metaDescription": "Ukázky naší práce — landing pages, Telegram boty, automatizační systémy a dashboardy. Projekty realizované pro skutečné klienty.",
+    "title": "Reference",
+    "subtitle": "Projekty, které jsme realizovali pro naše klienty",
     "liveDemo": "Živé demo",
     "comingSoon": "Připravujeme",
     "comingSoonLabel": "Demo připravujeme",

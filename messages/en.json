@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "services": "Services",
-    "projects": "What We Build",
+    "projects": "References",
     "about": "About",
     "contact": "Contact",
     "getStarted": "Get Started",
@@ -47,10 +47,10 @@
     "getStarted": "Get Started"
   },
   "solutions": {
-    "metaTitle": "What We Build | AI Automation Studio",
-    "metaDescription": "Landing pages, Telegram bots, email automation, dashboards and more. Real examples of what we build.",
-    "title": "What We Build",
-    "subtitle": "Real examples of automation and software we deliver",
+    "metaTitle": "References | AI Automation Studio",
+    "metaDescription": "Portfolio of client work — landing pages, Telegram bots, automation systems, and dashboards. Real projects delivered for real clients.",
+    "title": "References",
+    "subtitle": "Projects delivered for our clients",
     "liveDemo": "Live Demo",
     "comingSoon": "Coming Soon",
     "comingSoonLabel": "Demo coming soon",
