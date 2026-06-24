@@ -22,7 +22,7 @@ export default function Footer() {
         {/* Logo + tagline */}
         <div className="flex flex-col gap-4">
           <Link href="/">
-            <Image src="/logo.png" alt="AI Automation Studio" width={140} height={48} className="h-12 w-auto rounded-lg" />
+            <Image src="/logo.jpg" alt="AI Automation Studio" width={140} height={48} className="h-12 w-auto rounded-lg" />
           </Link>
           <p className="text-sm leading-relaxed text-gray-400">{t('footer.tagline')}</p>
         </div>

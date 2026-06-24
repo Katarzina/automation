@@ -6,7 +6,7 @@
     "techStack": ["Next.js", "Tailwind CSS", "Vercel"],
     "demoUrl": "/landing/telegram-bot",
     "status": "live",
-    "cover": "/images/solutions/landing-page-telegram.png",
+    "cover": "/images/solutions/landing-page-telegram.jpg",
     "translations": {
       "en": {
         "title": "Landing Page",
@@ -33,7 +33,7 @@
     "techStack": ["Next.js", "Tailwind CSS", "next-intl", "Vercel"],
     "demoUrl": "https://etek.cz/en",
     "status": "live",
-    "cover": "/images/solutions/landing-page.png",
+    "cover": "/images/solutions/landing-page.jpg",
     "translations": {
       "en": {
         "title": "Marketing Website",
@@ -60,7 +60,7 @@
     "techStack": ["Next.js", "Telegram API", "Groq AI", "PostgreSQL"],
     "demoUrl": "https://t.me/Automat_studio_bot",
     "status": "live",
-    "cover": "/images/solutions/telegram-bot.png",
+    "cover": "/images/solutions/telegram-bot.jpg",
     "translations": {
       "en": {
         "title": "Telegram Bot",
@@ -87,7 +87,7 @@
     "techStack": ["Cal.com", "Google Calendar", "Google Meet"],
     "demoUrl": "https://cal.com/ai-automation-studio-brno/30min",
     "status": "live",
-    "cover": "/images/solutions/calendar-booking.png",
+    "cover": "/images/solutions/calendar-booking.jpg",
     "translations": {
       "en": {
         "title": "Calendar Booking",
@@ -114,7 +114,7 @@
     "techStack": ["Next.js", "Groq AI", "PostgreSQL", "Telegram", "Resend"],
     "demoUrl": "https://next-v0-cursor.vercel.app/demo",
     "status": "live",
-    "cover": "/images/solutions/lead-qualification.png",
+    "cover": "/images/solutions/lead-qualification.jpg",
     "translations": {
       "en": {
         "title": "Lead Qualification System",
@@ -141,7 +141,7 @@
     "techStack": ["Angular", "TypeScript", "Netlify"],
     "demoUrl": "https://angular-products-app.netlify.app/",
     "status": "live",
-    "cover": "/images/solutions/ecommerce-storefront.png",
+    "cover": "/images/solutions/ecommerce-storefront.jpg",
     "translations": {
       "en": {
         "title": "E-commerce Storefront",
@@ -195,7 +195,7 @@
     "techStack": ["Next.js", "shadcn/ui", "Prisma", "PostgreSQL", "NextAuth", "Google OAuth", "Groq AI", "Recharts"],
     "demoUrl": "https://next-v0-cursor.vercel.app/",
     "status": "live",
-    "cover": "/images/solutions/dashboard.png",
+    "cover": "/images/solutions/dashboard.jpg",
     "translations": {
       "en": {
         "title": "Analytics Dashboard & AI Web Chat",

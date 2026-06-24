@@ -52,7 +52,7 @@ export default async function AboutPage({ params }: Props) {
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="shrink-0">
               <Image
-                src="/images/kateryna.png"
+                src="/images/kateryna.jpg"
                 alt="Kateryna Parfenova"
                 width={120}
                 height={120}
@@ -91,7 +91,7 @@ export default async function AboutPage({ params }: Props) {
                 {/* Kateryna answer */}
                 <div className="flex items-end gap-3">
                   <Image
-                    src="/images/kateryna.png"
+                    src="/images/kateryna.jpg"
                     alt="Kateryna"
                     width={32}
                     height={32}

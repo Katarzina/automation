@@ -23,7 +23,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/logo.png" alt="AI Automation Studio" width={140} height={48} className="h-12 w-auto rounded-lg" priority />
+          <Image src="/logo.jpg" alt="AI Automation Studio" width={140} height={48} className="h-12 w-auto rounded-lg" priority />
           <span className="hidden sm:flex flex-col leading-tight">
             <span className="font-heading font-bold text-base tracking-wide text-stone-900">AI Automation</span>
             <span className="text-xs font-medium tracking-[0.2em] text-gray-400 uppercase">Studio</span>

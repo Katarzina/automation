@@ -2,8 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getAllProjects } from '@/lib/getProjects';
 import { getAllServices } from '@/lib/getServices';
 import { routing } from '@/routing';
-
-const base = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://automation-studio.com';
+import { SITE } from '@/lib/config';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = routing.locales;
@@ -14,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return locales.flatMap((locale) =>
     allPaths.map((path) => ({
-      url: `${base}/${locale}${path}`,
+      url: `${SITE.url}/${locale}${path}`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: path === '' ? 1 : 0.8,
