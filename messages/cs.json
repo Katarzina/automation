@@ -83,7 +83,7 @@
   },
   "about": {
     "title": "O mně",
-    "subtitle": "Senior Full-Stack Developer | Web Apps · AI Boty · Automatizace | 15+ letizace.",
+    "subtitle": "Senior Full-Stack Developer | Web Apps · AI Boty · Automatizace | 15+ let",
     "bio": {
       "greeting": "Ahoj, jsem Kateryna",
       "text": "Full-stack developer s 15+ lety zkušeností v bankovních systémech, podnikovém softwaru a moderních webových aplikacích. Vyvíjela jsem výrobní systémy pro Škodu Auto, účetní platformy pro herní terminály, pojišťovací aplikace a mobilní aplikace pro rozvoz jídla — než jsem přešla plně na AI a automatizaci. Dnes pomáhám firmám snižovat manuální práci a rychleji škálovat pomocí Next.js, Node.js a AI nástrojů jako OpenAI, Anthropic a n8n. Pracujete přímo se mnou — senior developerem, ne project managerem."
@@ -299,7 +299,7 @@
     "maintenance": {
       "title": "Údržba & Podpora",
       "subtitle": "Váš projekt běží bez problémů. Žádná překvapení.",
-      "basic": { "name": "Basic", "czk": "500 Kč/měs", "eur": "€20/měs", "items": ["Hosting & SSL", "Monitoring dostupnosti", "Opravy chyb"] },
+      "basic": { "name": "Basic", "czk": "500 Kč/měs", "eur": "€20/měs", "items": ["Monitoring dostupnosti", "Opravy chyb", "Aktualizace závislostí"] },
       "standard": { "name": "Standard", "czk": "1 000 Kč/měs", "eur": "€40/měs", "items": ["Vše z Basic", "2 hod. úprav/měs", "Prioritní odpověď"] },
       "pro": { "name": "Pro", "czk": "2 500 Kč/měs", "eur": "€100/měs", "items": ["Vše ze Standard", "Až 5 hod./měs", "Nové funkce a integrace"] }
     }

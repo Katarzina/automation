@@ -63,7 +63,7 @@ export default function HeroSection() {
             {t('cta')}
           </a>
           <Link
-            href="/projects"
+            href="/solutions"
             className="px-8 py-3.5 border border-white text-white text-sm font-medium rounded hover:bg-white/10 transition-colors"
           >
             {t('ctaSecondary')}

@@ -299,7 +299,7 @@
     "maintenance": {
       "title": "Maintenance & Support",
       "subtitle": "Keep your project running smoothly. No surprises.",
-      "basic": { "name": "Basic", "czk": "500 Kč/mo", "eur": "€20/mo", "items": ["Hosting & SSL", "Uptime monitoring", "Bug fixes"] },
+      "basic": { "name": "Basic", "czk": "500 Kč/mo", "eur": "€20/mo", "items": ["Uptime monitoring", "Bug fixes", "Dependency updates"] },
       "standard": { "name": "Standard", "czk": "1 000 Kč/mo", "eur": "€40/mo", "items": ["Everything in Basic", "2 hrs of changes/mo", "Priority response"] },
       "pro": { "name": "Pro", "czk": "2 500 Kč/mo", "eur": "€100/mo", "items": ["Everything in Standard", "Up to 5 hrs/mo", "New features & integrations"] }
     }
