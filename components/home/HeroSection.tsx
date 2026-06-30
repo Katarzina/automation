@@ -9,9 +9,10 @@ export default function HeroSection() {
   const t = useTranslations('home.hero');
 
   return (
-    <section className="relative h-screen min-h-[640px] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+
       <Image
-        src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&q=80"
+        src="/images/hero-bg.jpg"
         alt="AI Automation"
         fill
         priority
@@ -20,12 +21,12 @@ export default function HeroSection() {
       />
       <div className="absolute inset-0 bg-black/55" />
 
-      <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center text-white px-6 max-w-5xl mx-auto py-24">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-sm uppercase tracking-[0.2em] text-stone-300 mb-4"
+          className="text-sm uppercase tracking-[0.25em] text-indigo-400 mb-6 font-medium"
         >
           {t('tagline')}
         </motion.p>
@@ -34,7 +35,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.15 }}
-          className="font-heading text-4xl md:text-6xl font-semibold leading-tight mb-8"
+          className="font-heading text-4xl md:text-6xl font-bold leading-tight mb-8 text-white"
         >
           {t('title')}
         </motion.h1>
@@ -43,7 +44,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.25 }}
-          className="text-lg text-stone-300 mb-10 max-w-2xl mx-auto"
+          className="text-lg md:text-xl text-stone-300 mb-12 max-w-3xl mx-auto leading-relaxed"
         >
           {t('subtitle')}
         </motion.p>
@@ -58,13 +59,13 @@ export default function HeroSection() {
             href="https://cal.com/ai-automation-studio-brno/30min"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3.5 bg-white text-stone-900 text-sm font-medium rounded hover:bg-stone-100 transition-colors"
+            className="px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold rounded-lg transition-colors"
           >
             {t('cta')}
           </a>
           <Link
             href="/solutions"
-            className="px-8 py-3.5 border border-white text-white text-sm font-medium rounded hover:bg-white/10 transition-colors"
+            className="px-8 py-4 border border-white/20 text-white text-sm font-medium rounded-lg hover:bg-white/10 transition-colors"
           >
             {t('ctaSecondary')}
           </Link>

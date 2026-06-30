@@ -6,17 +6,25 @@
     "about": "About",
     "contact": "Contact",
     "getStarted": "Get Started",
-    "pricing": "Pricing"
+    "pricing": "Pricing",
+    "blog": "Blog"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "This page doesn't exist",
+    "subtitle": "Looks like this URL went on autopilot — straight into the void. Let's get you back on track.",
+    "home": "Back to Home",
+    "contact": "Talk to us"
   },
   "home": {
     "hero": {
       "tagline": "AI Automation Studio",
-      "title": "Less manual work. More results.",
-      "subtitle": "We build AI-powered automation systems that eliminate repetitive work and unlock growth for your business.",
-      "cta": "Get Free Consultation",
-      "ctaSecondary": "See Our Work",
-      "ctaWork": "See Our Work",
-      "ctaConsult": "Get Free Consultation"
+      "title": "AI & Automation That Saves Your Team 10–40 Hours Per Week",
+      "subtitle": "We design and implement custom AI workflows, integrations, and automation systems for SMEs and growing companies in Europe.",
+      "cta": "Book a Free Automation Audit",
+      "ctaSecondary": "See Example Automations",
+      "ctaWork": "See Example Automations",
+      "ctaConsult": "Book a Free Automation Audit"
     },
     "stats": {
       "processes": "Processes Automated",
@@ -35,11 +43,135 @@
     "tech": {
       "title": "Our Technology Stack"
     },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How much does automation cost?",
+          "a": "It depends on the scope. A simple automation starts from €400. A full system with CRM, bots, and integrations — from €2 400. All projects start with a free audit where we give you an exact quote."
+        },
+        {
+          "q": "How long does implementation take?",
+          "a": "A single automation: 1–2 weeks. A full system: 4–8 weeks. We always give you a timeline before we start."
+        },
+        {
+          "q": "What tools do you use?",
+          "a": "n8n, Make, OpenAI, custom Node.js backends, Next.js, Telegram API, REST APIs. We choose the right tool for your specific case — not the trendy one."
+        },
+        {
+          "q": "Is it secure for company data?",
+          "a": "Yes. We build systems that keep your data within your own infrastructure or use trusted EU-based cloud providers. We can sign an NDA before the first call."
+        },
+        {
+          "q": "Can it integrate with our existing systems?",
+          "a": "In most cases — yes. If your system has an API or webhook support, we can connect to it. We've integrated with CRMs, ERPs, email providers, spreadsheets, and custom databases."
+        }
+      ],
+      "seeAll": "See all questions →"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Free Automation Audit",
+          "desc": "30-minute call where we map your current processes and identify exactly what can be automated."
+        },
+        {
+          "number": "02",
+          "title": "System Design",
+          "desc": "We design the automation architecture — tools, integrations, data flows — tailored to your business."
+        },
+        {
+          "number": "03",
+          "title": "Implementation & Launch",
+          "desc": "We build, test, and deploy. Your automation goes live. You get back hours every week."
+        }
+      ]
+    },
+    "problem": {
+      "title": "Most companies waste hours every day on manual work",
+      "items": [
+        "Manual email processing",
+        "Copying data between systems",
+        "Invoicing and admin work",
+        "Customer support overload",
+        "Disconnected tools (CRM, email, spreadsheets)"
+      ],
+      "footer": "All of this can be automated."
+    },
     "cta": {
-      "title": "Ready to automate your business?",
-      "subtitle": "Book a free 30-minute consultation. No commitment.",
-      "button": "Book a Free Call"
+      "title": "Get a Free Automation Audit",
+      "subtitle": "We analyze your business processes and show exactly what can be automated and how much time you can save.",
+      "button": "Book a Free Call",
+      "secondary": "See Example Automations"
     }
+  },
+  "blog": {
+    "metaTitle": "Blog | AI Automation Studio",
+    "metaDescription": "Articles about AI automation, workflow design, and practical tips for saving time in your business.",
+    "title": "Blog",
+    "subtitle": "Practical articles about AI automation and business processes",
+    "readMore": "Read article",
+    "backToBlog": "← Back to Blog",
+    "postedOn": "Posted on",
+    "category": {
+      "automation": "Automation",
+      "ai": "AI",
+      "business": "Business",
+      "tutorial": "Tutorial",
+      "development": "Development"
+    },
+    "ctaTitle": "Ready to automate your business?",
+    "ctaButton": "Book a Free Audit",
+    "readingTime": "min read",
+    "share": "Share this article",
+    "copyLink": "Copy link",
+    "copied": "Copied!",
+    "relatedPosts": "Read also"
+  },
+  "faqPage": {
+    "metaTitle": "FAQ | AI Automation Studio",
+    "metaDescription": "Answers to the most common questions about AI automation, pricing, process, and security.",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about working with us",
+    "categories": [
+      {
+        "name": "Pricing",
+        "items": [
+          { "q": "How much does automation cost?", "a": "It depends on the scope. A simple single-process automation starts from €400. A Telegram bot with AI — from €400. A full system with CRM, bots, and integrations — from €2 400. All projects start with a free audit where we give you an exact quote with no obligation." },
+          { "q": "What's included in the price?", "a": "Design, development, testing, deployment, and a handover session where we walk you through how everything works. We don't disappear after launch." },
+          { "q": "Do you offer fixed-price projects?", "a": "Yes. Most projects are fixed-price — you know the total before we start. For ongoing work or larger systems we sometimes use time-and-materials, but always with a clear budget estimate upfront." },
+          { "q": "Are there any monthly costs after launch?", "a": "Only if you choose a maintenance plan (from €20/mo). The automation itself runs on infrastructure you own or control. We don't lock you into a proprietary platform with recurring fees." }
+        ]
+      },
+      {
+        "name": "Process",
+        "items": [
+          { "q": "How does the free audit work?", "a": "It's a 30-minute video call. You walk us through your current processes, we ask questions, and by the end we can tell you what's automatable, what tools we'd use, and roughly what it would cost." },
+          { "q": "How long does implementation take?", "a": "A single automation: 1–2 weeks. A Telegram bot: 1–2 weeks. A full system with multiple integrations: 4–8 weeks. We always give you a timeline before we start and stick to it." },
+          { "q": "Do I need to be technical to work with you?", "a": "Not at all. We handle all the technical side. You describe what you need in plain language, we translate it into working software." },
+          { "q": "What happens after the system goes live?", "a": "We do a handover call, provide documentation, and offer maintenance plans if you want ongoing support. Most clients prefer to manage things themselves — we make sure they can." }
+        ]
+      },
+      {
+        "name": "Technical",
+        "items": [
+          { "q": "What tools do you use?", "a": "n8n and Make for workflow automation, OpenAI and Anthropic for AI features, Node.js and Next.js for custom backends and interfaces, Telegram API for bots, and standard REST APIs for integrations. We pick the right tool for the job, not the trendiest one." },
+          { "q": "Can it integrate with our existing systems?", "a": "In most cases — yes. If your system has an API, a webhook, or even just exports CSV files, we can work with it. We've connected CRMs, ERPs, e-commerce platforms, accounting software, email providers, and custom databases." },
+          { "q": "Do you build custom software or use no-code tools?", "a": "Both, depending on what makes sense. No-code tools like n8n are fast and maintainable for workflows. When you need custom logic, a dashboard, or a mobile app — we write code. We don't force one approach everywhere." },
+          { "q": "Will the automation break if something changes in our system?", "a": "We build with error handling and monitoring so issues surface quickly rather than silently failing. On maintenance plans we proactively watch for problems. If you change a system, a quick update is usually all that's needed." }
+        ]
+      },
+      {
+        "name": "Security",
+        "items": [
+          { "q": "Is it secure for company data?", "a": "Yes. We design systems to keep data within your own infrastructure where possible, or use trusted EU-based cloud providers (AWS Frankfurt, Google Cloud EU). We don't store your business data on our own servers." },
+          { "q": "Where is data stored?", "a": "Depends on the system. For databases we typically use Neon (PostgreSQL, EU region) or your own existing database. For files — your own storage or EU-based providers. We'll always tell you exactly where your data lives before we start." },
+          { "q": "Can we sign an NDA?", "a": "Absolutely. We're happy to sign a non-disclosure agreement before the first call if you prefer. Just mention it when you book." }
+        ]
+      }
+    ]
   },
   "services": {
     "title": "Our Services",
@@ -166,7 +298,13 @@
     "rights": "All rights reserved",
     "cookieSettings": "Cookie Settings",
     "privacyPolicy": "Privacy Policy",
-    "hours": "Mon–Fri: 9:00–18:00 CET"
+    "hours": "Mon–Fri: 9:00–18:00 CET",
+    "menu": "Menu",
+    "resources": "Resources",
+    "contact": "Contact",
+    "bookCall": "Book a Free Call",
+    "blog": "Blog",
+    "faq": "FAQ"
   },
   "lead": {
     "badge": "Free Consultation",

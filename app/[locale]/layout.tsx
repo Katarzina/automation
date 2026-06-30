@@ -8,6 +8,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import CookieBanner from '@/components/layout/CookieBanner';
 import ChatWidget from '@/components/chat/ChatWidget';
+import GoogleAnalytics from '@/components/layout/GoogleAnalytics';
 import { SITE } from '@/lib/config';
 
 const inter = Inter({
@@ -39,7 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     metadataBase: new URL(SITE.url),
     alternates: {
       canonical: `${SITE.url}/${locale}`,
-      languages: { ...languages, 'x-default': `${SITE.url}/cs` },
+      languages: { ...languages, 'x-default': `${SITE.url}/${routing.defaultLocale}` },
     },
     openGraph: {
       type: 'website',
@@ -86,6 +87,7 @@ export default async function LocaleLayout({
       <body className="bg-white text-stone-900 flex flex-col min-h-screen">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <NextIntlClientProvider messages={messages}>
+          <GoogleAnalytics />
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />

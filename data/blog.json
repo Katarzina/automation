@@ -1,0 +1,2668 @@
+[
+  {
+    "id": 1,
+    "slug": "5-business-processes-to-automate",
+    "category": "automation",
+    "date": "2026-01-15",
+    "cover": "/images/hero-bg.jpg",
+    "translations": {
+      "en": {
+        "title": "5 Business Processes You Can Automate This Week",
+        "excerpt": "Most companies lose 10–20 hours per week on tasks that could be fully automated. Here are five processes you can hand off to a system — starting today.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Most companies lose 10–20 hours per week on manual tasks that repeat every day: copying data between systems, sending standard emails, updating CRM records, processing invoices. None of this requires human judgment. It just requires someone's time."
+          },
+          {
+            "type": "p",
+            "text": "The good news: all of it can be automated. Here are five processes we see most often — and how to handle each one."
+          },
+          {
+            "type": "h2",
+            "text": "1. Email Triage and Standard Responses"
+          },
+          {
+            "type": "p",
+            "text": "If your inbox gets the same questions over and over — pricing, availability, how to get started — you're wasting 30–60 minutes a day on copy-paste replies. An AI email assistant can read incoming messages, classify them, and send a tailored response automatically. Genuinely complex enquiries still land in your inbox. Everything else is handled."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Works with Gmail, Outlook, or any IMAP inbox",
+              "Connects to your FAQ or knowledge base",
+              "You review flagged edge cases — nothing else"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "2. Lead Qualification"
+          },
+          {
+            "type": "p",
+            "text": "When a lead fills in a contact form, someone needs to read it, judge whether it's worth pursuing, and follow up. That process takes 5–15 minutes per lead and often happens hours later. A qualification bot can do it in seconds."
+          },
+          {
+            "type": "p",
+            "text": "The bot asks a few targeted questions via Telegram or email, scores the lead as hot/warm/cold, and sends you a summary to Telegram or WhatsApp in seconds — while the lead is still warm. You only spend time on leads that are worth it."
+          },
+          {
+            "type": "h2",
+            "text": "3. Data Entry Between Systems"
+          },
+          {
+            "type": "p",
+            "text": "CRM, accounting software, a spreadsheet, an order system — most companies have four or five tools that don't talk to each other. Someone copies data from one to the next, every day, sometimes multiple times a day."
+          },
+          {
+            "type": "p",
+            "text": "This is the easiest thing to automate. Tools like n8n or Make can watch one system for changes and push the data into another automatically. Zero copies, zero errors, zero waiting."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "New order in e-shop → auto-create invoice in accounting",
+              "New contact form submission → auto-add to CRM",
+              "New CRM deal → auto-notify team in Slack"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "4. Customer Support First Response"
+          },
+          {
+            "type": "p",
+            "text": "The first response to a support request sets the tone. But it also takes time — reading the issue, finding the right answer, writing the reply. If your support questions follow patterns (and they always do), an AI assistant can handle the first response for up to 70% of tickets."
+          },
+          {
+            "type": "p",
+            "text": "Complex or sensitive cases escalate to a human. Everything else — password resets, order status, policy questions — gets answered instantly, at any hour."
+          },
+          {
+            "type": "h2",
+            "text": "5. Reporting and Status Updates"
+          },
+          {
+            "type": "p",
+            "text": "Weekly reports, status updates, performance summaries — these usually mean someone spending 1–2 hours pulling numbers from different places and formatting them into a document or slide deck. Every week."
+          },
+          {
+            "type": "p",
+            "text": "An automated reporting pipeline can pull the data, generate the summary, and deliver it to your inbox or Slack channel on a schedule. The report is always ready. No one has to build it."
+          },
+          {
+            "type": "h2",
+            "text": "Where to Start"
+          },
+          {
+            "type": "p",
+            "text": "Pick the process that costs the most time — or the one that causes the most frustration. That's where automation delivers the fastest ROI. You don't need to overhaul everything at once."
+          },
+          {
+            "type": "p",
+            "text": "If you're not sure where to start, book a free 30-minute audit. We'll map your current processes and tell you exactly what's automatable, what tools we'd use, and what it would cost."
+          }
+        ]
+      },
+      "cs": {
+        "title": "5 firemních procesů, které můžete automatizovat tento týden",
+        "excerpt": "Většina firem ztrácí 10–20 hodin týdně na úkolech, které by šly plně automatizovat. Zde je pět procesů, které můžete předat systému — už dnes.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Většina firem ztrácí 10–20 hodin týdně na manuálních úkolech, které se opakují každý den: kopírování dat mezi systémy, odesílání standardních e-mailů, aktualizace CRM záznamů, zpracování faktur. Nic z toho nevyžaduje lidský úsudek. Jen čas."
+          },
+          {
+            "type": "p",
+            "text": "Dobrá zpráva: vše lze automatizovat. Zde je pět procesů, které vidíme nejčastěji — a jak každý z nich řešit."
+          },
+          {
+            "type": "h2",
+            "text": "1. Třídění e-mailů a standardní odpovědi"
+          },
+          {
+            "type": "p",
+            "text": "Pokud vaše schránka dostává stále stejné dotazy — ceny, dostupnost, jak začít — ztrácíte 30–60 minut denně na odpovědích copy-paste. AI asistent na e-maily dokáže příchozí zprávy přečíst, klasifikovat a automaticky odeslat přizpůsobenou odpověď. Skutečně složité dotazy zůstanou ve vaší schránce. Vše ostatní je vyřešeno."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Funguje s Gmail, Outlook nebo libovolnou IMAP schránkou",
+              "Připojuje se k vašemu FAQ nebo znalostní bázi",
+              "Přezkoumáváte pouze výjimečné případy — nic jiného"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "2. Kvalifikace leadů"
+          },
+          {
+            "type": "p",
+            "text": "Když lead vyplní kontaktní formulář, někdo musí zprávu přečíst, posoudit, zda stojí za pozornost, a navázat kontakt. Tento proces trvá 5–15 minut na lead a často se stane hodiny poté. Kvalifikační bot to zvládne za sekundy."
+          },
+          {
+            "type": "p",
+            "text": "Bot položí několik cílených otázek přes Telegram nebo e-mail, ohodnotí lead jako horký/teplý/studený a pošle vám souhrn do Telegramu nebo WhatsAppu za sekundy — zatímco lead je stále aktuální. Svůj čas věnujete pouze leadům, které za to stojí."
+          },
+          {
+            "type": "h2",
+            "text": "3. Zadávání dat mezi systémy"
+          },
+          {
+            "type": "p",
+            "text": "CRM, účetní software, tabulka, objednávkový systém — většina firem má čtyři nebo pět nástrojů, které spolu nekomunikují. Někdo kopíruje data z jednoho do druhého každý den, někdy i několikrát denně."
+          },
+          {
+            "type": "p",
+            "text": "Toto je nejsnadnější věc k automatizaci. Nástroje jako n8n nebo Make mohou sledovat jeden systém na změny a automaticky je přenést do jiného. Žádné kopírování, žádné chyby, žádné čekání."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Nová objednávka v e-shopu → automatické vytvoření faktury",
+              "Nový kontaktní formulář → automatické přidání do CRM",
+              "Nový deal v CRM → automatické oznámení v Slacku"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "4. První odpověď zákaznické podpory"
+          },
+          {
+            "type": "p",
+            "text": "První odpověď na žádost o podporu udává tón. Ale také zabírá čas — přečtení problému, nalezení správné odpovědi, napsání odpovědi. Pokud vaše dotazy na podporu sledují vzory (a vždy sledují), AI asistent dokáže zvládnout první odpověď až na 70 % tiketů."
+          },
+          {
+            "type": "h2",
+            "text": "5. Reporty a stavové aktualizace"
+          },
+          {
+            "type": "p",
+            "text": "Týdenní reporty, aktualizace stavu, přehledy výkonu — to obvykle znamená, že někdo stráví 1–2 hodiny shromažďováním čísel z různých míst. Každý týden. Automatizovaný pipeline může data stáhnout, vygenerovat souhrn a doručit ho do vaší schránky nebo Slack kanálu podle plánu."
+          },
+          {
+            "type": "h2",
+            "text": "Kde začít"
+          },
+          {
+            "type": "p",
+            "text": "Vyberte si proces, který stojí nejvíce času nebo způsobuje největší frustraci. Tam automatizace přináší nejrychlejší návratnost. Nemusíte přestavovat vše najednou."
+          },
+          {
+            "type": "p",
+            "text": "Pokud si nejste jisti, kde začít, rezervujte si bezplatný 30minutový audit. Zmapujeme vaše aktuální procesy a řekneme vám přesně, co lze automatizovat, jaké nástroje bychom použili a kolik by to stálo."
+          }
+        ]
+      },
+      "uk": {
+        "title": "5 бізнес-процесів, які можна автоматизувати цього тижня",
+        "excerpt": "Більшість компаній втрачають 10–20 годин на тиждень на завданнях, які можна повністю автоматизувати. Ось п'ять процесів, які можна передати системі — вже сьогодні.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Більшість компаній втрачають 10–20 годин на тиждень на ручних завданнях, які повторюються щодня: копіювання даних між системами, відправка стандартних листів, оновлення записів CRM, обробка рахунків. Нічого з цього не потребує людського судження. Лише чийогось часу."
+          },
+          {
+            "type": "p",
+            "text": "Хороша новина: все це можна автоматизувати. Ось п'ять процесів, які ми бачимо найчастіше — і як вирішити кожен з них."
+          },
+          {
+            "type": "h2",
+            "text": "1. Сортування пошти та стандартні відповіді"
+          },
+          {
+            "type": "p",
+            "text": "Якщо ваша скринька отримує одні й ті самі запитання — ціни, доступність, як почати — ви витрачаєте 30–60 хвилин на день на copy-paste відповіді. AI асистент для пошти може читати вхідні повідомлення, класифікувати їх і автоматично надсилати адаптовану відповідь."
+          },
+          {
+            "type": "h2",
+            "text": "2. Кваліфікація лідів"
+          },
+          {
+            "type": "p",
+            "text": "Коли лід заповнює контактну форму, хтось має прочитати її, оцінити чи варто займатися, і зв'язатися. Цей процес займає 5–15 хвилин на лід і часто відбувається через кілька годин. Кваліфікаційний бот зробить це за секунди і надішле вам резюме в Telegram або WhatsApp за секунди — поки лід ще гарячий."
+          },
+          {
+            "type": "h2",
+            "text": "3. Введення даних між системами"
+          },
+          {
+            "type": "p",
+            "text": "CRM, бухгалтерське програмне забезпечення, таблиця, система замовлень — більшість компаній мають чотири або п'ять інструментів, які не спілкуються між собою. Хтось копіює дані з одного в інший щодня. Інструменти як n8n або Make можуть відстежувати зміни і автоматично передавати дані. Нуль копіювань, нуль помилок."
+          },
+          {
+            "type": "h2",
+            "text": "4. Перша відповідь підтримки клієнтів"
+          },
+          {
+            "type": "p",
+            "text": "AI асистент може обробляти першу відповідь на до 70% тікетів. Складні або чутливі випадки ескалюються до людини. Все інше — скидання паролів, статус замовлення, питання про політику — отримує відповідь миттєво, в будь-який час."
+          },
+          {
+            "type": "h2",
+            "text": "5. Звіти та оновлення статусу"
+          },
+          {
+            "type": "p",
+            "text": "Автоматизований pipeline може збирати дані, генерувати зведення та доставляти його у вашу скриньку або Slack канал за розкладом. Звіт завжди готовий. Нікому не потрібно його будувати."
+          },
+          {
+            "type": "h2",
+            "text": "З чого почати"
+          },
+          {
+            "type": "p",
+            "text": "Виберіть процес, який коштує найбільше часу або викликає найбільше розчарування. Якщо ви не впевнені, з чого почати, забронюйте безкоштовний 30-хвилинний аудит. Ми змалюємо ваші поточні процеси і скажемо вам точно, що можна автоматизувати і скільки це буде коштувати."
+          }
+        ]
+      },
+      "ru": {
+        "title": "5 бизнес-процессов, которые можно автоматизировать на этой неделе",
+        "excerpt": "Большинство компаний теряют 10–20 часов в неделю на задачах, которые можно полностью автоматизировать. Вот пять процессов, которые можно передать системе — уже сегодня.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Большинство компаний теряют 10–20 часов в неделю на ручных задачах, которые повторяются каждый день: копирование данных между системами, отправка стандартных писем, обновление записей CRM, обработка счетов. Ничего из этого не требует человеческого суждения. Только чьего-то времени."
+          },
+          {
+            "type": "p",
+            "text": "Хорошая новость: всё это можно автоматизировать. Вот пять процессов, которые мы видим чаще всего — и как решить каждый из них."
+          },
+          {
+            "type": "h2",
+            "text": "1. Сортировка почты и стандартные ответы"
+          },
+          {
+            "type": "p",
+            "text": "Если ваш ящик получает одни и те же вопросы — цены, доступность, как начать — вы тратите 30–60 минут в день на copy-paste ответы. AI ассистент для почты может читать входящие сообщения, классифицировать их и автоматически отправлять адаптированный ответ."
+          },
+          {
+            "type": "h2",
+            "text": "2. Квалификация лидов"
+          },
+          {
+            "type": "p",
+            "text": "Когда лид заполняет контактную форму, кто-то должен прочитать её, оценить стоит ли заниматься, и связаться. Этот процесс занимает 5–15 минут на лид и часто происходит через несколько часов. Квалификационный бот сделает это за секунды и отправит вам резюме в Telegram или WhatsApp за секунды — пока лид ещё горячий."
+          },
+          {
+            "type": "h2",
+            "text": "3. Ввод данных между системами"
+          },
+          {
+            "type": "p",
+            "text": "CRM, бухгалтерское ПО, таблица, система заказов — у большинства компаний есть четыре или пять инструментов, которые не общаются между собой. Инструменты как n8n или Make могут отслеживать изменения и автоматически передавать данные. Ноль копирований, ноль ошибок."
+          },
+          {
+            "type": "h2",
+            "text": "4. Первый ответ службы поддержки"
+          },
+          {
+            "type": "p",
+            "text": "AI ассистент может обрабатывать первый ответ на до 70% тикетов. Сложные или чувствительные случаи эскалируются к человеку. Всё остальное — сброс паролей, статус заказа, вопросы о политике — получает ответ мгновенно, в любое время."
+          },
+          {
+            "type": "h2",
+            "text": "5. Отчёты и обновления статуса"
+          },
+          {
+            "type": "p",
+            "text": "Автоматизированный pipeline может собирать данные, генерировать сводку и доставлять её в ваш почтовый ящик или Slack канал по расписанию. Отчёт всегда готов. Никому не нужно его строить."
+          },
+          {
+            "type": "h2",
+            "text": "С чего начать"
+          },
+          {
+            "type": "p",
+            "text": "Выберите процесс, который стоит больше всего времени или вызывает наибольшее разочарование. Если вы не уверены, с чего начать, забронируйте бесплатный 30-минутный аудит. Мы составим карту ваших текущих процессов и скажем вам точно, что можно автоматизировать и сколько это будет стоить."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "slug": "web-chat-telegram-whatsapp-ai-bot",
+    "category": "ai",
+    "date": "2026-02-03",
+    "cover": "/images/hero-bg.jpg",
+    "translations": {
+      "en": {
+        "title": "Web Chat, Telegram or WhatsApp: Where to Deploy Your AI Bot",
+        "excerpt": "Choosing the wrong platform for your AI chatbot means lower engagement, missed leads, and wasted budget. Here's how to decide — based on your audience, not the hype.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "An AI chatbot is only as good as the platform it lives on. The best bot in the world won't help if your customers never open Telegram — or if you're running a B2B service and your prospects aren't on WhatsApp. Platform choice is a business decision, not a technical one."
+          },
+          {
+            "type": "p",
+            "text": "Here's a practical breakdown of all three options — what each is good for, where it falls short, and how to choose."
+          },
+          {
+            "type": "h2",
+            "text": "Web Chat: Best for Unknown Audiences"
+          },
+          {
+            "type": "p",
+            "text": "A web chat widget lives on your website and catches visitors the moment they arrive — before they've decided whether to contact you. It's the lowest-friction option: no app to install, no account to create, just a chat window in the corner of the screen."
+          },
+          {
+            "type": "p",
+            "text": "Web chat is ideal when your audience is broad or unknown — e-commerce, service businesses, anyone running paid traffic to a landing page. The bot can answer questions, qualify visitors, and collect contact details before they leave."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Works for any audience — no app required",
+              "Captures leads from cold traffic",
+              "Easy to embed on any website",
+              "No message delivery limits",
+              "Conversation ends when the browser closes — no re-engagement"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Telegram: Best for B2B and Repeat Engagement"
+          },
+          {
+            "type": "p",
+            "text": "Telegram bots are powerful precisely because Telegram is a messaging app people check every day. Once a user starts your bot, you have a direct line to them — you can send updates, reminders, and follow-ups at any time. Open rates are 80–90%, compared to 20–25% for email."
+          },
+          {
+            "type": "p",
+            "text": "Telegram is strongest in B2B, tech-adjacent audiences, Eastern European markets, and anywhere you want to build a repeat relationship with the user — not just capture a one-time lead. It's also the easiest platform to build on: no business verification, no fees, instant setup."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "80–90% open rate on messages",
+              "Free to build and operate",
+              "No business verification required",
+              "Great for notifications, updates, and follow-ups",
+              "Smaller audience in Western Europe compared to WhatsApp"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "WhatsApp: Best for Consumer Brands and High Volume"
+          },
+          {
+            "type": "p",
+            "text": "WhatsApp has 2 billion users globally and near-100% penetration in many European markets. If your customers are consumers — not businesses — there's a good chance they're already on WhatsApp and check it multiple times a day."
+          },
+          {
+            "type": "p",
+            "text": "The catch: WhatsApp Business API requires approval, costs money per conversation, and has stricter messaging rules than Telegram. It's worth it for high-volume businesses where the audience is definitely on WhatsApp — retail, hospitality, healthcare, consumer services."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Largest audience of the three",
+              "Very high open and response rates",
+              "Familiar interface — users trust it",
+              "Requires Business API approval (paid)",
+              "Per-conversation fees after free tier",
+              "Stricter content rules — no cold outreach"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "How to Choose"
+          },
+          {
+            "type": "p",
+            "text": "Ask three questions:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Where does my audience already spend time? (Web = everywhere, Telegram = tech/B2B, WhatsApp = consumers)",
+              "Do I need to re-engage users after the first conversation? (Yes → Telegram or WhatsApp. No → web chat is fine)",
+              "What's my budget for the messaging platform? (Telegram = free, WhatsApp = paid, web chat = depends on provider)"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "When to Use All Three"
+          },
+          {
+            "type": "p",
+            "text": "Many businesses end up using more than one. A common setup: web chat qualifies visitors and collects contacts, Telegram handles B2B follow-ups and notifications, WhatsApp serves consumer customers who prefer it. The AI logic is the same across all three — only the interface changes."
+          },
+          {
+            "type": "p",
+            "text": "If you're not sure which platform fits your business, book a free call. We'll look at your audience and suggest the right setup — often it's simpler than you think."
+          }
+        ]
+      },
+      "cs": {
+        "title": "Web chat, Telegram nebo WhatsApp: kde nasadit AI bota pro vaši firmu",
+        "excerpt": "Výběr špatné platformy pro AI chatbota znamená nižší zapojení, ztracené leady a zbytečné výdaje. Zde je návod, jak se rozhodnout — na základě vaší cílové skupiny, ne módních trendů.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI chatbot je jen tak dobrý, jak dobrá je platforma, na které funguje. Nejlepší bot na světě nepomůže, pokud vaši zákazníci nikdy neotevřou Telegram — nebo pokud provozujete B2B službu a vaši potenciální klienti nejsou na WhatsAppu. Výběr platformy je obchodní rozhodnutí, ne technické."
+          },
+          {
+            "type": "p",
+            "text": "Zde je praktický přehled všech tří možností — k čemu se každá hodí, kde má slabiny a jak se rozhodnout."
+          },
+          {
+            "type": "h2",
+            "text": "Web chat: nejlepší pro neznámé publikum"
+          },
+          {
+            "type": "p",
+            "text": "Widget web chatu žije na vašem webu a zachytí návštěvníky v okamžiku, kdy přijdou — ještě předtím, než se rozhodnou, zda vás kontaktovat. Je to možnost s nejnižší překážkou: žádná aplikace ke stažení, žádný účet k vytvoření, jen okno chatu v rohu obrazovky."
+          },
+          {
+            "type": "p",
+            "text": "Web chat je ideální, když je vaše publikum široké nebo neznámé — e-commerce, servisní firmy, kdokoli provozující placenou reklamu na vstupní stránce. Bot může odpovídat na otázky, kvalifikovat návštěvníky a sbírat kontaktní údaje, než odejdou."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Funguje pro jakékoli publikum — bez nutnosti aplikace",
+              "Zachycuje leady ze studeného provozu",
+              "Snadné vložení na jakýkoli web",
+              "Žádné limity doručení zpráv",
+              "Konverzace končí zavřením prohlížeče — bez možnosti opětovného oslovení"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Telegram: nejlepší pro B2B a opakované zapojení"
+          },
+          {
+            "type": "p",
+            "text": "Telegram boti jsou silní právě proto, že Telegram je messengr, který lidé kontrolují každý den. Jakmile uživatel spustí vašeho bota, máte k němu přímou linku — kdykoli mu můžete posílat aktualizace, připomínky a follow-upy. Open rate je 80–90 %, oproti 20–25 % u e-mailu."
+          },
+          {
+            "type": "p",
+            "text": "Telegram je nejsilnější v B2B, technicky zdatném publiku a všude tam, kde chcete budovat opakovaný vztah s uživatelem. Je také nejjednodušší platformou pro vývoj: žádná obchodní verifikace, žádné poplatky, okamžité spuštění."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Open rate zpráv 80–90 %",
+              "Zdarma pro vývoj i provoz",
+              "Nevyžaduje obchodní verifikaci",
+              "Skvělý pro oznámení, aktualizace a follow-upy",
+              "Menší publikum v západní Evropě ve srovnání s WhatsAppem"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "WhatsApp: nejlepší pro spotřebitelské značky a vysoký objem"
+          },
+          {
+            "type": "p",
+            "text": "WhatsApp má 2 miliardy uživatelů po celém světě a téměř 100% penetraci na mnoha evropských trzích. Pokud jsou vaši zákazníci spotřebitelé — ne firmy — je velká šance, že jsou již na WhatsAppu a kontrolují ho několikrát denně."
+          },
+          {
+            "type": "p",
+            "text": "Háček: WhatsApp Business API vyžaduje schválení, stojí peníze za konverzaci a má přísnější pravidla zasílání zpráv než Telegram. Stojí to za to pro firmy s vysokým objemem, kde je publikum jednoznačně na WhatsAppu — maloobchod, pohostinství, zdravotnictví, spotřebitelské služby."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Největší publikum ze všech tří",
+              "Velmi vysoké open rate a míra odezvy",
+              "Známé rozhraní — uživatelé mu důvěřují",
+              "Vyžaduje schválení Business API (placené)",
+              "Poplatky za konverzaci po bezplatném limitu",
+              "Přísnější pravidla obsahu — žádné studené oslovování"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Jak se rozhodnout"
+          },
+          {
+            "type": "p",
+            "text": "Položte si tři otázky:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Kde moje publikum již tráví čas? (Web = všude, Telegram = tech/B2B, WhatsApp = spotřebitelé)",
+              "Potřebuji opětovně oslovovat uživatele po první konverzaci? (Ano → Telegram nebo WhatsApp. Ne → web chat stačí)",
+              "Jaký je můj rozpočet na platformu? (Telegram = zdarma, WhatsApp = placené, web chat = záleží na poskytovateli)"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Kdy použít všechny tři"
+          },
+          {
+            "type": "p",
+            "text": "Mnoho firem nakonec používá více než jednu. Běžné nastavení: web chat kvalifikuje návštěvníky a sbírá kontakty, Telegram zajišťuje B2B follow-upy a oznámení, WhatsApp obsluhuje spotřebitelské zákazníky, kteří ho preferují. AI logika je stejná pro všechny tři — mění se pouze rozhraní."
+          },
+          {
+            "type": "p",
+            "text": "Pokud si nejste jisti, která platforma se hodí pro vaši firmu, rezervujte si bezplatný hovor. Podíváme se na vaše publikum a navrhneme správné nastavení — často je jednodušší, než si myslíte."
+          }
+        ]
+      },
+      "uk": {
+        "title": "Web chat, Telegram або WhatsApp: де розгорнути AI-бота для вашого бізнесу",
+        "excerpt": "Вибір неправильної платформи для AI чат-бота означає нижче залучення, втрачені ліди та даремний бюджет. Ось як вирішити — на основі вашої аудиторії, а не хайпу.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI чат-бот настільки хороший, наскільки хороша платформа, на якій він працює. Найкращий бот у світі не допоможе, якщо ваші клієнти ніколи не відкривають Telegram — або якщо ви надаєте B2B послуги і ваші потенційні клієнти не користуються WhatsApp. Вибір платформи — це бізнес-рішення, а не технічне."
+          },
+          {
+            "type": "h2",
+            "text": "Web chat: найкращий для невідомої аудиторії"
+          },
+          {
+            "type": "p",
+            "text": "Віджет web chat живе на вашому сайті і захоплює відвідувачів у момент їх приходу. Найнижчий поріг входу: не потрібно встановлювати додаток або створювати акаунт. Ідеальний для широкої або невідомої аудиторії — e-commerce, сервісний бізнес, платний трафік на лендінг."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Працює для будь-якої аудиторії — без додатку",
+              "Захоплює ліди з холодного трафіку",
+              "Легко вбудовується на будь-який сайт",
+              "Розмова закінчується з закриттям браузера — без повторного залучення"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Telegram: найкращий для B2B і повторного залучення"
+          },
+          {
+            "type": "p",
+            "text": "Telegram боти потужні саме тому, що Telegram — це месенджер, який люди перевіряють щодня. Open rate повідомлень — 80–90%, порівняно з 20–25% для email. Найсильніший у B2B, технічно підкованій аудиторії та скрізь, де потрібно будувати повторні відносини. Найпростіша платформа для розробки: без верифікації бізнесу, без комісій."
+          },
+          {
+            "type": "h2",
+            "text": "WhatsApp: найкращий для споживчих брендів"
+          },
+          {
+            "type": "p",
+            "text": "WhatsApp має 2 мільярди користувачів по всьому світу і майже 100% проникнення на багатьох європейських ринках. Якщо ваші клієнти — споживачі, а не бізнеси, вони вже у WhatsApp. Підводний камінь: WhatsApp Business API вимагає затвердження, коштує грошей за розмову і має суворіші правила. Варте того для рітейлу, готельного бізнесу, охорони здоров'я."
+          },
+          {
+            "type": "h2",
+            "text": "Як вибрати"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Де ваша аудиторія вже проводить час? (Web = скрізь, Telegram = tech/B2B, WhatsApp = споживачі)",
+              "Чи потрібно повторно залучати після першої розмови? (Так → Telegram або WhatsApp)",
+              "Який бюджет на платформу? (Telegram = безкоштовно, WhatsApp = платно)"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Коли використовувати всі три"
+          },
+          {
+            "type": "p",
+            "text": "Поширена схема: web chat кваліфікує відвідувачів і збирає контакти, Telegram обробляє B2B follow-up та сповіщення, WhatsApp обслуговує споживчих клієнтів. AI логіка однакова для всіх трьох — змінюється лише інтерфейс."
+          },
+          {
+            "type": "p",
+            "text": "Якщо не впевнені яка платформа підходить для вашого бізнесу — забронюйте безкоштовний дзвінок. Ми розглянемо вашу аудиторію і запропонуємо правильне рішення."
+          }
+        ]
+      },
+      "ru": {
+        "title": "Web chat, Telegram или WhatsApp: где развернуть AI-бота для вашего бизнеса",
+        "excerpt": "Выбор неправильной платформы для AI чат-бота означает меньше вовлечённости, потерянные лиды и напрасный бюджет. Вот как решить — исходя из вашей аудитории, а не хайпа.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI чат-бот настолько хорош, насколько хороша платформа, на которой он работает. Лучший бот в мире не поможет, если ваши клиенты никогда не открывают Telegram — или если вы оказываете B2B услуги и ваши потенциальные клиенты не пользуются WhatsApp. Выбор платформы — это бизнес-решение, а не техническое."
+          },
+          {
+            "type": "h2",
+            "text": "Web chat: лучший для неизвестной аудитории"
+          },
+          {
+            "type": "p",
+            "text": "Виджет web chat живёт на вашем сайте и захватывает посетителей в момент их прихода. Самый низкий порог входа: не нужно устанавливать приложение или создавать аккаунт. Идеален для широкой или неизвестной аудитории — e-commerce, сервисный бизнес, платный трафик на лендинг."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Работает для любой аудитории — без приложения",
+              "Захватывает лиды из холодного трафика",
+              "Легко встраивается на любой сайт",
+              "Разговор заканчивается с закрытием браузера — без повторного вовлечения"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Telegram: лучший для B2B и повторного вовлечения"
+          },
+          {
+            "type": "p",
+            "text": "Telegram боты мощны именно потому, что Telegram — это мессенджер, который люди проверяют каждый день. Open rate сообщений — 80–90%, по сравнению с 20–25% для email. Самый сильный в B2B, технически грамотной аудитории и везде, где нужно строить повторные отношения. Самая простая платформа для разработки: без верификации бизнеса, без комиссий, мгновенный запуск."
+          },
+          {
+            "type": "h2",
+            "text": "WhatsApp: лучший для потребительских брендов"
+          },
+          {
+            "type": "p",
+            "text": "WhatsApp имеет 2 миллиарда пользователей по всему миру и почти 100% проникновение на многих европейских рынках. Если ваши клиенты — потребители, а не бизнесы, они уже в WhatsApp. Подводный камень: WhatsApp Business API требует одобрения, стоит денег за разговор и имеет более строгие правила. Стоит того для ритейла, гостиничного бизнеса, здравоохранения."
+          },
+          {
+            "type": "h2",
+            "text": "Как выбрать"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Где ваша аудитория уже проводит время? (Web = везде, Telegram = tech/B2B, WhatsApp = потребители)",
+              "Нужно ли повторно вовлекать после первого разговора? (Да → Telegram или WhatsApp)",
+              "Какой бюджет на платформу? (Telegram = бесплатно, WhatsApp = платно)"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Когда использовать все три"
+          },
+          {
+            "type": "p",
+            "text": "Распространённая схема: web chat квалифицирует посетителей и собирает контакты, Telegram обрабатывает B2B follow-up и уведомления, WhatsApp обслуживает потребительских клиентов. AI логика одинакова для всех трёх — меняется только интерфейс."
+          },
+          {
+            "type": "p",
+            "text": "Если не уверены, какая платформа подходит для вашего бизнеса — забронируйте бесплатный звонок. Мы рассмотрим вашу аудиторию и предложим правильное решение."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "slug": "ai-chatbot-roi-payback",
+    "category": "business",
+    "date": "2026-02-24",
+    "cover": "/images/hero-bg.jpg",
+    "translations": {
+      "en": {
+        "title": "How Fast Does an AI Chatbot Pay for Itself? A Real ROI Breakdown",
+        "excerpt": "Most people ask 'how much does an AI chatbot cost?' The better question is: how fast does it pay back? Here's a real calculation — with actual numbers.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "When businesses ask about the cost of an AI chatbot, they're asking the wrong question. The right question is: what does NOT having one cost you every month?"
+          },
+          {
+            "type": "p",
+            "text": "Let's run the numbers."
+          },
+          {
+            "type": "h2",
+            "text": "What the Bot Actually Replaces"
+          },
+          {
+            "type": "p",
+            "text": "An AI chatbot typically handles three types of work: answering repetitive questions, qualifying incoming leads, and routing requests to the right person or system. All three of these currently eat someone's time — either yours, a salesperson's, or a support agent's."
+          },
+          {
+            "type": "p",
+            "text": "Let's take a concrete example. A small service business gets 40 enquiries per month. Each one requires reading, assessing, and replying — roughly 15 minutes per enquiry. That's 10 hours of work per month. At an average cost of €25/hour for a junior employee, that's €250/month — every month, forever."
+          },
+          {
+            "type": "h2",
+            "text": "The Numbers for a Lead Qualification Bot"
+          },
+          {
+            "type": "p",
+            "text": "A Telegram or web chat lead qualification bot costs from €400 to build. It handles the initial screening: asks the right questions, scores the lead, and sends you only the ones worth pursuing."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Build cost: €400–800 (one-time)",
+              "Maintenance: €20–40/month",
+              "Time saved: 8–15 hours/month",
+              "Value of time saved: €200–375/month",
+              "Payback period: 1–4 months"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "After month four, the bot is pure profit — it keeps working while you pay nothing extra for the time it saves."
+          },
+          {
+            "type": "h2",
+            "text": "The Numbers for a Customer Support Bot"
+          },
+          {
+            "type": "p",
+            "text": "A support bot that handles your 20 most common questions — pricing, availability, how to get started, order status — can deflect 60–70% of inbound support requests."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Build cost: €800–1 500 (one-time)",
+              "Maintenance: €20–40/month",
+              "Tickets deflected: 60–70% of volume",
+              "If you currently spend 20 hrs/month on support: saves 12–14 hrs",
+              "Value of time saved: €300–450/month",
+              "Payback period: 2–5 months"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "The Numbers You Can't Put in a Spreadsheet"
+          },
+          {
+            "type": "p",
+            "text": "The calculation above is conservative — it only counts hours saved. It doesn't count:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Leads contacted in seconds vs hours (conversion rates drop sharply with response time)",
+              "Leads captured at 2am on a Sunday that you would have missed entirely",
+              "Consistent quality — the bot never has a bad day or forgets to follow up",
+              "Scalability — handles 10x the volume with zero extra cost"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "When It Doesn't Make Sense"
+          },
+          {
+            "type": "p",
+            "text": "AI chatbots are not magic. They don't make sense if you get fewer than 5–10 enquiries per month (not enough volume to justify the build cost), if your enquiries are all highly complex and unique (the bot can't add much), or if you have no existing customer touchpoint to attach the bot to."
+          },
+          {
+            "type": "p",
+            "text": "When we do a free audit, we check these things first. If a bot won't pay back within 6 months, we'll tell you — and suggest something that will."
+          },
+          {
+            "type": "h2",
+            "text": "Bottom Line"
+          },
+          {
+            "type": "p",
+            "text": "For most service businesses, a well-built AI chatbot pays for itself in 2–4 months and then runs as a 24/7 sales and support assistant for the cost of a monthly maintenance plan. The question isn't whether you can afford one. It's whether you can afford to keep doing it manually."
+          },
+          {
+            "type": "p",
+            "text": "Book a free 30-minute audit. We'll calculate the actual ROI for your specific situation before you spend a cent."
+          }
+        ]
+      },
+      "cs": {
+        "title": "Za jak dlouho se AI chatbot zaplatí? Reálný výpočet návratnosti",
+        "excerpt": "Většina lidí se ptá 'kolik stojí AI chatbot?' Lepší otázka je: jak rychle se vrátí? Zde je reálný výpočet — s konkrétními čísly.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Když se firmy ptají na cenu AI chatbota, pokládají špatnou otázku. Správná otázka je: kolik vás každý měsíc stojí to, že ho NEMÁTE?"
+          },
+          {
+            "type": "p",
+            "text": "Pojďme si to spočítat."
+          },
+          {
+            "type": "h2",
+            "text": "Co bot vlastně nahrazuje"
+          },
+          {
+            "type": "p",
+            "text": "AI chatbot typicky zvládá tři typy práce: odpovídání na opakující se dotazy, kvalifikaci příchozích leadů a přesměrování požadavků na správnou osobu nebo systém. Všechny tři věci nyní zabírají něčí čas — váš, obchodníka nebo pracovníka podpory."
+          },
+          {
+            "type": "p",
+            "text": "Konkrétní příklad: malá servisní firma dostane 40 poptávek měsíčně. Každá vyžaduje přečtení, posouzení a odpověď — přibližně 15 minut na poptávku. To je 10 hodin práce měsíčně. Při průměrných nákladech 625 Kč/hod je to 6 250 Kč měsíčně — každý měsíc, navždy."
+          },
+          {
+            "type": "h2",
+            "text": "Čísla pro bot na kvalifikaci leadů"
+          },
+          {
+            "type": "p",
+            "text": "Telegram nebo web chat bot pro kvalifikaci leadů stojí od 10 000 Kč. Zvládne úvodní třídění: položí správné otázky, ohodnotí lead a pošle vám jen ty, které stojí za pozornost."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Cena vývoje: 10 000–20 000 Kč (jednorázově)",
+              "Údržba: 500–1 000 Kč/měsíc",
+              "Ušetřený čas: 8–15 hodin/měsíc",
+              "Hodnota ušetřeného času: 5 000–9 375 Kč/měsíc",
+              "Doba návratnosti: 1–4 měsíce"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Po čtvrtém měsíci je bot čistý zisk — pracuje dál, zatímco za ušetřený čas neplatíte nic navíc."
+          },
+          {
+            "type": "h2",
+            "text": "Čísla pro bot zákaznické podpory"
+          },
+          {
+            "type": "p",
+            "text": "Bot podpory, který zvládne vašich 20 nejčastějších dotazů, dokáže odklonit 60–70 % příchozích požadavků."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Cena vývoje: 20 000–38 000 Kč (jednorázově)",
+              "Údržba: 500–1 000 Kč/měsíc",
+              "Odklonění tiketů: 60–70 % objemu",
+              "Pokud nyní trávíte 20 hod/měsíc podporou: ušetříte 12–14 hod",
+              "Hodnota ušetřeného času: 7 500–8 750 Kč/měsíc",
+              "Doba návratnosti: 2–5 měsíců"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Čísla, která nedáte do tabulky"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Leady oslovené za sekundy místo hodin (konverze klesají s dobou odezvy)",
+              "Leady zachycené ve 2 ráno v neděli, které byste jinak ztratili",
+              "Konzistentní kvalita — bot nemá špatný den ani nezapomene na follow-up",
+              "Škálovatelnost — zvládne 10× větší objem bez dalších nákladů"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Kdy to nedává smysl"
+          },
+          {
+            "type": "p",
+            "text": "AI chatboty nejsou zázrak. Nedávají smysl, pokud dostáváte méně než 5–10 poptávek měsíčně, pokud jsou všechny vysoce komplexní a jedinečné, nebo pokud nemáte žádný zákaznický kontaktní bod, ke kterému bota připojit. Při bezplatném auditu tyto věci kontrolujeme jako první. Pokud se bot nezaplatí do 6 měsíců, řekneme vám to."
+          },
+          {
+            "type": "h2",
+            "text": "Závěr"
+          },
+          {
+            "type": "p",
+            "text": "Pro většinu servisních firem se dobře postavený AI chatbot zaplatí za 2–4 měsíce a pak funguje jako 24/7 asistent pro prodej a podporu za cenu měsíčního plánu údržby. Otázka není, zda si ho můžete dovolit. Otázka je, zda si můžete dovolit to dělat dál ručně."
+          },
+          {
+            "type": "p",
+            "text": "Rezervujte si bezplatný 30minutový audit. Spočítáme skutečnou návratnost pro vaši konkrétní situaci — ještě před tím, než utratíte první korunu."
+          }
+        ]
+      },
+      "uk": {
+        "title": "За скільки окупається AI чат-бот? Реальний розрахунок ROI",
+        "excerpt": "Більшість людей питає 'скільки коштує AI чат-бот?' Краще запитання: як швидко він окупиться? Ось реальний розрахунок — з конкретними цифрами.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Коли бізнеси питають про вартість AI чат-бота, вони ставлять неправильне запитання. Правильне запитання: скільки вам коштує кожен місяць те, що його НЕМАЄ?"
+          },
+          {
+            "type": "h2",
+            "text": "Що бот насправді замінює"
+          },
+          {
+            "type": "p",
+            "text": "Конкретний приклад: невеликий сервісний бізнес отримує 40 запитів на місяць. Кожен вимагає читання, оцінки та відповіді — приблизно 15 хвилин. Це 10 годин роботи на місяць. При вартості €25/год — це €250 щомісяця, назавжди."
+          },
+          {
+            "type": "h2",
+            "text": "Цифри для бота кваліфікації лідів"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Вартість розробки: €400–800 (одноразово)",
+              "Обслуговування: €20–40/міс",
+              "Зекономлений час: 8–15 годин/міс",
+              "Цінність зекономленого часу: €200–375/міс",
+              "Термін окупності: 1–4 місяці"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Цифри для бота підтримки клієнтів"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Вартість розробки: €800–1 500 (одноразово)",
+              "Відхилення тікетів: 60–70% обсягу",
+              "Цінність зекономленого часу: €300–450/міс",
+              "Термін окупності: 2–5 місяці"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Цифри, які не вмістити в таблицю"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Ліди отримують відповідь за секунди замість годин",
+              "Ліди захоплені о 2 ночі в неділю, які ви б пропустили",
+              "Стабільна якість — бот ніколи не має поганого дня",
+              "Масштабованість — обробляє в 10 разів більший обсяг без додаткових витрат"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Висновок"
+          },
+          {
+            "type": "p",
+            "text": "Для більшості сервісних бізнесів добре побудований AI чат-бот окупається за 2–4 місяці і потім працює як цілодобовий асистент з продажів і підтримки. Питання не в тому, чи можете ви його дозволити. Питання в тому, чи можете ви дозволити продовжувати робити це вручну. Забронюйте безкоштовний 30-хвилинний аудит."
+          }
+        ]
+      },
+      "ru": {
+        "title": "За сколько окупается AI чат-бот? Реальный расчёт ROI",
+        "excerpt": "Большинство людей спрашивают 'сколько стоит AI чат-бот?' Лучший вопрос: как быстро он окупится? Вот реальный расчёт — с конкретными цифрами.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Когда бизнесы спрашивают о стоимости AI чат-бота, они задают неправильный вопрос. Правильный вопрос: сколько вам стоит каждый месяц то, что его НЕТ?"
+          },
+          {
+            "type": "h2",
+            "text": "Что бот на самом деле заменяет"
+          },
+          {
+            "type": "p",
+            "text": "Конкретный пример: небольшой сервисный бизнес получает 40 запросов в месяц. Каждый требует прочтения, оценки и ответа — примерно 15 минут. Это 10 часов работы в месяц. При стоимости €25/час — это €250 ежемесячно, бесконечно."
+          },
+          {
+            "type": "h2",
+            "text": "Цифры для бота квалификации лидов"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Стоимость разработки: €400–800 (разово)",
+              "Обслуживание: €20–40/мес",
+              "Сэкономленное время: 8–15 часов/мес",
+              "Ценность сэкономленного времени: €200–375/мес",
+              "Срок окупаемости: 1–4 месяца"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Цифры для бота поддержки клиентов"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Стоимость разработки: €800–1 500 (разово)",
+              "Отклонение тикетов: 60–70% объёма",
+              "Ценность сэкономленного времени: €300–450/мес",
+              "Срок окупаемости: 2–5 месяцев"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Цифры, которые не поместить в таблицу"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Лиды получают ответ за секунды вместо часов",
+              "Лиды захваченные в 2 ночи в воскресенье, которые вы бы упустили",
+              "Стабильное качество — бот никогда не имеет плохого дня",
+              "Масштабируемость — обрабатывает в 10 раз больший объём без дополнительных затрат"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Итог"
+          },
+          {
+            "type": "p",
+            "text": "Для большинства сервисных бизнесов хорошо построенный AI чат-бот окупается за 2–4 месяца и затем работает как круглосуточный ассистент по продажам и поддержке. Вопрос не в том, можете ли вы его себе позволить. Вопрос в том, можете ли вы позволить себе продолжать делать это вручную. Забронируйте бесплатный 30-минутный аудит."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "slug": "ai-automation-cost-small-business",
+    "category": "business",
+    "date": "2026-03-10",
+    "cover": "/images/hero-bg.jpg",
+    "translations": {
+      "en": {
+        "title": "How Much Does AI Automation Cost for Small Business? Honest Pricing Breakdown",
+        "excerpt": "Prices range from €400 to €10 000+ depending on what you're building. Here's exactly what drives the cost — and how to avoid paying for things you don't need.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI automation pricing is confusing because 'automation' means very different things depending on who you ask. A simple Telegram bot and a full CRM with AI integrations are both 'automation' — but they cost very different amounts. Here's a clear breakdown."
+          },
+          {
+            "type": "h2",
+            "text": "What Drives the Cost"
+          },
+          {
+            "type": "p",
+            "text": "There are three main factors: complexity of the logic (how many conditions, exceptions, and edge cases), number of systems to integrate (each integration adds work), and whether you need a custom interface (a dashboard or app vs just a background automation)."
+          },
+          {
+            "type": "h2",
+            "text": "Price Ranges by Type"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Simple workflow automation (e.g. form → CRM → email notification): €400–800",
+              "AI chatbot for lead qualification or support (Telegram or web): €400–1 000",
+              "Multi-step automation with 3–5 system integrations: €800–2 500",
+              "Full lead pipeline with AI scoring, database, admin dashboard: €1 100–2 000",
+              "Complete automation system (CRM + bots + integrations + dashboard): €2 400–6 000+"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "What's Usually Included"
+          },
+          {
+            "type": "p",
+            "text": "A fair quote should include design, development, testing with real data, deployment, and a handover session where you learn how it works. What's usually NOT included: third-party API fees (some platforms charge per message or per API call), hosting costs if you need a dedicated server, and ongoing maintenance (which is a separate plan)."
+          },
+          {
+            "type": "h2",
+            "text": "Hidden Costs to Watch For"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "WhatsApp Business API: charged per conversation after a free monthly limit",
+              "OpenAI API: charged per token — varies by usage volume",
+              "No-code platform subscriptions (Make, n8n cloud): €9–50/month",
+              "Database hosting: €10–50/month depending on size"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "For most small businesses, the total monthly running cost after launch is €20–80. We always tell you this upfront — no surprises after go-live."
+          },
+          {
+            "type": "h2",
+            "text": "How to Get an Accurate Quote"
+          },
+          {
+            "type": "p",
+            "text": "The fastest way is to describe the process you want to automate in plain language: 'when a customer fills in this form, I want it to appear in my CRM and send me a Telegram message.' That's enough for a rough estimate. A 30-minute call gets you an exact number."
+          },
+          {
+            "type": "p",
+            "text": "Book a free audit — we'll scope the project and give you a fixed price before anything starts."
+          }
+        ]
+      },
+      "cs": {
+        "title": "Kolik stojí AI automatizace pro malé firmy? Upřímný přehled cen",
+        "excerpt": "Ceny se pohybují od 10 000 do 150 000+ Kč v závislosti na tom, co budujete. Zde je přesně to, co ovlivňuje cenu — a jak se vyhnout placení za věci, které nepotřebujete.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ceny AI automatizace jsou matoucí, protože 'automatizace' znamená velmi různé věci. Jednoduchý Telegram bot a kompletní CRM s AI integracemi jsou oboje 'automatizace' — ale stojí velmi odlišné částky. Zde je jasný přehled."
+          },
+          {
+            "type": "h2",
+            "text": "Co ovlivňuje cenu"
+          },
+          {
+            "type": "p",
+            "text": "Tři hlavní faktory: složitost logiky (kolik podmínek, výjimek a krajních případů), počet systémů k integraci (každá integrace přidává práci) a zda potřebujete vlastní rozhraní (dashboard nebo aplikaci vs. pouze automatizaci na pozadí)."
+          },
+          {
+            "type": "h2",
+            "text": "Cenové rozmezí podle typu"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Jednoduchá automatizace workflow (formulář → CRM → e-mailové oznámení): 10 000–20 000 Kč",
+              "AI chatbot pro kvalifikaci leadů nebo podporu (Telegram nebo web): 10 000–25 000 Kč",
+              "Víceúrovňová automatizace s 3–5 integracemi systémů: 20 000–60 000 Kč",
+              "Kompletní lead pipeline s AI hodnocením, databází a admin dashboardem: 28 000–50 000 Kč",
+              "Kompletní automatizační systém (CRM + boti + integrace + dashboard): 60 000–150 000+ Kč"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Co je obvykle zahrnuto"
+          },
+          {
+            "type": "p",
+            "text": "Spravedlivá nabídka by měla zahrnovat návrh, vývoj, testování s reálnými daty, nasazení a předávací schůzku. Co obvykle NENÍ zahrnuto: poplatky za API třetích stran, náklady na hosting a průběžná údržba (samostatný plán)."
+          },
+          {
+            "type": "h2",
+            "text": "Skryté náklady, na které si dát pozor"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "WhatsApp Business API: účtováno za konverzaci po bezplatném měsíčním limitu",
+              "OpenAI API: účtováno za token — závisí na objemu použití",
+              "No-code platformy (Make, n8n cloud): 225–1 250 Kč/měsíc",
+              "Hosting databáze: 250–1 250 Kč/měsíc podle velikosti"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Pro většinu malých firem jsou celkové měsíční provozní náklady po spuštění 500–2 000 Kč. Vždy vám to říkáme předem — žádná překvapení po spuštění."
+          },
+          {
+            "type": "h2",
+            "text": "Jak získat přesnou nabídku"
+          },
+          {
+            "type": "p",
+            "text": "Nejrychlejší způsob je popsat proces, který chcete automatizovat, v běžném jazyce. To stačí pro hrubý odhad. 30minutový hovor vám poskytne přesné číslo. Rezervujte si bezplatný audit — navrhneme projekt a dáme vám pevnou cenu, než cokoli začne."
+          }
+        ]
+      },
+      "uk": {
+        "title": "Скільки коштує AI автоматизація для малого бізнесу? Чесний розбір цін",
+        "excerpt": "Ціни варіюються від €400 до €6 000+ залежно від того, що ви будуєте. Ось що саме впливає на вартість — і як уникнути переплати.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ціни на AI автоматизацію заплутані, бо 'автоматизація' означає дуже різні речі. Простий Telegram бот і повна CRM система з AI інтеграціями — обидві 'автоматизація', але коштують зовсім по-різному."
+          },
+          {
+            "type": "h2",
+            "text": "Що впливає на вартість"
+          },
+          {
+            "type": "p",
+            "text": "Три основні фактори: складність логіки, кількість систем для інтеграції (кожна додає роботу) та чи потрібен власний інтерфейс (дашборд або додаток)."
+          },
+          {
+            "type": "h2",
+            "text": "Цінові діапазони за типом"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Проста автоматизація workflow: €400–800",
+              "AI чат-бот для кваліфікації лідів або підтримки: €400–1 000",
+              "Багатоетапна автоматизація з 3–5 інтеграціями: €800–2 500",
+              "Повний lead pipeline з AI скорингом і дашбордом: €1 100–2 000",
+              "Повна система автоматизації (CRM + боти + інтеграції): €2 400–6 000+"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Приховані витрати"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "WhatsApp Business API: платно за розмову після безкоштовного ліміту",
+              "OpenAI API: платно за токен залежно від обсягу",
+              "No-code платформи (Make, n8n): €9–50/міс",
+              "Хостинг бази даних: €10–50/міс"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Для більшості малих бізнесів загальні місячні витрати після запуску — €20–80. Ми завжди говоримо про це заздалегідь. Забронюйте безкоштовний аудит — дамо фіксовану ціну до початку роботи."
+          }
+        ]
+      },
+      "ru": {
+        "title": "Сколько стоит AI автоматизация для малого бизнеса? Честный разбор цен",
+        "excerpt": "Цены варьируются от €400 до €6 000+ в зависимости от того, что вы строите. Вот что именно влияет на стоимость — и как избежать переплаты.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Цены на AI автоматизацию запутаны, потому что 'автоматизация' означает очень разные вещи. Простой Telegram бот и полная CRM система с AI интеграциями — обе 'автоматизация', но стоят совершенно по-разному."
+          },
+          {
+            "type": "h2",
+            "text": "Что влияет на стоимость"
+          },
+          {
+            "type": "p",
+            "text": "Три основных фактора: сложность логики, количество систем для интеграции (каждая добавляет работу) и нужен ли собственный интерфейс (дашборд или приложение)."
+          },
+          {
+            "type": "h2",
+            "text": "Ценовые диапазоны по типу"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Простая автоматизация workflow: €400–800",
+              "AI чат-бот для квалификации лидов или поддержки: €400–1 000",
+              "Многоэтапная автоматизация с 3–5 интеграциями: €800–2 500",
+              "Полный lead pipeline с AI скорингом и дашбордом: €1 100–2 000",
+              "Полная система автоматизации (CRM + боты + интеграции): €2 400–6 000+"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Скрытые расходы"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "WhatsApp Business API: платно за разговор после бесплатного лимита",
+              "OpenAI API: платно за токен в зависимости от объёма",
+              "No-code платформы (Make, n8n): €9–50/мес",
+              "Хостинг базы данных: €10–50/мес"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Для большинства малых бизнесов общие ежемесячные расходы после запуска — €20–80. Мы всегда говорим об этом заранее. Забронируйте бесплатный аудит — дадим фиксированную цену до начала работы."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 5,
+    "slug": "5-automation-mistakes",
+    "category": "automation",
+    "date": "2026-03-28",
+    "cover": "/images/hero-bg.jpg",
+    "translations": {
+      "en": {
+        "title": "5 Mistakes Companies Make When Implementing Automation (and How to Avoid Them)",
+        "excerpt": "Most automation projects that fail don't fail because of technology. They fail because of decisions made before a single line of code was written. Here are the five most common ones.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Automation has a reputation for being expensive and disappointing. In most cases that reputation is deserved — but the problem isn't automation itself. It's how companies approach it. Here are the five mistakes we see most often."
+          },
+          {
+            "type": "h2",
+            "text": "Mistake 1: Automating a Broken Process"
+          },
+          {
+            "type": "p",
+            "text": "If your current process is chaotic, inconsistent, or poorly defined — automating it will make things faster and more chaotic. Automation amplifies whatever process you give it. Before you automate, you need to understand exactly what happens, in what order, in what cases. If you can't describe the process clearly in plain language, you're not ready to automate it."
+          },
+          {
+            "type": "h2",
+            "text": "Mistake 2: Starting Too Big"
+          },
+          {
+            "type": "p",
+            "text": "We regularly talk to companies that want to automate everything at once — the full sales pipeline, inventory management, customer support, and reporting — all in one project. These projects almost always run over time, over budget, and underdeliver."
+          },
+          {
+            "type": "p",
+            "text": "Start with one process. The one that costs the most time or causes the most frustration. Get that working, measure the result, then expand. Automation compounds — a small win in month one becomes the foundation for something bigger in month six."
+          },
+          {
+            "type": "h2",
+            "text": "Mistake 3: No Clear Owner After Launch"
+          },
+          {
+            "type": "p",
+            "text": "Automation doesn't run itself forever. APIs change, data formats shift, edge cases appear. If nobody owns the automation after launch — nobody checks when it breaks, nobody updates it when something changes — it quietly stops working and nobody notices until three months later."
+          },
+          {
+            "type": "p",
+            "text": "Assign someone to be the owner. This doesn't need to be a technical person. It just needs to be someone who gets alerted when something goes wrong and knows who to call."
+          },
+          {
+            "type": "h2",
+            "text": "Mistake 4: Skipping Testing with Real Data"
+          },
+          {
+            "type": "p",
+            "text": "Test data is clean. It doesn't have edge cases, missing fields, or unexpected values. Real data does. We've seen automations that worked perfectly in testing and broke immediately in production because a customer entered their phone number with spaces, or an invoice came in a slightly different format than expected."
+          },
+          {
+            "type": "p",
+            "text": "Always test with a sample of real production data before go-live. And build in error handling so that when something unexpected happens, it fails loudly — not silently."
+          },
+          {
+            "type": "h2",
+            "text": "Mistake 5: Not Measuring Anything After Launch"
+          },
+          {
+            "type": "p",
+            "text": "If you don't measure what the automation is doing, you don't know if it's working. How many leads did the bot qualify this month? How many support tickets did it deflect? How many hours did the workflow save? These numbers tell you whether the investment is paying off — and what to optimize next."
+          },
+          {
+            "type": "p",
+            "text": "Set up a simple dashboard or even a weekly report before you launch. Three numbers is enough. Just measure something."
+          },
+          {
+            "type": "h2",
+            "text": "The Common Thread"
+          },
+          {
+            "type": "p",
+            "text": "All five mistakes are about preparation and ownership, not technology. The automation itself is usually the easy part. If you want to get it right the first time, start with a proper audit — map the process, define success, identify the risks. That's what our free 30-minute call is for."
+          }
+        ]
+      },
+      "cs": {
+        "title": "5 chyb, které firmy dělají při zavádění automatizace (a jak se jim vyhnout)",
+        "excerpt": "Většina automatizačních projektů, které selžou, neselhávají kvůli technologii. Selhávají kvůli rozhodnutím učiněným ještě před napsáním jediného řádku kódu.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Automatizace má pověst drahé a zklamávající záležitosti. Problém ale není automatizace samotná — je to způsob, jakým k ní firmy přistupují. Zde je pět chyb, které vidíme nejčastěji."
+          },
+          {
+            "type": "h2",
+            "text": "Chyba 1: Automatizace nefunkčního procesu"
+          },
+          {
+            "type": "p",
+            "text": "Pokud je váš současný proces chaotický nebo špatně definovaný, jeho automatizace věci zrychlí a zároveň více zchaoizuje. Automatizace zesiluje jakýkoli proces, který jí dáte. Než začnete automatizovat, musíte přesně pochopit, co se děje, v jakém pořadí a v jakých případech. Pokud nedokážete proces jasně popsat v běžném jazyce, nejste připraveni ho automatizovat."
+          },
+          {
+            "type": "h2",
+            "text": "Chyba 2: Příliš velký start"
+          },
+          {
+            "type": "p",
+            "text": "Začněte s jedním procesem — tím, který stojí nejvíce času nebo způsobuje největší frustraci. Zprovozněte ho, změřte výsledek, pak rozšiřujte. Automatizace se skládá — malý úspěch v prvním měsíci se stává základem pro něco většího v měsíci šestém."
+          },
+          {
+            "type": "h2",
+            "text": "Chyba 3: Žádný jasný vlastník po spuštění"
+          },
+          {
+            "type": "p",
+            "text": "Automatizace nefunguje věčně sama. API se mění, datové formáty se posunují, objevují se krajní případy. Pokud po spuštění nikdo automatizaci nevlastní, tiše přestane fungovat a nikdo si toho nevšimne až o tři měsíce později. Přiřaďte vlastníka — nemusí to být technický člověk, jen někdo, kdo dostane upozornění, když se něco pokazí."
+          },
+          {
+            "type": "h2",
+            "text": "Chyba 4: Přeskočení testování s reálnými daty"
+          },
+          {
+            "type": "p",
+            "text": "Testovací data jsou čistá. Reálná data mají krajní případy, chybějící pole a neočekávané hodnoty. Vždy testujte se vzorkem reálných produkčních dat před spuštěním. A zabudujte zpracování chyb tak, aby při neočekávané situaci selhání bylo hlasité — ne tiché."
+          },
+          {
+            "type": "h2",
+            "text": "Chyba 5: Nic neměřit po spuštění"
+          },
+          {
+            "type": "p",
+            "text": "Pokud neměříte, co automatizace dělá, nevíte, zda funguje. Kolik leadů bot tento měsíc kvalifikoval? Kolik hodin workflow ušetřil? Nastavte si jednoduchý dashboard nebo týdenní report před spuštěním. Tři čísla stačí."
+          },
+          {
+            "type": "h2",
+            "text": "Společný základ"
+          },
+          {
+            "type": "p",
+            "text": "Všech pět chyb se týká přípravy a vlastnictví, ne technologie. Samotná automatizace je obvykle ta snadná část. Začněte správným auditem — zmapujte proces, definujte úspěch, identifikujte rizika. K tomu slouží náš bezplatný 30minutový hovor."
+          }
+        ]
+      },
+      "uk": {
+        "title": "5 помилок при впровадженні автоматизації (і як їх уникнути)",
+        "excerpt": "Більшість проектів автоматизації, що провалюються, провалюються не через технологію. Вони провалюються через рішення, прийняті до написання першого рядка коду.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Автоматизація має репутацію дорогої і розчаровуючої справи. Але проблема не в самій автоматизації — у способі, яким компанії до неї підходять. Ось п'ять помилок, які ми бачимо найчастіше."
+          },
+          {
+            "type": "h2",
+            "text": "Помилка 1: Автоматизація зламаного процесу"
+          },
+          {
+            "type": "p",
+            "text": "Якщо ваш поточний процес хаотичний або погано визначений — його автоматизація зробить все швидше і більш хаотичним. Автоматизація підсилює будь-який процес, який ви їй даєте. Перш ніж автоматизувати, потрібно чітко розуміти що відбувається, в якому порядку і в яких випадках."
+          },
+          {
+            "type": "h2",
+            "text": "Помилка 2: Надто великий старт"
+          },
+          {
+            "type": "p",
+            "text": "Почніть з одного процесу. Запустіть його, виміряйте результат, потім розширюйтесь. Автоматизація складається — маленький успіх у перший місяць стає фундаментом для чогось більшого в шостий."
+          },
+          {
+            "type": "h2",
+            "text": "Помилка 3: Відсутність власника після запуску"
+          },
+          {
+            "type": "p",
+            "text": "API змінюються, формати даних зміщуються, з'являються крайні випадки. Якщо після запуску ніхто не є власником автоматизації — вона тихо перестає працювати і ніхто не помічає цього три місяці."
+          },
+          {
+            "type": "h2",
+            "text": "Помилка 4: Пропуск тестування з реальними даними"
+          },
+          {
+            "type": "p",
+            "text": "Тестові дані чисті. Реальні дані мають крайні випадки і несподівані значення. Завжди тестуйте з вибіркою реальних даних до запуску. Вбудовуйте обробку помилок щоб збій був гучним, а не тихим."
+          },
+          {
+            "type": "h2",
+            "text": "Помилка 5: Нічого не вимірювати після запуску"
+          },
+          {
+            "type": "p",
+            "text": "Якщо ви не вимірюєте що робить автоматизація, ви не знаєте чи вона працює. Налаштуйте простий дашборд або тижневий звіт до запуску. Три цифри достатньо."
+          },
+          {
+            "type": "h2",
+            "text": "Спільна нитка"
+          },
+          {
+            "type": "p",
+            "text": "Всі п'ять помилок стосуються підготовки та власності, а не технології. Хочете зробити правильно з першого разу — почніть з належного аудиту. Саме для цього і є наш безкоштовний 30-хвилинний дзвінок."
+          }
+        ]
+      },
+      "ru": {
+        "title": "5 ошибок при внедрении автоматизации (и как их избежать)",
+        "excerpt": "Большинство проектов автоматизации, которые проваливаются, терпят неудачу не из-за технологии. Они проваливаются из-за решений, принятых до написания первой строки кода.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Автоматизация имеет репутацию дорогой и разочаровывающей. Но проблема не в самой автоматизации — в том, как компании к ней подходят. Вот пять ошибок, которые мы видим чаще всего."
+          },
+          {
+            "type": "h2",
+            "text": "Ошибка 1: Автоматизация сломанного процесса"
+          },
+          {
+            "type": "p",
+            "text": "Если ваш текущий процесс хаотичен или плохо определён — его автоматизация сделает всё быстрее и более хаотичным. Автоматизация усиливает любой процесс, который вы ей даёте. Прежде чем автоматизировать, нужно чётко понимать что происходит, в каком порядке и в каких случаях."
+          },
+          {
+            "type": "h2",
+            "text": "Ошибка 2: Слишком большой старт"
+          },
+          {
+            "type": "p",
+            "text": "Начните с одного процесса. Запустите его, измерьте результат, затем расширяйтесь. Автоматизация накапливается — маленький успех в первый месяц становится фундаментом для чего-то большего в шестой."
+          },
+          {
+            "type": "h2",
+            "text": "Ошибка 3: Отсутствие владельца после запуска"
+          },
+          {
+            "type": "p",
+            "text": "API меняются, форматы данных смещаются, появляются крайние случаи. Если после запуска никто не является владельцем автоматизации — она тихо перестаёт работать и никто не замечает этого три месяца."
+          },
+          {
+            "type": "h2",
+            "text": "Ошибка 4: Пропуск тестирования с реальными данными"
+          },
+          {
+            "type": "p",
+            "text": "Тестовые данные чистые. Реальные данные имеют крайние случаи и неожиданные значения. Всегда тестируйте с выборкой реальных данных до запуска. Встраивайте обработку ошибок чтобы сбой был громким, а не тихим."
+          },
+          {
+            "type": "h2",
+            "text": "Ошибка 5: Ничего не измерять после запуска"
+          },
+          {
+            "type": "p",
+            "text": "Если вы не измеряете что делает автоматизация, вы не знаете работает ли она. Настройте простой дашборд или еженедельный отчёт до запуска. Трёх цифр достаточно."
+          },
+          {
+            "type": "h2",
+            "text": "Общая нить"
+          },
+          {
+            "type": "p",
+            "text": "Все пять ошибок касаются подготовки и владения, а не технологии. Хотите сделать правильно с первого раза — начните с надлежащего аудита. Именно для этого наш бесплатный 30-минутный звонок."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 6,
+    "slug": "ecommerce-automation-what-to-automate-first",
+    "category": "automation",
+    "date": "2026-04-14",
+    "cover": "/images/hero-bg.jpg",
+    "translations": {
+      "en": {
+        "title": "E-commerce Automation: What to Automate First (and What to Leave for Later)",
+        "excerpt": "E-commerce businesses have dozens of repetitive processes. Not all of them are worth automating first. Here's a prioritised list — based on time saved and complexity.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "E-commerce is one of the best use cases for automation because the processes repeat at high volume and follow predictable patterns. Every order, every support request, every abandoned cart follows roughly the same flow. That predictability is what makes automation work well."
+          },
+          {
+            "type": "p",
+            "text": "But not everything should be automated at once. Here's how to prioritise."
+          },
+          {
+            "type": "h2",
+            "text": "Start Here: Order Processing and Notifications"
+          },
+          {
+            "type": "p",
+            "text": "The moment a customer places an order, a chain of tasks begins: confirmation email, inventory update, warehouse notification, shipping label creation, tracking number sent to customer. Most e-commerce businesses do some of these manually or use fragmented tools that don't talk to each other."
+          },
+          {
+            "type": "p",
+            "text": "A fully automated order pipeline eliminates the gaps. When the order comes in, everything downstream happens automatically — no manual steps, no delays, no missed notifications. This is the highest-ROI automation for most online shops."
+          },
+          {
+            "type": "h2",
+            "text": "Second Priority: Customer Support Automation"
+          },
+          {
+            "type": "p",
+            "text": "60–70% of e-commerce support tickets are about the same five things: order status, delivery time, return policy, product availability, payment issues. An AI support bot can handle all of these instantly — 24 hours a day, in multiple languages."
+          },
+          {
+            "type": "p",
+            "text": "The remaining 30–40% of tickets (complaints, complex returns, disputes) still go to a human. But your support team now handles only the cases that actually require human judgment."
+          },
+          {
+            "type": "h2",
+            "text": "Third Priority: Abandoned Cart Recovery"
+          },
+          {
+            "type": "p",
+            "text": "On average, 70% of e-commerce carts are abandoned. A timed sequence of automated messages — email at 1 hour, reminder at 24 hours, discount at 72 hours — recovers 5–15% of those carts without anyone lifting a finger. For a shop doing €50 000/month in revenue, that's €2 500–7 500 in recovered sales, automated."
+          },
+          {
+            "type": "h2",
+            "text": "Fourth Priority: Inventory and Restock Alerts"
+          },
+          {
+            "type": "p",
+            "text": "Low stock alerts, automatic reorder triggers, supplier notifications — these are straightforward to automate and prevent the costly problem of selling products you don't have. Set thresholds, connect your inventory system, and let the automation do the monitoring."
+          },
+          {
+            "type": "h2",
+            "text": "Leave for Later: Review Requests and Loyalty Programs"
+          },
+          {
+            "type": "p",
+            "text": "Review request emails and loyalty point tracking are worth automating — but they're not urgent. Get your core operations running smoothly first. Once orders, support, and cart recovery are automated, these become easy additions with clear ROI."
+          },
+          {
+            "type": "h2",
+            "text": "The Sequencing Rule"
+          },
+          {
+            "type": "p",
+            "text": "Automate in this order: operations first (orders, inventory), then revenue recovery (abandoned carts), then customer experience (support, reviews). Each layer builds on the previous one. If your order processing is manual, automated review requests just highlight a broken experience."
+          },
+          {
+            "type": "p",
+            "text": "Not sure where your biggest time sink is? Book a free audit — we'll map your current processes and tell you exactly where automation delivers the fastest return."
+          }
+        ]
+      },
+      "cs": {
+        "title": "Automatizace pro e-commerce: co automatizovat jako první (a co nechat na později)",
+        "excerpt": "E-commerce firmy mají desítky opakujících se procesů. Ne všechny stojí za automatizaci jako první. Zde je prioritizovaný seznam — podle ušetřeného času a složitosti.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "E-commerce je jedním z nejlepších příkladů použití automatizace, protože procesy se opakují ve velkém objemu a sledují předvídatelné vzory. Každá objednávka, každý požadavek podpory, každý opuštěný košík sleduje přibližně stejný postup. Tato předvídatelnost je to, co dělá automatizaci funkční."
+          },
+          {
+            "type": "h2",
+            "text": "Začněte zde: zpracování objednávek a notifikace"
+          },
+          {
+            "type": "p",
+            "text": "Ve chvíli, kdy zákazník zadá objednávku, začíná řetězec úkolů: potvrzovací e-mail, aktualizace skladu, oznámení skladu, vytvoření štítku, sledovací číslo odeslané zákazníkovi. Plně automatizovaný pipeline objednávek eliminuje mezery — bez ručních kroků, zpoždění nebo zmeškaných oznámení. Toto je automatizace s nejvyšší návratností pro většinu e-shopů."
+          },
+          {
+            "type": "h2",
+            "text": "Druhá priorita: automatizace zákaznické podpory"
+          },
+          {
+            "type": "p",
+            "text": "60–70 % tiketů podpory e-commerce se týká stejných pěti věcí: stav objednávky, čas doručení, zásady vrácení, dostupnost produktu, problémy s platbou. AI bot podpory dokáže zvládnout všechny tyto požadavky okamžitě — 24 hodin denně, ve více jazycích. Zbývajících 30–40 % tiketů stále jde k člověku."
+          },
+          {
+            "type": "h2",
+            "text": "Třetí priorita: obnovení opuštěného košíku"
+          },
+          {
+            "type": "p",
+            "text": "V průměru je 70 % košíků e-commerce opuštěno. Časovaná sekvence automatických zpráv — e-mail za 1 hodinu, připomínka za 24 hodin, sleva za 72 hodin — obnoví 5–15 % těchto košíků. Pro e-shop s obratem 1 250 000 Kč/měsíc je to 62 500–187 500 Kč v obnovených tržbách, automaticky."
+          },
+          {
+            "type": "h2",
+            "text": "Čtvrtá priorita: upozornění na zásoby a doplnění"
+          },
+          {
+            "type": "p",
+            "text": "Upozornění na nízké zásoby, automatické spouštěče objednávek, oznámení dodavatelům — toto je jednoduché automatizovat a zabraňuje nákladnému problému prodeje produktů, které nemáte."
+          },
+          {
+            "type": "h2",
+            "text": "Pravidlo sekvenování"
+          },
+          {
+            "type": "p",
+            "text": "Automatizujte v tomto pořadí: nejprve operace (objednávky, zásoby), pak obnova příjmů (opuštěné košíky), pak zákaznická zkušenost (podpora, recenze). Každá vrstva staví na předchozí. Rezervujte si bezplatný audit — zmapujeme vaše procesy a řekneme vám přesně, kde automatizace přinese nejrychlejší návratnost."
+          }
+        ]
+      },
+      "uk": {
+        "title": "Автоматизація для e-commerce: що автоматизувати першим (а що залишити на потім)",
+        "excerpt": "E-commerce бізнеси мають десятки повторюваних процесів. Не всі варто автоматизувати першими. Ось пріоритизований список — за зекономленим часом і складністю.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "E-commerce — один з найкращих прикладів використання автоматизації, бо процеси повторюються у великому обсязі та слідують передбачуваним патернам."
+          },
+          {
+            "type": "h2",
+            "text": "Починайте тут: обробка замовлень і сповіщення"
+          },
+          {
+            "type": "p",
+            "text": "Коли клієнт робить замовлення — починається ланцюг завдань: лист підтвердження, оновлення складу, сповіщення складу, ярлик доставки, номер відстеження. Повністю автоматизований pipeline замовлень усуває розриви без ручних кроків і затримок. Це автоматизація з найвищим ROI для більшості інтернет-магазинів."
+          },
+          {
+            "type": "h2",
+            "text": "Другий пріоритет: автоматизація підтримки клієнтів"
+          },
+          {
+            "type": "p",
+            "text": "60–70% тікетів підтримки стосуються одних і тих самих п'яти речей: статус замовлення, час доставки, політика повернення, наявність товару, проблеми з оплатою. AI бот може обробляти все це миттєво — 24 години на добу, кількома мовами."
+          },
+          {
+            "type": "h2",
+            "text": "Третій пріоритет: відновлення покинутого кошика"
+          },
+          {
+            "type": "p",
+            "text": "В середньому 70% кошиків покидаються. Часова послідовність автоматичних повідомлень — лист через 1 годину, нагадування через 24 години, знижка через 72 години — відновлює 5–15% цих кошиків без жодних ручних дій."
+          },
+          {
+            "type": "h2",
+            "text": "Правило послідовності"
+          },
+          {
+            "type": "p",
+            "text": "Автоматизуйте в такому порядку: спочатку операції (замовлення, запаси), потім відновлення доходів (покинуті кошики), потім клієнтський досвід (підтримка, відгуки). Кожен шар будується на попередньому. Забронюйте безкоштовний аудит — скажемо де автоматизація принесе найшвидший результат."
+          }
+        ]
+      },
+      "ru": {
+        "title": "Автоматизация для e-commerce: что автоматизировать первым (а что оставить на потом)",
+        "excerpt": "E-commerce бизнесы имеют десятки повторяющихся процессов. Не все стоит автоматизировать первыми. Вот приоритизированный список — по сэкономленному времени и сложности.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "E-commerce — один из лучших примеров использования автоматизации, потому что процессы повторяются в большом объёме и следуют предсказуемым паттернам."
+          },
+          {
+            "type": "h2",
+            "text": "Начинайте здесь: обработка заказов и уведомления"
+          },
+          {
+            "type": "p",
+            "text": "Когда клиент делает заказ — начинается цепочка задач: письмо подтверждения, обновление склада, уведомление склада, этикетка доставки, номер отслеживания. Полностью автоматизированный pipeline заказов устраняет разрывы без ручных шагов и задержек. Это автоматизация с наивысшим ROI для большинства интернет-магазинов."
+          },
+          {
+            "type": "h2",
+            "text": "Второй приоритет: автоматизация поддержки клиентов"
+          },
+          {
+            "type": "p",
+            "text": "60–70% тикетов поддержки касаются одних и тех же пяти вещей: статус заказа, время доставки, политика возврата, наличие товара, проблемы с оплатой. AI бот может обрабатывать всё это мгновенно — 24 часа в сутки, на нескольких языках."
+          },
+          {
+            "type": "h2",
+            "text": "Третий приоритет: восстановление брошенной корзины"
+          },
+          {
+            "type": "p",
+            "text": "В среднем 70% корзин бросаются. Временная последовательность автоматических сообщений — письмо через 1 час, напоминание через 24 часа, скидка через 72 часа — восстанавливает 5–15% этих корзин без каких-либо ручных действий."
+          },
+          {
+            "type": "h2",
+            "text": "Правило последовательности"
+          },
+          {
+            "type": "p",
+            "text": "Автоматизируйте в таком порядке: сначала операции (заказы, запасы), потом восстановление доходов (брошенные корзины), потом клиентский опыт (поддержка, отзывы). Каждый слой строится на предыдущем. Забронируйте бесплатный аудит — скажем где автоматизация принесёт самый быстрый результат."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 7,
+    "slug": "n8n-vs-make-which-to-choose",
+    "category": "automation",
+    "date": "2026-05-02",
+    "cover": "/images/hero-bg.jpg",
+    "translations": {
+      "en": {
+        "title": "n8n vs Make: Which Automation Platform Is Right for Your Business?",
+        "excerpt": "Both n8n and Make can automate your workflows — but they're built for different situations. Here's a plain-language comparison to help you choose without the hype.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "When clients ask us which platform to use for automation, the honest answer is: it depends. n8n and Make are both excellent tools, but they serve different needs. Here's how to think about the choice."
+          },
+          {
+            "type": "h2",
+            "text": "What They Are"
+          },
+          {
+            "type": "p",
+            "text": "Both are visual workflow automation platforms — you connect apps and define logic with a drag-and-drop interface, no code required. You can connect CRMs, email tools, databases, AI models, webhooks, and hundreds of other services. The difference is in how they're priced, hosted, and how technical you need to be to use them."
+          },
+          {
+            "type": "h2",
+            "text": "Make: Best for Getting Started Fast"
+          },
+          {
+            "type": "p",
+            "text": "Make (formerly Integromat) has the most polished interface of any automation platform. If you've never built an automation before, Make is the easiest place to start. The visual flow is intuitive, the error messages are readable, and the documentation is excellent."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Plans from free to €16/month for small usage",
+              "Pricing based on 'operations' — each step in a workflow counts",
+              "Hosted in the cloud — nothing to install or maintain",
+              "Best for: non-technical teams, simple to medium complexity workflows"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "The main limitation: at higher volumes, operations-based pricing adds up quickly. A workflow that runs 1 000 times per day with 10 steps uses 10 000 operations per day — that's 300 000/month, which requires a paid plan."
+          },
+          {
+            "type": "h2",
+            "text": "n8n: Best for Power and Control"
+          },
+          {
+            "type": "p",
+            "text": "n8n is open-source and can be self-hosted on your own server. This means no per-operation limits — you pay for compute, not for usage. For high-volume automations, this makes n8n dramatically cheaper than Make at scale."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Self-hosted: pay only for your server (€5–20/month for most use cases)",
+              "Cloud version available from €20/month with unlimited executions",
+              "More powerful for complex logic: code nodes, sub-workflows, error handling",
+              "Best for: developers, high-volume workflows, data-sensitive use cases"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "The trade-off: n8n requires more technical comfort to set up and maintain. The interface is slightly less polished than Make, and some integrations require more configuration."
+          },
+          {
+            "type": "h2",
+            "text": "The Decision Framework"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Non-technical team, low to medium volume → Make",
+              "Developer on the team, high volume, or budget-sensitive → n8n",
+              "Need to keep data on your own infrastructure → n8n self-hosted",
+              "Want the fastest path to a working prototype → Make"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "What We Use"
+          },
+          {
+            "type": "p",
+            "text": "We use both, depending on the client. For e-commerce clients with high order volumes, we almost always use n8n — the cost savings are significant. For marketing agencies and smaller teams who need to manage their own workflows, Make is usually the better fit."
+          },
+          {
+            "type": "p",
+            "text": "Not sure which fits your situation? Book a free 30-minute call and we'll give you a clear recommendation based on your actual workflows and volume."
+          }
+        ]
+      },
+      "cs": {
+        "title": "n8n vs Make: Která automatizační platforma je pro vaše podnikání správná?",
+        "excerpt": "Obě platformy dokáží automatizovat vaše workflow — ale jsou stavěny pro různé situace. Zde je srovnání v běžném jazyce, které vám pomůže vybrat bez humbuku.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Když se klienti ptají, kterou platformu použít pro automatizaci, upřímná odpověď je: záleží na situaci. n8n i Make jsou vynikající nástroje, ale slouží různým potřebám."
+          },
+          {
+            "type": "h2",
+            "text": "Co jsou zač"
+          },
+          {
+            "type": "p",
+            "text": "Obě jsou vizuální platformy pro automatizaci workflow — propojujete aplikace a definujete logiku pomocí rozhraní drag-and-drop, bez nutnosti psát kód. Rozdíl je v ceně, hostování a technické náročnosti."
+          },
+          {
+            "type": "h2",
+            "text": "Make: Nejlepší pro rychlý start"
+          },
+          {
+            "type": "p",
+            "text": "Make (dříve Integromat) má nejpropracovanější rozhraní ze všech automatizačních platforem. Pokud jste nikdy automatizaci nestavěli, Make je nejjednodušší místo pro začátek."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Plány od zdarma do 400 Kč/měsíc pro malé použití",
+              "Cena založená na 'operacích' — každý krok ve workflow se počítá",
+              "Hostováno v cloudu — nic k instalaci ani údržbě",
+              "Nejlepší pro: netehnické týmy, jednoduchá až středně složitá workflow"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "n8n: Nejlepší pro výkon a kontrolu"
+          },
+          {
+            "type": "p",
+            "text": "n8n je open-source a lze ho hostovat na vlastním serveru. To znamená žádné limity na operace — platíte za výpočetní výkon, ne za použití. Pro velkoobjemové automatizace je n8n ve větším měřítku dramaticky levnější než Make."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Self-hosted: platíte pouze za server (125–500 Kč/měsíc pro většinu případů)",
+              "Cloudová verze od 500 Kč/měsíc s neomezenými spuštěními",
+              "Výkonnější pro komplexní logiku: code nodes, sub-workflow, zpracování chyb",
+              "Nejlepší pro: vývojáře, velkoobjemová workflow, citlivé firemní data"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Rozhodovací rámec"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Netehnický tým, nízký až střední objem → Make",
+              "Vývojář v týmu, vysoký objem nebo citlivost na cenu → n8n",
+              "Potřeba uchovávat data na vlastní infrastruktuře → n8n self-hosted",
+              "Nejrychlejší cesta k funkčnímu prototypu → Make"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Nejste si jistí, co se hodí pro vaši situaci? Rezervujte si bezplatný 30minutový hovor a dáme vám jasné doporučení na základě vašich skutečných workflow a objemu."
+          }
+        ]
+      },
+      "uk": {
+        "title": "n8n vs Make: яку платформу автоматизації обрати для вашого бізнесу?",
+        "excerpt": "Обидві платформи можуть автоматизувати ваші процеси — але побудовані для різних ситуацій. Ось порівняння простою мовою, щоб обрати без маркетингового шуму.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Коли клієнти запитують, яку платформу використовувати для автоматизації, чесна відповідь: залежить від ситуації. n8n і Make — обидва чудові інструменти, але для різних потреб."
+          },
+          {
+            "type": "h2",
+            "text": "Що це таке"
+          },
+          {
+            "type": "p",
+            "text": "Обидві є візуальними платформами автоматизації workflow — ви з'єднуєте додатки і визначаєте логіку за допомогою drag-and-drop без написання коду. Різниця у ціні, хостингу і технічній складності."
+          },
+          {
+            "type": "h2",
+            "text": "Make: найкраще для швидкого старту"
+          },
+          {
+            "type": "p",
+            "text": "Make (раніше Integromat) має найполірованіший інтерфейс серед усіх платформ автоматизації. Якщо ви ніколи не будували автоматизацію раніше, Make — найлегше місце для початку. Цінування засноване на 'операціях' — кожен крок у workflow рахується."
+          },
+          {
+            "type": "h2",
+            "text": "n8n: найкраще для потужності та контролю"
+          },
+          {
+            "type": "p",
+            "text": "n8n — open-source і може бути розміщений на власному сервері. Це означає відсутність лімітів на операції. Для великообсягових автоматизацій n8n значно дешевший від Make при масштабуванні."
+          },
+          {
+            "type": "h2",
+            "text": "Рамка для рішення"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Нетехнічна команда, малий або середній обсяг → Make",
+              "Розробник у команді, великий обсяг або чутливість до ціни → n8n",
+              "Потреба зберігати дані на власній інфраструктурі → n8n self-hosted",
+              "Найшвидший шлях до робочого прототипу → Make"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Не впевнені що підходить для вашої ситуації? Забронюйте безкоштовний дзвінок і ми дамо чітку рекомендацію на основі ваших реальних workflow."
+          }
+        ]
+      },
+      "ru": {
+        "title": "n8n vs Make: какую платформу автоматизации выбрать для вашего бизнеса?",
+        "excerpt": "Обе платформы могут автоматизировать ваши процессы — но созданы для разных ситуаций. Вот сравнение простым языком, чтобы выбрать без маркетингового шума.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Когда клиенты спрашивают, какую платформу использовать для автоматизации, честный ответ: зависит от ситуации. n8n и Make — оба отличные инструменты, но для разных потребностей."
+          },
+          {
+            "type": "h2",
+            "text": "Что это такое"
+          },
+          {
+            "type": "p",
+            "text": "Обе — визуальные платформы автоматизации workflow: вы соединяете приложения и определяете логику с помощью drag-and-drop без написания кода. Разница в цене, хостинге и технической сложности."
+          },
+          {
+            "type": "h2",
+            "text": "Make: лучший выбор для быстрого старта"
+          },
+          {
+            "type": "p",
+            "text": "Make (ранее Integromat) имеет наиболее полированный интерфейс среди всех платформ автоматизации. Если вы никогда раньше не строили автоматизацию, Make — самое лёгкое место для начала. Ценообразование основано на 'операциях' — каждый шаг в workflow считается."
+          },
+          {
+            "type": "h2",
+            "text": "n8n: лучший выбор для мощности и контроля"
+          },
+          {
+            "type": "p",
+            "text": "n8n — open-source и может размещаться на собственном сервере. Это означает отсутствие лимитов на операции. Для высокообъёмных автоматизаций n8n значительно дешевле Make при масштабировании."
+          },
+          {
+            "type": "h2",
+            "text": "Рамка для решения"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Нетехническая команда, малый или средний объём → Make",
+              "Разработчик в команде, большой объём или чувствительность к цене → n8n",
+              "Нужно хранить данные на собственной инфраструктуре → n8n self-hosted",
+              "Самый быстрый путь к рабочему прототипу → Make"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Не уверены, что подходит для вашей ситуации? Забронируйте бесплатный звонок и мы дадим чёткую рекомендацию на основе ваших реальных workflow."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 8,
+    "slug": "how-to-connect-ai-to-your-crm",
+    "category": "ai",
+    "date": "2026-05-19",
+    "cover": "/images/hero-bg.jpg",
+    "translations": {
+      "en": {
+        "title": "How to Connect AI to Your CRM: What It Can Do and How to Get Started",
+        "excerpt": "AI in your CRM isn't science fiction anymore. Here's what it actually does, which systems support it, and how to set it up without a six-month IT project.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Most CRM systems store a lot of data but do very little with it. AI changes that. Instead of just recording what happened, your CRM can start predicting what should happen next, writing first drafts, and flagging what needs attention."
+          },
+          {
+            "type": "h2",
+            "text": "What AI Actually Does in a CRM"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Lead scoring — automatically ranks leads by likelihood to convert based on behaviour and profile data",
+              "Email drafting — generates first-draft follow-up emails based on previous conversation history",
+              "Meeting summaries — transcribes and summarises calls, then writes the next steps to the contact record",
+              "Chatbot-to-CRM sync — automatically creates or updates contact records from chat conversations",
+              "Churn prediction — flags existing customers showing disengagement signals before they leave",
+              "Pipeline forecasting — gives realistic revenue estimates based on current deal stage and historical data"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Which CRMs Support AI Best"
+          },
+          {
+            "type": "p",
+            "text": "HubSpot has the most native AI features built in — Breeze AI handles email drafts, meeting summaries, and lead scoring without any additional tools. Salesforce has Einstein AI with similar capabilities, but at a higher price point. Pipedrive has basic AI email assistance. For custom CRMs or simpler tools, AI is added via API connection."
+          },
+          {
+            "type": "h2",
+            "text": "How the Connection Works"
+          },
+          {
+            "type": "p",
+            "text": "There are three ways to connect AI to a CRM. First, native integrations — the CRM already has AI built in (HubSpot Breeze, Salesforce Einstein). You turn it on in settings. Second, no-code middleware — tools like Make or n8n call the OpenAI API and write the result back into your CRM via its API. Third, custom development — a webhook triggers when something happens in the CRM, sends data to an AI model, gets a result, and writes it back. This gives the most control."
+          },
+          {
+            "type": "h2",
+            "text": "A Real Example: AI Follow-up Email in HubSpot"
+          },
+          {
+            "type": "p",
+            "text": "When a lead submits a form, a Make workflow fires: it reads the form data and any previous contact history from HubSpot, sends it to GPT-4 with a personalised prompt, receives a draft email, and creates a task in HubSpot for the sales rep to review and send it. The rep reviews one email instead of writing it from scratch. It takes 40 seconds of their time instead of 5 minutes."
+          },
+          {
+            "type": "h2",
+            "text": "Where to Start"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "If you use HubSpot: enable Breeze AI in your settings — it's included in most plans",
+              "If you use another CRM: identify the one AI task that would save the most time (usually follow-up email drafts)",
+              "Build or commission a single automation that does that one thing well",
+              "Measure the time saved over 30 days, then expand"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "We can connect AI to whatever CRM you use — HubSpot, Salesforce, Pipedrive, or a custom system. Book a free 30-minute call to discuss what's possible."
+          }
+        ]
+      },
+      "cs": {
+        "title": "Jak připojit AI k vašemu CRM: co umí a jak začít",
+        "excerpt": "AI ve vašem CRM už není science fiction. Zde je to, co skutečně dělá, které systémy to podporují a jak začít bez šestiměsíčního IT projektu.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Většina CRM systémů ukládá spoustu dat, ale s nimi toho dělá málo. AI to mění. Místo pouhého zaznamenávání toho, co se stalo, může vaše CRM začít předpovídat, co by se mělo stát dál, psát první verze e-mailů a upozorňovat na to, co potřebuje pozornost."
+          },
+          {
+            "type": "h2",
+            "text": "Co AI skutečně dělá v CRM"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Skórování leadů — automaticky řadí leady podle pravděpodobnosti konverze",
+              "Psaní e-mailů — generuje první verze follow-up e-mailů na základě předchozí komunikace",
+              "Souhrny schůzek — přepisuje a sumarizuje hovory, pak zapisuje další kroky",
+              "Synchronizace chatbot→CRM — automaticky vytváří nebo aktualizuje záznamy kontaktů z konverzací",
+              "Predikce odchodu — označuje zákazníky vykazující signály nezájmu",
+              "Predikce pipeline — realistické odhady příjmů podle fáze dealů"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Která CRM nejlépe podporují AI"
+          },
+          {
+            "type": "p",
+            "text": "HubSpot má nejvíce nativních AI funkcí — Breeze AI zpracovává e-mailové drafty, souhrny schůzek a skórování leadů bez dalších nástrojů. Salesforce má Einstein AI s podobnými schopnostmi, ale za vyšší cenu. Pipedrive má základní AI asistenci pro e-maily. Pro vlastní CRM nebo jednodušší nástroje se AI přidává přes API."
+          },
+          {
+            "type": "h2",
+            "text": "Jak připojení funguje"
+          },
+          {
+            "type": "p",
+            "text": "Existují tři způsoby: nativní integrace (CRM má AI zabudovanou), no-code middleware (Make nebo n8n volají OpenAI API a zapisují výsledek zpět do CRM), nebo vlastní vývoj (webhook spouští při události v CRM, posílá data do AI modelu a zapíše výsledek zpět)."
+          },
+          {
+            "type": "h2",
+            "text": "Kde začít"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Pokud používáte HubSpot: povolte Breeze AI v nastavení — je součástí většiny plánů",
+              "Pokud používáte jiné CRM: identifikujte jeden AI úkol, který by ušetřil nejvíce času",
+              "Sestavte nebo zadejte jednu automatizaci, která tuto věc dělá dobře",
+              "Měřte ušetřený čas po dobu 30 dní, pak rozšiřujte"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Dokážeme připojit AI k jakémukoli CRM, které používáte. Rezervujte si bezplatný 30minutový hovor a probereme možnosti."
+          }
+        ]
+      },
+      "uk": {
+        "title": "Як підключити AI до вашої CRM: що вона вміє і як почати",
+        "excerpt": "AI у вашій CRM вже не фантастика. Ось що вона реально робить, які системи підтримують і як почати без шестимісячного IT проекту.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Більшість CRM систем зберігають багато даних, але роблять з ними мало. AI змінює це. Замість простого запису того, що сталося, ваша CRM може починати прогнозувати що має статися далі, писати чернетки листів і виділяти те, що потребує уваги."
+          },
+          {
+            "type": "h2",
+            "text": "Що AI реально робить у CRM"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Скоринг лідів — автоматично ранжує ліди за ймовірністю конверсії",
+              "Написання листів — генерує чернетки follow-up на основі попередньої комунікації",
+              "Підсумки зустрічей — транскрибує та підсумовує дзвінки, записує наступні кроки",
+              "Синхронізація чатбот→CRM — автоматично створює або оновлює записи контактів",
+              "Прогнозування відтоку — виявляє клієнтів з сигналами незацікавленості",
+              "Прогнозування pipeline — реалістичні оцінки доходів"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Як підключення працює"
+          },
+          {
+            "type": "p",
+            "text": "Три способи: нативна інтеграція (CRM має вбудований AI), no-code middleware (Make або n8n викликають OpenAI API і записують результат назад у CRM), або власна розробка через webhook. Останній дає найбільший контроль."
+          },
+          {
+            "type": "h2",
+            "text": "З чого почати"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Якщо ви використовуєте HubSpot: увімкніть Breeze AI в налаштуваннях",
+              "Якщо інша CRM: визначте один AI завдання, що зекономить найбільше часу",
+              "Побудуйте або замовте одну автоматизацію для цього завдання",
+              "Вимірюйте зекономлений час 30 днів, потім розширюйте"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ми підключаємо AI до будь-якої CRM — HubSpot, Salesforce, Pipedrive або власної системи. Забронюйте безкоштовний дзвінок."
+          }
+        ]
+      },
+      "ru": {
+        "title": "Как подключить AI к вашей CRM: что умеет и как начать",
+        "excerpt": "AI в вашей CRM уже не фантастика. Вот что она реально делает, какие системы поддерживают и как начать без шестимесячного IT проекта.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Большинство CRM систем хранят много данных, но делают с ними мало. AI меняет это. Вместо простой записи того, что произошло, ваша CRM может начать прогнозировать что должно произойти дальше, писать черновики писем и выделять то, что требует внимания."
+          },
+          {
+            "type": "h2",
+            "text": "Что AI реально делает в CRM"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Скоринг лидов — автоматически ранжирует лиды по вероятности конверсии",
+              "Написание писем — генерирует черновики follow-up на основе предыдущей коммуникации",
+              "Итоги встреч — транскрибирует и суммирует звонки, записывает следующие шаги",
+              "Синхронизация чатбот→CRM — автоматически создаёт или обновляет записи контактов",
+              "Прогнозирование оттока — выявляет клиентов с сигналами незаинтересованности",
+              "Прогнозирование pipeline — реалистичные оценки доходов"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Как подключение работает"
+          },
+          {
+            "type": "p",
+            "text": "Три способа: нативная интеграция (CRM имеет встроенный AI), no-code middleware (Make или n8n вызывают OpenAI API и записывают результат обратно в CRM), или собственная разработка через webhook. Последний даёт наибольший контроль."
+          },
+          {
+            "type": "h2",
+            "text": "С чего начать"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Если используете HubSpot: включите Breeze AI в настройках",
+              "Если другая CRM: определите одну AI задачу, которая сэкономит больше всего времени",
+              "Создайте или закажите одну автоматизацию для этой задачи",
+              "Измеряйте сэкономленное время 30 дней, потом расширяйте"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Мы подключаем AI к любой CRM — HubSpot, Salesforce, Pipedrive или собственной системе. Забронируйте бесплатный звонок."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 9,
+    "slug": "automated-order-and-invoice-processing",
+    "category": "automation",
+    "date": "2026-06-04",
+    "cover": "/images/hero-bg.jpg",
+    "translations": {
+      "en": {
+        "title": "Automated Order and Invoice Processing: How to Stop Doing It Manually",
+        "excerpt": "Processing orders and invoices manually is one of the most expensive habits a small business can have. Here's what automation looks like in practice — and what it saves.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "For most small businesses, processing an order or an invoice involves at least 5–10 manual steps: copy data from one system to another, create a document, check the details, send it, file it, record it in accounting. Multiply that by 50 or 100 orders a month and you have a significant chunk of someone's working time spent on data entry."
+          },
+          {
+            "type": "h2",
+            "text": "What Gets Automated"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Order received (web form, email, or shop) → automatically created in your system with all fields filled",
+              "Invoice generated automatically from the order data — correct amount, VAT, payment terms",
+              "Invoice sent to the customer by email without anyone touching it",
+              "Payment status monitored — automated reminder sent if invoice is unpaid after X days",
+              "Paid invoice → bookkeeping entry created automatically in your accounting software",
+              "Team notification — warehouse, production, or logistics alerted the moment an order arrives"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "What This Looks Like in Practice"
+          },
+          {
+            "type": "p",
+            "text": "A client submits a form on your website. Within 30 seconds: a record appears in your CRM, a PDF invoice is generated with their correct details, it's emailed to them with your payment instructions, your warehouse receives a pick list, and you get a Telegram notification. Nothing was touched manually. The entire process that used to take 15–20 minutes now happens in under a minute."
+          },
+          {
+            "type": "h2",
+            "text": "Which Systems We Connect"
+          },
+          {
+            "type": "p",
+            "text": "Order sources: web forms (Typeform, Tally, your own website), e-commerce platforms (Shopify, WooCommerce), email (orders sent by email parsed automatically). Invoice tools: Fakturoid, iDoklad, Pohoda, Xero, QuickBooks. Accounting: direct API sync or export files in the correct format. Notifications: Telegram, Slack, email."
+          },
+          {
+            "type": "h2",
+            "text": "The Numbers"
+          },
+          {
+            "type": "p",
+            "text": "For a business processing 80–100 orders per month, full automation of order and invoice handling typically saves 15–20 hours of admin work per month. At an effective hourly rate of €30–50, that's €450–1 000 in recovered time every month. The automation pays for itself within the first month."
+          },
+          {
+            "type": "h2",
+            "text": "What It Doesn't Replace"
+          },
+          {
+            "type": "p",
+            "text": "Automation handles the predictable cases. Orders that need price negotiation, custom terms, or exceptions still go to a human. But those are 5–10% of your orders. The other 90% runs on autopilot."
+          },
+          {
+            "type": "p",
+            "text": "Want to see what this would look like for your business specifically? Book a free audit — we'll map your current process and show you exactly what can be automated and what the time savings would be."
+          }
+        ]
+      },
+      "cs": {
+        "title": "Automatizace zpracování objednávek a faktur: jak přestat to dělat ručně",
+        "excerpt": "Ruční zpracování objednávek a faktur je jedním z nejdražších zvyků, které malá firma může mít. Zde je, jak automatizace vypadá v praxi — a co ušetří.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pro většinu malých firem zpracování objednávky nebo faktury zahrnuje alespoň 5–10 ručních kroků: kopírování dat z jednoho systému do druhého, vytvoření dokumentu, kontrola, odeslání, archivace, záznam v účetnictví. Vynásobte to 50 nebo 100 objednávkami měsíčně a máte velkou část pracovního času stráveného zadáváním dat."
+          },
+          {
+            "type": "h2",
+            "text": "Co se automatizuje"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Přijatá objednávka → automaticky vytvořena ve vašem systému s vyplněnými poli",
+              "Faktura generována automaticky z dat objednávky — správná částka, DPH, platební podmínky",
+              "Faktura odeslána zákazníkovi e-mailem bez zásahu člověka",
+              "Sledování stavu platby — automatická upomínka při nezaplacení po X dnech",
+              "Zaplacená faktura → automaticky vytvořen účetní záznam v účetním softwaru",
+              "Oznámení týmu — sklad, výroba nebo logistika upozorněni ihned po přijetí objednávky"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Jak to vypadá v praxi"
+          },
+          {
+            "type": "p",
+            "text": "Zákazník odešle formulář na vašem webu. Do 30 sekund: záznam se objeví ve vašem CRM, vygeneruje se PDF faktura se správnými údaji, odešle se zákazníkovi s platebními pokyny, sklad dostane seznam položek a vy dostanete upozornění na Telegramu. Celý proces, který dříve trval 15–20 minut, proběhne za méně než minutu."
+          },
+          {
+            "type": "h2",
+            "text": "Čísla"
+          },
+          {
+            "type": "p",
+            "text": "Pro firmu zpracovávající 80–100 objednávek měsíčně plná automatizace zpracování objednávek a faktur typicky ušetří 15–20 hodin administrativní práce měsíčně. Při efektivní hodinové sazbě 750–1 250 Kč jsou to 11 250–25 000 Kč v obnoveném čase každý měsíc. Automatizace se zaplatí již první měsíc."
+          },
+          {
+            "type": "h2",
+            "text": "Co nenahrazuje"
+          },
+          {
+            "type": "p",
+            "text": "Automatizace zvládá předvídatelné případy. Objednávky vyžadující cenové vyjednávání nebo výjimky stále jdou k člověku — ale to je 5–10 % objednávek. Zbývajících 90 % běží na autopilotu. Chcete vidět, jak by to vypadalo konkrétně pro vaši firmu? Rezervujte si bezplatný audit."
+          }
+        ]
+      },
+      "uk": {
+        "title": "Автоматизація обробки замовлень і рахунків: як перестати робити це вручну",
+        "excerpt": "Ручна обробка замовлень і рахунків — одна з найдорожчих звичок малого бізнесу. Ось як автоматизація виглядає на практиці — і що вона заощаджує.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Для більшості малих бізнесів обробка замовлення або рахунку передбачає щонайменше 5–10 ручних кроків: копіювання даних, створення документа, перевірка, відправка, архівування, запис в бухгалтерії. Помножте на 50–100 замовлень на місяць — і ви маєте значну частину робочого часу, витраченого на введення даних."
+          },
+          {
+            "type": "h2",
+            "text": "Що автоматизується"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Отримане замовлення → автоматично створюється у вашій системі з заповненими полями",
+              "Рахунок генерується автоматично з даних замовлення — правильна сума, ПДВ, умови оплати",
+              "Рахунок надсилається клієнту електронною поштою без втручання людини",
+              "Відстеження статусу оплати — автоматичне нагадування при несплаті через X днів",
+              "Сплачений рахунок → автоматично створюється запис у бухгалтерському ПЗ",
+              "Сповіщення команди — склад або логістика отримують сповіщення одразу після замовлення"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Цифри"
+          },
+          {
+            "type": "p",
+            "text": "Для бізнесу що обробляє 80–100 замовлень на місяць, повна автоматизація типово заощаджує 15–20 годин адміністративної роботи щомісяця. При ефективній погодинній ставці €30–50 це €450–1 000 відновленого часу щомісяця. Автоматизація окупається вже в перший місяць."
+          },
+          {
+            "type": "h2",
+            "text": "Що вона не замінює"
+          },
+          {
+            "type": "p",
+            "text": "Автоматизація обробляє передбачувані випадки. Замовлення що потребують переговорів або виключень — ідуть до людини. Але це 5–10% замовлень. Решта 90% працює на автопілоті. Забронюйте безкоштовний аудит — покажемо що можна автоматизувати саме у вашому бізнесі."
+          }
+        ]
+      },
+      "ru": {
+        "title": "Автоматизация обработки заказов и счетов: как перестать делать это вручную",
+        "excerpt": "Ручная обработка заказов и счетов — одна из самых дорогих привычек малого бизнеса. Вот как автоматизация выглядит на практике — и что она экономит.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Для большинства малых бизнесов обработка заказа или счёта включает минимум 5–10 ручных шагов: копирование данных, создание документа, проверка, отправка, архивирование, запись в бухгалтерии. Умножьте на 50–100 заказов в месяц — и вы получаете значительную часть рабочего времени, потраченного на ввод данных."
+          },
+          {
+            "type": "h2",
+            "text": "Что автоматизируется"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Полученный заказ → автоматически создаётся в вашей системе с заполненными полями",
+              "Счёт генерируется автоматически из данных заказа — правильная сумма, НДС, условия оплаты",
+              "Счёт отправляется клиенту по email без участия человека",
+              "Отслеживание статуса оплаты — автоматическое напоминание при неоплате через X дней",
+              "Оплаченный счёт → автоматически создаётся запись в бухгалтерском ПО",
+              "Уведомление команды — склад или логистика получают уведомление сразу после заказа"
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Цифры"
+          },
+          {
+            "type": "p",
+            "text": "Для бизнеса, обрабатывающего 80–100 заказов в месяц, полная автоматизация типично экономит 15–20 часов административной работы в месяц. При эффективной почасовой ставке €30–50 это €450–1 000 восстановленного времени каждый месяц. Автоматизация окупается уже в первый месяц."
+          },
+          {
+            "type": "h2",
+            "text": "Что она не заменяет"
+          },
+          {
+            "type": "p",
+            "text": "Автоматизация обрабатывает предсказуемые случаи. Заказы требующие переговоров или исключений — идут к человеку. Но это 5–10% заказов. Остальные 90% работают на автопилоте. Забронируйте бесплатный аудит — покажем что можно автоматизировать именно в вашем бизнесе."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 10,
+    "slug": "web-development-landing-crm-mobile-apps",
+    "category": "development",
+    "date": "2026-06-23",
+    "cover": "/images/hero-bg.jpg",
+    "translations": {
+      "en": {
+        "title": "We Don't Just Automate — We Also Build Landing Pages, CRMs, and Mobile Apps",
+        "excerpt": "Many clients come to us for automation and discover we build complete digital products too — from a single landing page to a fully custom CRM or mobile application.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Most people find us through automation — a chatbot, a workflow, an AI integration. But once they see how we work, a common question follows: can you also build the website? Or the internal tool? Or the app?"
+          },
+          {
+            "type": "p",
+            "text": "The answer is yes. Here's what we build beyond automation."
+          },
+          {
+            "type": "h2",
+            "text": "Landing Pages and Mini-Sites"
+          },
+          {
+            "type": "p",
+            "text": "A single-page site for a product launch, a service landing page that converts, a micro-site for a specific campaign. We build these fast — typically in 5–10 days — with clean design, mobile-first layout, and built-in analytics. Every landing page we build is connected to the automation layer: form submissions go straight to your CRM, leads trigger a Telegram notification, follow-up emails send automatically."
+          },
+          {
+            "type": "h2",
+            "text": "Multi-Page Business Websites"
+          },
+          {
+            "type": "p",
+            "text": "Service companies, agencies, consultants — anyone who needs a professional online presence with multiple sections, a blog, a contact form, and multilingual support. We build on Next.js for speed, SEO performance, and easy content updates. The site you're reading now was built by us."
+          },
+          {
+            "type": "h2",
+            "text": "Custom CRM and Internal Tools"
+          },
+          {
+            "type": "p",
+            "text": "Off-the-shelf CRMs don't always fit. If you have a process that HubSpot or Pipedrive can't handle — custom stages, unusual data relationships, specific reporting needs — we build it from scratch. A custom CRM built for your exact workflow is faster to use, produces better data, and integrates with everything else you run."
+          },
+          {
+            "type": "p",
+            "text": "We also build other internal tools: admin dashboards, order management systems, client portals, reporting interfaces. If your team is doing something repetitive in spreadsheets, there's probably a better tool for it — and we can build it."
+          },
+          {
+            "type": "h2",
+            "text": "Web Applications"
+          },
+          {
+            "type": "p",
+            "text": "More complex products with user accounts, multi-step flows, permissions, integrations. Booking systems, marketplace-style tools, subscription products, SaaS. We scope these carefully before starting — the design and architecture matter as much as the code."
+          },
+          {
+            "type": "h2",
+            "text": "Mobile Applications"
+          },
+          {
+            "type": "p",
+            "text": "iOS and Android apps for both customer-facing and internal use. Field team tools, client apps, companion apps for physical products. We build cross-platform with React Native, which means one codebase for both iOS and Android — faster to develop, easier to maintain."
+          },
+          {
+            "type": "h2",
+            "text": "Why Work with One Team for Everything"
+          },
+          {
+            "type": "p",
+            "text": "The main advantage is integration. When the same team builds your landing page, your CRM, and your automation layer, everything works together from day one. There are no integration projects, no pointing fingers between vendors, no manual workarounds. The form on the landing page talks to the CRM which triggers the automation which sends the notification — because we designed it all as one system."
+          },
+          {
+            "type": "p",
+            "text": "Have a project in mind? Book a free 30-minute call. We'll tell you honestly what makes sense to build, what to use off-the-shelf, and what a realistic timeline and budget looks like."
+          }
+        ]
+      },
+      "cs": {
+        "title": "Neděláme jen automatizaci — stavíme také landing pages, CRM systémy a mobilní aplikace",
+        "excerpt": "Mnoho klientů nás najde kvůli automatizaci a zjistí, že stavíme také kompletní digitální produkty — od jednoduché landing page až po vlastní CRM nebo mobilní aplikaci.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Většina lidí nás najde přes automatizaci — chatbot, workflow, AI integrace. Ale jakmile vidí, jak pracujeme, přichází obvyklá otázka: dokážete postavit také web? Nebo interní nástroj? Nebo aplikaci? Odpověď je ano."
+          },
+          {
+            "type": "h2",
+            "text": "Landing pages a mini-weby"
+          },
+          {
+            "type": "p",
+            "text": "Jednostránkový web pro spuštění produktu, landing page pro službu, mikro-web pro kampaň. Stavíme rychle — typicky za 5–10 dní — s čistým designem, mobile-first layoutem a zabudovanou analytikou. Každá landing page je propojená s automatizační vrstvou: odeslané formuláře jdou přímo do CRM, leady spouštějí notifikaci na Telegramu, follow-up e-maily se odesílají automaticky."
+          },
+          {
+            "type": "h2",
+            "text": "Vícestránkové firemní weby"
+          },
+          {
+            "type": "p",
+            "text": "Servisní firmy, agentury, konzultanti — kdokoli potřebuje profesionální online prezentaci s více sekcemi, blogem, kontaktním formulářem a vícejazyčnou podporou. Stavíme na Next.js pro rychlost, SEO výkon a snadné aktualizace obsahu."
+          },
+          {
+            "type": "h2",
+            "text": "Vlastní CRM a interní nástroje"
+          },
+          {
+            "type": "p",
+            "text": "Krabicová CRM ne vždy sedí. Pokud máte proces, který HubSpot nebo Pipedrive nezvládnou — vlastní fáze, neobvyklé datové vztahy, specifické reportingové potřeby — stavíme ho od nuly. Vlastní CRM vytvořené pro váš přesný workflow je rychlejší k použití, produkuje lepší data a integruje se se vším ostatním."
+          },
+          {
+            "type": "h2",
+            "text": "Mobilní aplikace"
+          },
+          {
+            "type": "p",
+            "text": "iOS a Android aplikace pro zákazníky i interní použití. Stavíme cross-platform s React Native — jeden kód pro iOS i Android, rychlejší vývoj, snazší údržba."
+          },
+          {
+            "type": "h2",
+            "text": "Proč pracovat s jedním týmem na všem"
+          },
+          {
+            "type": "p",
+            "text": "Hlavní výhodou je integrace. Když stejný tým staví vaši landing page, CRM a automatizační vrstvu, vše funguje společně od prvního dne. Formulář na landing page mluví s CRM, které spouští automatizaci, která odesílá notifikaci — protože jsme to navrhli jako jeden systém. Máte projekt na mysli? Rezervujte si bezplatný 30minutový hovor."
+          }
+        ]
+      },
+      "uk": {
+        "title": "Ми не просто автоматизуємо — ми будуємо landing pages, CRM і мобільні додатки",
+        "excerpt": "Багато клієнтів знаходять нас через автоматизацію і виявляють, що ми будуємо повні цифрові продукти — від простого лендінгу до власної CRM або мобільного додатку.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Більшість людей знаходять нас через автоматизацію — чатбот, workflow, AI інтеграція. Але побачивши як ми працюємо, часто виникає питання: а ви можете зробити і сайт? Або внутрішній інструмент? Або додаток? Відповідь — так."
+          },
+          {
+            "type": "h2",
+            "text": "Landing pages і міні-сайти"
+          },
+          {
+            "type": "p",
+            "text": "Односторінковий сайт для запуску продукту, лендінг для послуги, мікросайт для кампанії. Будуємо швидко — типово за 5–10 днів — з чистим дизайном, mobile-first версткою і вбудованою аналітикою. Кожен лендінг підключений до шару автоматизації: форми → CRM, ліди → Telegram сповіщення, follow-up листи → автоматично."
+          },
+          {
+            "type": "h2",
+            "text": "Кастомні CRM і внутрішні інструменти"
+          },
+          {
+            "type": "p",
+            "text": "Коробкові CRM не завжди підходять. Якщо у вас є процес, який HubSpot або Pipedrive не можуть обробити — будуємо з нуля. Кастомна CRM для вашого точного workflow швидша у використанні, дає кращі дані і інтегрується з усім іншим."
+          },
+          {
+            "type": "h2",
+            "text": "Мобільні додатки"
+          },
+          {
+            "type": "p",
+            "text": "iOS і Android додатки для клієнтів і внутрішнього використання. Будуємо cross-platform з React Native — один код для iOS і Android, швидша розробка, простіша підтримка."
+          },
+          {
+            "type": "h2",
+            "text": "Чому працювати з однією командою над усім"
+          },
+          {
+            "type": "p",
+            "text": "Головна перевага — інтеграція. Коли одна команда будує лендінг, CRM і шар автоматизації — все працює разом з першого дня. Форма на лендінгу спілкується з CRM яка запускає автоматизацію яка надсилає сповіщення — бо ми проектували це як одну систему. Є проект? Забронюйте безкоштовний дзвінок."
+          }
+        ]
+      },
+      "ru": {
+        "title": "Мы не просто автоматизируем — мы строим landing pages, CRM и мобильные приложения",
+        "excerpt": "Многие клиенты находят нас через автоматизацию и обнаруживают, что мы строим полноценные цифровые продукты — от простого лендинга до собственной CRM или мобильного приложения.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Большинство людей находят нас через автоматизацию — чатбот, workflow, AI интеграция. Но увидев как мы работаем, часто возникает вопрос: а вы можете сделать и сайт? Или внутренний инструмент? Или приложение? Ответ — да."
+          },
+          {
+            "type": "h2",
+            "text": "Landing pages и мини-сайты"
+          },
+          {
+            "type": "p",
+            "text": "Одностраничный сайт для запуска продукта, лендинг для услуги, микросайт для кампании. Строим быстро — типично за 5–10 дней — с чистым дизайном, mobile-first вёрсткой и встроенной аналитикой. Каждый лендинг подключён к слою автоматизации: формы → CRM, лиды → Telegram уведомление, follow-up письма → автоматически."
+          },
+          {
+            "type": "h2",
+            "text": "Кастомные CRM и внутренние инструменты"
+          },
+          {
+            "type": "p",
+            "text": "Коробочные CRM не всегда подходят. Если у вас есть процесс, который HubSpot или Pipedrive не могут обработать — строим с нуля. Кастомная CRM для вашего точного workflow быстрее в использовании, даёт лучшие данные и интегрируется со всем остальным."
+          },
+          {
+            "type": "h2",
+            "text": "Веб-приложения"
+          },
+          {
+            "type": "p",
+            "text": "Более сложные продукты с аккаунтами пользователей, многоэтапными флоу, правами доступа и интеграциями. Системы бронирования, маркетплейс-инструменты, SaaS. Тщательно проектируем до начала разработки — архитектура важна не меньше кода."
+          },
+          {
+            "type": "h2",
+            "text": "Мобильные приложения"
+          },
+          {
+            "type": "p",
+            "text": "iOS и Android приложения для клиентов и внутреннего использования. Строим cross-platform с React Native — один код для iOS и Android, более быстрая разработка, простая поддержка."
+          },
+          {
+            "type": "h2",
+            "text": "Почему работать с одной командой над всем"
+          },
+          {
+            "type": "p",
+            "text": "Главное преимущество — интеграция. Когда одна команда строит лендинг, CRM и слой автоматизации — всё работает вместе с первого дня. Форма на лендинге общается с CRM которая запускает автоматизацию которая отправляет уведомление — потому что мы проектировали это как одну систему. Есть проект? Забронируйте бесплатный звонок."
+          }
+        ]
+      }
+    }
+  }
+]

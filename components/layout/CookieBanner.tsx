@@ -15,10 +15,9 @@ export default function CookieBanner() {
   if (!visible) return null;
 
   const accept = () => {
-    localStorage.setItem(
-      'cookie_consent',
-      JSON.stringify({ necessary: true, analytics: true, marketing: true })
-    );
+    const value = JSON.stringify({ necessary: true, analytics: true, marketing: true });
+    localStorage.setItem('cookie_consent', value);
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cookie_consent', newValue: value }));
     setVisible(false);
   };
 

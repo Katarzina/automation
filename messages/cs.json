@@ -6,17 +6,25 @@
     "about": "O nás",
     "contact": "Kontakt",
     "getStarted": "Začít",
-    "pricing": "Ceník"
+    "pricing": "Ceník",
+    "blog": "Blog"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Tato stránka neexistuje",
+    "subtitle": "Vypadá to, že tato URL šla na autopilota — přímo do prázdna. Pojďme vás vrátit na správnou cestu.",
+    "home": "Zpět na hlavní stránku",
+    "contact": "Napište nám"
   },
   "home": {
     "hero": {
       "tagline": "AI Automation Studio",
-      "title": "Méně ruční práce. Více výsledků.",
-      "subtitle": "Stavíme AI automatizační systémy, které eliminují opakující se práci a odemykají růst vašeho podnikání.",
-      "cta": "Bezplatná konzultace",
-      "ctaSecondary": "Naše projekty",
-      "ctaWork": "Naše práce",
-      "ctaConsult": "Bezplatná konzultace"
+      "title": "AI & automatizace, která ušetří váš tým 10–40 hodin týdně",
+      "subtitle": "Navrhujeme a implementujeme AI workflow, integrace a automatizační systémy pro firmy v Evropě.",
+      "cta": "Rezervovat bezplatný audit",
+      "ctaSecondary": "Ukázky automatizací",
+      "ctaWork": "Ukázky automatizací",
+      "ctaConsult": "Rezervovat bezplatný audit"
     },
     "stats": {
       "processes": "Automatizovaných procesů",
@@ -35,11 +43,135 @@
     "tech": {
       "title": "Náš technologický stack"
     },
+    "faq": {
+      "title": "Časté otázky",
+      "items": [
+        {
+          "q": "Kolik stojí automatizace?",
+          "a": "Záleží na rozsahu. Jednoduchá automatizace začíná od 10 000 Kč. Kompletní systém s CRM, boty a integracemi — od 60 000 Kč. Všechny projekty začínají bezplatným auditem, kde dostanete přesnou nabídku."
+        },
+        {
+          "q": "Jak dlouho trvá implementace?",
+          "a": "Jednoduchá automatizace: 1–2 týdny. Kompletní systém: 4–8 týdnů. Vždy vám sdělíme harmonogram před zahájením."
+        },
+        {
+          "q": "Jaké nástroje používáte?",
+          "a": "n8n, Make, OpenAI, vlastní Node.js backendy, Next.js, Telegram API, REST API. Vybíráme správný nástroj pro váš konkrétní případ — ne ten nejmodernější."
+        },
+        {
+          "q": "Je to bezpečné pro firemní data?",
+          "a": "Ano. Stavíme systémy, které uchovávají vaše data ve vlastní infrastruktuře nebo u důvěryhodných cloudových poskytovatelů v EU. Před prvním hovorem můžeme podepsat NDA."
+        },
+        {
+          "q": "Lze to integrovat s našimi stávajícími systémy?",
+          "a": "Ve většině případů ano. Pokud váš systém má API nebo podporu webhooků, dokážeme se připojit. Integrovali jsme CRM, ERP, e-mailové systémy, tabulky i vlastní databáze."
+        }
+      ],
+      "seeAll": "Zobrazit všechny otázky →"
+    },
+    "howItWorks": {
+      "title": "Jak to funguje",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Bezplatný audit automatizace",
+          "desc": "30minutový hovor, při kterém zmapujeme vaše procesy a přesně určíme, co lze automatizovat."
+        },
+        {
+          "number": "02",
+          "title": "Návrh systému",
+          "desc": "Navrhneme architekturu automatizace — nástroje, integrace, toky dat — přizpůsobené vašemu podnikání."
+        },
+        {
+          "number": "03",
+          "title": "Implementace a spuštění",
+          "desc": "Vytvoříme, otestujeme a nasadíme. Automatizace jde do provozu. Vy získáte zpět hodiny každý týden."
+        }
+      ]
+    },
+    "problem": {
+      "title": "Většina firem ztrácí hodiny denně na manuální práci",
+      "items": [
+        "Ruční zpracování e-mailů",
+        "Kopírování dat mezi systémy",
+        "Fakturace a administrativní práce",
+        "Přetížená zákaznická podpora",
+        "Nepropojené nástroje (CRM, e-mail, tabulky)"
+      ],
+      "footer": "To vše lze automatizovat."
+    },
     "cta": {
-      "title": "Připraveni automatizovat své podnikání?",
-      "subtitle": "Rezervujte bezplatnou 30 minutovou konzultaci. Bez závazků.",
-      "button": "Rezervovat bezplatný hovor"
+      "title": "Získejte bezplatný audit automatizace",
+      "subtitle": "Analyzujeme vaše firemní procesy a ukážeme přesně, co lze automatizovat a kolik času ušetříte.",
+      "button": "Rezervovat bezplatný hovor",
+      "secondary": "Ukázky automatizací"
     }
+  },
+  "blog": {
+    "metaTitle": "Blog | AI Automation Studio",
+    "metaDescription": "Články o AI automatizaci, návrhu workflow a praktických tipech pro úsporu času ve vašem podnikání.",
+    "title": "Blog",
+    "subtitle": "Praktické články o AI automatizaci a firemních procesech",
+    "readMore": "Číst článek",
+    "backToBlog": "← Zpět na blog",
+    "postedOn": "Publikováno",
+    "category": {
+      "automation": "Automatizace",
+      "ai": "AI",
+      "business": "Podnikání",
+      "tutorial": "Návod",
+      "development": "Vývoj"
+    },
+    "ctaTitle": "Připraveni automatizovat své podnikání?",
+    "ctaButton": "Rezervovat bezplatný audit",
+    "readingTime": "min čtení",
+    "share": "Sdílet článek",
+    "copyLink": "Kopírovat odkaz",
+    "copied": "Zkopírováno!",
+    "relatedPosts": "Čtěte také"
+  },
+  "faqPage": {
+    "metaTitle": "Časté otázky | AI Automation Studio",
+    "metaDescription": "Odpovědi na nejčastější otázky o AI automatizaci, cenách, procesu a bezpečnosti.",
+    "title": "Časté otázky",
+    "subtitle": "Vše, co potřebujete vědět o spolupráci s námi",
+    "categories": [
+      {
+        "name": "Ceny",
+        "items": [
+          { "q": "Kolik stojí automatizace?", "a": "Záleží na rozsahu. Jednoduchá automatizace jednoho procesu začíná od 10 000 Kč. Telegram bot s AI — od 10 000 Kč. Kompletní systém s CRM, boty a integracemi — od 60 000 Kč. Všechny projekty začínají bezplatným auditem, kde dostanete přesnou nabídku bez závazků." },
+          { "q": "Co je zahrnuto v ceně?", "a": "Návrh, vývoj, testování, nasazení a předávací schůzka, kde vás provedeme tím, jak vše funguje. Po spuštění nezmizíme." },
+          { "q": "Nabízíte projekty s pevnou cenou?", "a": "Ano. Většina projektů má pevnou cenu — víte celkovou částku před zahájením. Pro větší systémy nebo průběžnou práci někdy používáme time-and-materials, ale vždy s jasným odhadem rozpočtu předem." },
+          { "q": "Jsou po spuštění nějaké měsíční náklady?", "a": "Pouze pokud si zvolíte plán údržby (od 500 Kč/měsíc). Samotná automatizace běží na infrastruktuře, kterou vlastníte nebo spravujete. Nezamykáme vás do proprietární platformy s průběžnými poplatky." }
+        ]
+      },
+      {
+        "name": "Proces",
+        "items": [
+          { "q": "Jak funguje bezplatný audit?", "a": "Je to 30minutový videohovor. Ukážete nám vaše stávající procesy, my klademe otázky, a na konci vám řekneme, co lze automatizovat, jaké nástroje bychom použili a přibližně kolik by to stálo." },
+          { "q": "Jak dlouho trvá implementace?", "a": "Jednoduchá automatizace: 1–2 týdny. Telegram bot: 1–2 týdny. Kompletní systém s více integracemi: 4–8 týdnů. Vždy vám sdělíme harmonogram před zahájením a dodržujeme ho." },
+          { "q": "Musím být technicky zdatný pro spolupráci s vámi?", "a": "Vůbec ne. Veškerou technickou stránku zajišťujeme my. Popisujete, co potřebujete, v běžném jazyce — my to převedeme do funkčního softwaru." },
+          { "q": "Co se stane po spuštění systému?", "a": "Provedeme předávací hovor, poskytneme dokumentaci a nabídneme plány údržby, pokud chcete průběžnou podporu. Většina klientů preferuje samostatnou správu — zajistíme, aby to bylo možné." }
+        ]
+      },
+      {
+        "name": "Technologie",
+        "items": [
+          { "q": "Jaké nástroje používáte?", "a": "n8n a Make pro automatizaci workflow, OpenAI a Anthropic pro AI funkce, Node.js a Next.js pro vlastní backendy a rozhraní, Telegram API pro boty a standardní REST API pro integrace." },
+          { "q": "Lze integrovat s našimi stávajícími systémy?", "a": "Ve většině případů ano. Pokud váš systém má API, webhook nebo jen exportuje CSV soubory, dokážeme s tím pracovat. Integrovali jsme CRM, ERP, e-commerce platformy, účetní software a vlastní databáze." },
+          { "q": "Vyvíjíte vlastní software nebo používáte no-code nástroje?", "a": "Oboje, podle toho, co dává smysl. No-code nástroje jako n8n jsou rychlé pro workflow. Když potřebujete vlastní logiku nebo dashboard — píšeme kód." },
+          { "q": "Přestane automatizace fungovat, když změníme náš systém?", "a": "Stavíme se zpracováním chyb a monitoringem, takže problémy se projeví rychle. Na plánech údržby aktivně sledujeme problémy. Pokud změníte systém, obvykle stačí rychlá aktualizace." }
+        ]
+      },
+      {
+        "name": "Bezpečnost",
+        "items": [
+          { "q": "Je to bezpečné pro firemní data?", "a": "Ano. Navrhujeme systémy tak, aby data zůstala ve vaší vlastní infrastruktuře, kde je to možné, nebo u důvěryhodných cloudových poskytovatelů v EU (AWS Frankfurt, Google Cloud EU)." },
+          { "q": "Kde jsou data uložena?", "a": "Pro databáze obvykle používáme Neon (PostgreSQL, region EU) nebo vaši vlastní databázi. Pro soubory — vaše vlastní úložiště nebo poskytovatele v EU. Vždy vám řekneme, kde vaše data jsou, před zahájením." },
+          { "q": "Můžeme podepsat NDA?", "a": "Samozřejmě. Rádi podepíšeme smlouvu o mlčenlivosti před prvním hovorem, pokud preferujete. Stačí to zmínit při rezervaci." }
+        ]
+      }
+    ]
   },
   "services": {
     "title": "Naše služby",
@@ -166,7 +298,13 @@
     "rights": "Všechna práva vyhrazena",
     "cookieSettings": "Nastavení cookies",
     "privacyPolicy": "Zásady ochrany osobních údajů",
-    "hours": "Po–Pá: 9:00–18:00 SEČ"
+    "hours": "Po–Pá: 9:00–18:00 SEČ",
+    "menu": "Menu",
+    "resources": "Zdroje",
+    "contact": "Kontakt",
+    "bookCall": "Rezervovat bezplatný hovor",
+    "blog": "Blog",
+    "faq": "Časté otázky"
   },
   "lead": {
     "badge": "Bezplatná konzultace",

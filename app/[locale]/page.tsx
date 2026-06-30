@@ -1,7 +1,10 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import HeroSection from '@/components/home/HeroSection';
+import ProblemSection from '@/components/home/ProblemSection';
 import ServicesPreview from '@/components/home/ServicesPreview';
+import HowItWorks from '@/components/home/HowItWorks';
+import FaqSection from '@/components/home/FaqSection';
 import LeadCaptureSection from '@/components/home/LeadCaptureSection';
 import ProjectsPreview from '@/components/home/ProjectsPreview';
 import TechStack from '@/components/home/TechStack';
@@ -22,10 +25,13 @@ export default async function HomePage({ params }: Props) {
   return (
     <>
       <HeroSection />
+      <TechStack />
+      <ProblemSection />
       <ServicesPreview />
+      <HowItWorks />
       <LeadCaptureSection locale={locale} />
       <ProjectsPreview />
-      <TechStack />
+      <FaqSection />
       <CtaBanner />
     </>
   );
