@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     description: 'AI-powered automation and software development studio. We build Telegram bots, lead qualification systems, landing pages, and full automation solutions.',
     metadataBase: new URL(SITE.url),
+    verification: { google: 'UCtpaoA3Q7zAvHtOaa0fZZ7ujsDIBNDofU0pwVtTrd8' },
     alternates: {
       canonical: `${SITE.url}/${locale}`,
       languages: { ...languages, 'x-default': `${SITE.url}/${routing.defaultLocale}` },
