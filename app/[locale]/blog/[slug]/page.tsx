@@ -48,15 +48,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 function renderBlock(block: ContentBlock, i: number) {
   switch (block.type) {
     case 'h2':
-      return <h2 key={i} className="font-heading text-xl md:text-2xl font-bold text-white mt-10 mb-4">{block.text}</h2>;
+      return <h2 key={i} className="font-heading text-xl md:text-2xl font-bold text-stone-900 mt-10 mb-4">{block.text}</h2>;
     case 'p':
-      return <p key={i} className="text-stone-300 leading-relaxed mb-5">{block.text}</p>;
+      return <p key={i} className="text-stone-600 leading-relaxed mb-5">{block.text}</p>;
     case 'ul':
       return (
         <ul key={i} className="mb-5 space-y-2">
           {block.items.map((item, j) => (
-            <li key={j} className="flex items-start gap-3 text-stone-300">
-              <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-indigo-400 shrink-0" />
+            <li key={j} className="flex items-start gap-3 text-stone-600">
+              <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-indigo-500 shrink-0" />
               {item}
             </li>
           ))}
@@ -100,33 +100,33 @@ export default async function BlogPostPage({ params }: Props) {
   };
 
   return (
-    <main className="min-h-screen bg-[#0a0a0f] pb-24">
+    <main className="min-h-screen bg-gray-50 pb-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="max-w-2xl mx-auto px-6 pt-16">
 
         {/* Back link */}
-        <Link href="/blog" className="inline-block mt-8 text-sm text-stone-500 hover:text-indigo-400 transition-colors">
+        <Link href="/blog" className="inline-block mt-8 text-sm text-stone-400 hover:text-indigo-600 transition-colors">
           {t('backToBlog')}
         </Link>
 
         {/* Meta */}
         <div className="flex items-center gap-3 mt-6 mb-6 flex-wrap">
-          <span className="text-xs font-medium px-3 py-1 rounded-full bg-indigo-600/20 text-indigo-400 border border-indigo-500/30">
+          <span className="text-xs font-medium px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 border border-indigo-200">
             {categoryLabel}
           </span>
-          <span className="text-xs text-stone-500">
+          <span className="text-xs text-stone-400">
             {t('postedOn')} {new Date(post.date).toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' })}
           </span>
-          <span className="text-xs text-stone-600">·</span>
-          <span className="text-xs text-stone-500">{minutes} {t('readingTime')}</span>
+          <span className="text-xs text-stone-300">·</span>
+          <span className="text-xs text-stone-400">{minutes} {t('readingTime')}</span>
         </div>
 
-        <h1 className="font-heading text-3xl md:text-4xl font-bold text-white mb-10 leading-tight">
+        <h1 className="font-heading text-3xl md:text-4xl font-bold text-stone-900 mb-10 leading-tight">
           {tr.title}
         </h1>
 
         {/* Content */}
-        <div className="border-t border-white/10 pt-10">
+        <div className="border-t border-stone-200 pt-10">
           {tr.blocks.map((block, i) => renderBlock(block, i))}
         </div>
 
@@ -139,8 +139,8 @@ export default async function BlogPostPage({ params }: Props) {
         />
 
         {/* CTA */}
-        <div className="mt-12 text-center border border-white/10 rounded-2xl p-10 bg-white/5">
-          <p className="text-white font-semibold text-lg mb-6">{t('ctaTitle')}</p>
+        <div className="mt-12 text-center border border-indigo-100 rounded-2xl p-10 bg-indigo-50">
+          <p className="text-stone-900 font-semibold text-lg mb-6">{t('ctaTitle')}</p>
           <a
             href="https://cal.com/ai-automation-studio-brno/30min"
             target="_blank"
@@ -153,8 +153,8 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Related posts */}
         {related.length > 0 && (
-          <div className="mt-16">
-            <h2 className="font-heading text-xl font-bold text-white mb-6">{t('relatedPosts')}</h2>
+          <div className="mt-16 pb-8">
+            <h2 className="font-heading text-xl font-bold text-stone-900 mb-6">{t('relatedPosts')}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {related.map((rp) => {
                 const rtr = getBlogPostTranslation(rp, locale);
@@ -163,10 +163,10 @@ export default async function BlogPostPage({ params }: Props) {
                   <Link
                     key={rp.id}
                     href={`/blog/${rp.slug}`}
-                    className="group block bg-white/5 border border-white/10 rounded-xl p-5 hover:border-indigo-500/40 transition-colors"
+                    className="group block bg-white border border-stone-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all"
                   >
-                    <p className="text-xs text-stone-500 mb-2">{rMinutes} {t('readingTime')}</p>
-                    <p className="text-sm font-semibold text-white group-hover:text-indigo-400 transition-colors line-clamp-3 leading-snug">
+                    <p className="text-xs text-stone-400 mb-2">{rMinutes} {t('readingTime')}</p>
+                    <p className="text-sm font-semibold text-stone-800 group-hover:text-indigo-600 transition-colors line-clamp-3 leading-snug">
                       {rtr.title}
                     </p>
                   </Link>
